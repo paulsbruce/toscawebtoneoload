@@ -47,7 +47,13 @@
     </request-path-exclusion-filter>
     <!--****** END  EXCLUSION FILTER ******-->
     <!--****** START DYNATRACE MONITORING ******-->
-    <dynatrace-monitoring/>
+    <dynatrace-monitoring>
+        <tag>neotys-cpt</tag>
+        <anomaly-rule metric="builtin:host.cpu.usage" operator="ABOVE"
+            severity="PERFORMANCE" value="80"/>
+        <anomaly-rule metric="builtin:host.mem.usage" operator="ABOVE"
+            severity="PERFORMANCE" value="80"/>
+    </dynatrace-monitoring>
     <!--****** END  DYNATRACE MONITORING ******-->
     <!--****** START TRACE VARIABLES ******-->
     <!--****** END TRACE VARIABLES ******-->
