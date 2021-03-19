@@ -4,7 +4,7 @@ pool:
   vmImage: 'ubuntu-18.04'
 
 variables:
-  nlw_token: $(secret_nlw_token)
+  neoloadToken: $(secret_nlw_token)
   neoloadApiUrl: 'https://neoload-api.saas.neotys.com/'
   workspaceId: '5f329c43f6ecb40001d7b3e2'
   zoneId: 'fNCnQ'
