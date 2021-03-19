@@ -57,7 +57,7 @@ jobs:
     inputs:
       targetType: 'inline'
       script: |
-        neoload fastfail --max-failure $(max_fail_percent) slas cur &
+        { sleep 120; neoload fastfail --max-failure $(max_fail_percent) slas cur; } &
         neoload wait cur
 
   - task: Bash@3
