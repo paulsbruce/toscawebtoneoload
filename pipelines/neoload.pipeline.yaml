@@ -48,7 +48,7 @@ jobs:
       script: |
         neoload run --name "TOSCANeoLoadFromAzure_$(Build.BuildNumber)" \
                     --description "Azure example with meta; $(Build.BuildUri)" \
-                       "TOSCANeoLoadFromAzure"
+                    --detached
         sleep 10
         
   - task: Bash@3
