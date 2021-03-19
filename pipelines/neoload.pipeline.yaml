@@ -57,14 +57,7 @@ jobs:
     inputs:
       targetType: 'inline'
       script: |
-        neoload fastfail --max-failure $(max_fail_percent) slas cur
-
-  - task: Bash@3
-    displayName: Wait for all eventualities
-    continueOnError: true
-    inputs:
-      targetType: 'inline'
-      script: |
+        neoload fastfail --max-failure $(max_fail_percent) slas cur &
         neoload wait cur
 
   - task: Bash@3
