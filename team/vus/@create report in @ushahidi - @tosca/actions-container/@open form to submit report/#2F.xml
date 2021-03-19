@@ -32,8 +32,8 @@
     method="GET" name="/" path="/" postType="2"
     recordedArtifactZipFileName="team/vus/@create report in @ushahidi - @tosca/%resources%/recorded-artifacts/2e745f62-f9ce-4b52-a8bd-b28736348347.zip"
     recordedResponseCode="200" responseSize="25236"
-    serverUid="sampledemo.neotys.com" slaProfileEnabled="false"
-    uid="f4cb195d-70e6-4c98-b506-e7a3a714a2d4" useKeepAlive="false">
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="f4cb195d-70e6-4c98-b506-e7a3a714a2d4" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_f4cb195d-70e6-4c98-b506-e7a3a714a2d4.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_f4cb195d-70e6-4c98-b506-e7a3a714a2d4.txt</requestContentFileDescription>
     <header name="Accept" value="text/html, application/xhtml+xml, image/jxr, */*"/>
@@ -71,8 +71,8 @@ Set-Cookie: SRVNAME=S2; path=/</responseHeaders>
     path="/media/css/global.css" postType="2"
     recordedArtifactZipFileName="team/vus/@create report in @ushahidi - @tosca/%resources%/recorded-artifacts/2e745f62-f9ce-4b52-a8bd-b28736348347.zip"
     recordedResponseCode="200" responseSize="2890"
-    serverUid="sampledemo.neotys.com" slaProfileEnabled="false"
-    uid="d242b71a-a133-46f3-8b5e-4f8dc4297cbd" useKeepAlive="false">
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="d242b71a-a133-46f3-8b5e-4f8dc4297cbd" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_d242b71a-a133-46f3-8b5e-4f8dc4297cbd.css</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_d242b71a-a133-46f3-8b5e-4f8dc4297cbd.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true" name="m"
@@ -110,8 +110,8 @@ Content-Type: text/css</responseHeaders>
     path="/media/css/openlayers.css" postType="2"
     recordedArtifactZipFileName="team/vus/@create report in @ushahidi - @tosca/%resources%/recorded-artifacts/2e745f62-f9ce-4b52-a8bd-b28736348347.zip"
     recordedResponseCode="200" responseSize="11905"
-    serverUid="sampledemo.neotys.com" slaProfileEnabled="false"
-    uid="60283569-b3ac-4737-bd6c-956433c4c972" useKeepAlive="false">
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="60283569-b3ac-4737-bd6c-956433c4c972" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_60283569-b3ac-4737-bd6c-956433c4c972.css</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_60283569-b3ac-4737-bd6c-956433c4c972.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true" name="m"
@@ -149,8 +149,8 @@ Content-Type: text/css</responseHeaders>
     path="/themes/default/css/slider.css" postType="2"
     recordedArtifactZipFileName="team/vus/@create report in @ushahidi - @tosca/%resources%/recorded-artifacts/2e745f62-f9ce-4b52-a8bd-b28736348347.zip"
     recordedResponseCode="200" responseSize="2725"
-    serverUid="sampledemo.neotys.com" slaProfileEnabled="false"
-    uid="01c4f40c-925d-4bfd-9e03-55999ec45434" useKeepAlive="false">
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="01c4f40c-925d-4bfd-9e03-55999ec45434" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_01c4f40c-925d-4bfd-9e03-55999ec45434.css</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_01c4f40c-925d-4bfd-9e03-55999ec45434.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true" name="m"
@@ -188,8 +188,8 @@ Content-Type: text/css</responseHeaders>
     path="/media/css/jquery-ui-themeroller.css" postType="2"
     recordedArtifactZipFileName="team/vus/@create report in @ushahidi - @tosca/%resources%/recorded-artifacts/2e745f62-f9ce-4b52-a8bd-b28736348347.zip"
     recordedResponseCode="200" responseSize="27581"
-    serverUid="sampledemo.neotys.com" slaProfileEnabled="false"
-    uid="c4942d60-aa90-4e03-b5cf-fe56320af0a3" useKeepAlive="false">
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="c4942d60-aa90-4e03-b5cf-fe56320af0a3" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_c4942d60-aa90-4e03-b5cf-fe56320af0a3.css</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_c4942d60-aa90-4e03-b5cf-fe56320af0a3.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true" name="m"
@@ -227,8 +227,8 @@ Content-Type: text/css</responseHeaders>
     path="/themes/default/css/base.css" postType="2"
     recordedArtifactZipFileName="team/vus/@create report in @ushahidi - @tosca/%resources%/recorded-artifacts/2e745f62-f9ce-4b52-a8bd-b28736348347.zip"
     recordedResponseCode="200" responseSize="5711"
-    serverUid="sampledemo.neotys.com" slaProfileEnabled="false"
-    uid="4b118ba1-f586-49cb-b579-f2701968304e" useKeepAlive="false">
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="4b118ba1-f586-49cb-b579-f2701968304e" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_4b118ba1-f586-49cb-b579-f2701968304e.css</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_4b118ba1-f586-49cb-b579-f2701968304e.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true" name="m"
@@ -266,8 +266,8 @@ Content-Type: text/css</responseHeaders>
     path="/themes/default/css/accordion.css" postType="2"
     recordedArtifactZipFileName="team/vus/@create report in @ushahidi - @tosca/%resources%/recorded-artifacts/2e745f62-f9ce-4b52-a8bd-b28736348347.zip"
     recordedResponseCode="200" responseSize="1065"
-    serverUid="sampledemo.neotys.com" slaProfileEnabled="false"
-    uid="7f6121bb-0a0e-4f83-8057-240bd7a398c7" useKeepAlive="false">
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="7f6121bb-0a0e-4f83-8057-240bd7a398c7" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_7f6121bb-0a0e-4f83-8057-240bd7a398c7.css</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_7f6121bb-0a0e-4f83-8057-240bd7a398c7.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true" name="m"
@@ -305,8 +305,8 @@ Content-Type: text/css</responseHeaders>
     path="/themes/default/css/style.css" postType="2"
     recordedArtifactZipFileName="team/vus/@create report in @ushahidi - @tosca/%resources%/recorded-artifacts/2e745f62-f9ce-4b52-a8bd-b28736348347.zip"
     recordedResponseCode="200" responseSize="49303"
-    serverUid="sampledemo.neotys.com" slaProfileEnabled="false"
-    uid="e93ba9f8-8f11-4156-ba86-2cbc89586cc7" useKeepAlive="false">
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="e93ba9f8-8f11-4156-ba86-2cbc89586cc7" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_e93ba9f8-8f11-4156-ba86-2cbc89586cc7.css</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_e93ba9f8-8f11-4156-ba86-2cbc89586cc7.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true" name="m"
@@ -346,7 +346,8 @@ Content-Type: text/css</responseHeaders>
     recordedResponseCode="200"
     refererUid="f4cb195d-70e6-4c98-b506-e7a3a714a2d4"
     responseSize="4543" serverUid="sampledemo.neotys.com"
-    slaProfileEnabled="false" uid="86c6f25b-f1bb-454d-a279-28edec1ac147" useKeepAlive="false">
+    slaProfileEnabled="true" slaProfileName="fastfail"
+    uid="86c6f25b-f1bb-454d-a279-28edec1ac147" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_86c6f25b-f1bb-454d-a279-28edec1ac147</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_86c6f25b-f1bb-454d-a279-28edec1ac147.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true" name="m"
@@ -387,7 +388,8 @@ Content-Type: application/javascript</responseHeaders>
     recordedResponseCode="200"
     refererUid="f4cb195d-70e6-4c98-b506-e7a3a714a2d4"
     responseSize="2495" serverUid="sampledemo.neotys.com"
-    slaProfileEnabled="false" uid="e37e2747-e5a4-45f7-b319-b8d509ef3481" useKeepAlive="false">
+    slaProfileEnabled="true" slaProfileName="fastfail"
+    uid="e37e2747-e5a4-45f7-b319-b8d509ef3481" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_e37e2747-e5a4-45f7-b319-b8d509ef3481</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_e37e2747-e5a4-45f7-b319-b8d509ef3481.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true" name="m"
@@ -428,7 +430,8 @@ Content-Type: application/javascript</responseHeaders>
     recordedResponseCode="200"
     refererUid="f4cb195d-70e6-4c98-b506-e7a3a714a2d4"
     responseSize="79484" serverUid="sampledemo.neotys.com"
-    slaProfileEnabled="false" uid="5b55a685-b2ed-4245-91d6-a57ba9b1806b" useKeepAlive="false">
+    slaProfileEnabled="true" slaProfileName="fastfail"
+    uid="5b55a685-b2ed-4245-91d6-a57ba9b1806b" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_5b55a685-b2ed-4245-91d6-a57ba9b1806b</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_5b55a685-b2ed-4245-91d6-a57ba9b1806b.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true" name="m"
@@ -469,7 +472,8 @@ Content-Type: application/javascript</responseHeaders>
     recordedResponseCode="200"
     refererUid="f4cb195d-70e6-4c98-b506-e7a3a714a2d4"
     responseSize="94839" serverUid="sampledemo.neotys.com"
-    slaProfileEnabled="false" uid="98d339f0-774e-45e2-8839-e5214aa0f068" useKeepAlive="false">
+    slaProfileEnabled="true" slaProfileName="fastfail"
+    uid="98d339f0-774e-45e2-8839-e5214aa0f068" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_98d339f0-774e-45e2-8839-e5214aa0f068</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_98d339f0-774e-45e2-8839-e5214aa0f068.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true" name="m"
@@ -510,7 +514,8 @@ Content-Type: application/javascript</responseHeaders>
     recordedResponseCode="200"
     refererUid="f4cb195d-70e6-4c98-b506-e7a3a714a2d4"
     responseSize="1243" serverUid="sampledemo.neotys.com"
-    slaProfileEnabled="false" uid="66a514ad-4965-4f6e-854d-b0a9d48b1165" useKeepAlive="false">
+    slaProfileEnabled="true" slaProfileName="fastfail"
+    uid="66a514ad-4965-4f6e-854d-b0a9d48b1165" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_66a514ad-4965-4f6e-854d-b0a9d48b1165</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_66a514ad-4965-4f6e-854d-b0a9d48b1165.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true" name="m"
@@ -551,7 +556,8 @@ Content-Type: application/javascript</responseHeaders>
     recordedResponseCode="200"
     refererUid="f4cb195d-70e6-4c98-b506-e7a3a714a2d4"
     responseSize="770256" serverUid="sampledemo.neotys.com"
-    slaProfileEnabled="false" uid="5da6b34b-a895-49af-8711-42243a6c0f4e" useKeepAlive="false">
+    slaProfileEnabled="true" slaProfileName="fastfail"
+    uid="5da6b34b-a895-49af-8711-42243a6c0f4e" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_5da6b34b-a895-49af-8711-42243a6c0f4e</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_5da6b34b-a895-49af-8711-42243a6c0f4e.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true" name="m"
@@ -592,7 +598,8 @@ Content-Type: application/javascript</responseHeaders>
     recordedResponseCode="200"
     refererUid="f4cb195d-70e6-4c98-b506-e7a3a714a2d4"
     responseSize="35365" serverUid="sampledemo.neotys.com"
-    slaProfileEnabled="false" uid="68164121-797e-43ed-9868-52c00b261859" useKeepAlive="false">
+    slaProfileEnabled="true" slaProfileName="fastfail"
+    uid="68164121-797e-43ed-9868-52c00b261859" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_68164121-797e-43ed-9868-52c00b261859</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_68164121-797e-43ed-9868-52c00b261859.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true" name="m"
@@ -633,7 +640,8 @@ Content-Type: application/javascript</responseHeaders>
     recordedResponseCode="200"
     refererUid="f4cb195d-70e6-4c98-b506-e7a3a714a2d4"
     responseSize="8579" serverUid="sampledemo.neotys.com"
-    slaProfileEnabled="false" uid="740d4649-5a1e-4930-8065-b0768118ee89" useKeepAlive="false">
+    slaProfileEnabled="true" slaProfileName="fastfail"
+    uid="740d4649-5a1e-4930-8065-b0768118ee89" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_740d4649-5a1e-4930-8065-b0768118ee89</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_740d4649-5a1e-4930-8065-b0768118ee89.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true" name="m"
@@ -672,8 +680,8 @@ Content-Type: application/javascript</responseHeaders>
     path="/media/uploads/banner_1437742016.png" postType="2"
     recordedArtifactZipFileName="team/vus/@create report in @ushahidi - @tosca/%resources%/recorded-artifacts/2e745f62-f9ce-4b52-a8bd-b28736348347.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="sampledemo.neotys.com" slaProfileEnabled="false"
-    uid="ef031ef3-5ce2-4bfe-a35c-13a0458647d2" useKeepAlive="false">
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="ef031ef3-5ce2-4bfe-a35c-13a0458647d2" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_ef031ef3-5ce2-4bfe-a35c-13a0458647d2.txt</requestContentFileDescription>
     <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
     <header name="Accept-Encoding" value="gzip, deflate"/>
@@ -706,8 +714,8 @@ Content-Type: image/png</responseHeaders>
     path="/media/uploads/default_map_all_1437742499_m.png" postType="2"
     recordedArtifactZipFileName="team/vus/@create report in @ushahidi - @tosca/%resources%/recorded-artifacts/2e745f62-f9ce-4b52-a8bd-b28736348347.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="sampledemo.neotys.com" slaProfileEnabled="false"
-    uid="3707d1cc-1daa-4f21-9873-f41850bd051a" useKeepAlive="false">
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="3707d1cc-1daa-4f21-9873-f41850bd051a" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_3707d1cc-1daa-4f21-9873-f41850bd051a.txt</requestContentFileDescription>
     <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
     <header name="Accept-Encoding" value="gzip, deflate"/>
@@ -740,8 +748,8 @@ Content-Type: image/png</responseHeaders>
     path="/media/img/footer-logo.png" postType="2"
     recordedArtifactZipFileName="team/vus/@create report in @ushahidi - @tosca/%resources%/recorded-artifacts/2e745f62-f9ce-4b52-a8bd-b28736348347.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="sampledemo.neotys.com" slaProfileEnabled="false"
-    uid="1a1e7df1-08a0-42fa-a92f-9b4abe127abc" useKeepAlive="false">
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="1a1e7df1-08a0-42fa-a92f-9b4abe127abc" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_1a1e7df1-08a0-42fa-a92f-9b4abe127abc.txt</requestContentFileDescription>
     <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
     <header name="Accept-Encoding" value="gzip, deflate"/>

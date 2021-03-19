@@ -24,8 +24,8 @@
     path="/themes/default/images/page-bg.jpg" postType="2"
     recordedArtifactZipFileName="team/vus/@create report in @ushahidi - @tosca/%resources%/recorded-artifacts/30ef5db2-c369-4769-b11e-642ef6190063.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="sampledemo.neotys.com" slaProfileEnabled="false"
-    uid="64b6780f-fe27-4254-939f-1dfc6bb562f9" useKeepAlive="false">
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="64b6780f-fe27-4254-939f-1dfc6bb562f9" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_64b6780f-fe27-4254-939f-1dfc6bb562f9.txt</requestContentFileDescription>
     <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
     <header name="Accept-Encoding" value="gzip, deflate"/>
@@ -58,8 +58,8 @@ Content-Type: image/jpeg</responseHeaders>
     path="/themes/default/images/search-button.jpg" postType="2"
     recordedArtifactZipFileName="team/vus/@create report in @ushahidi - @tosca/%resources%/recorded-artifacts/30ef5db2-c369-4769-b11e-642ef6190063.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="sampledemo.neotys.com" slaProfileEnabled="false"
-    uid="9565c4c6-9d59-4441-93ac-ab3d171ddf41" useKeepAlive="false">
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="9565c4c6-9d59-4441-93ac-ab3d171ddf41" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_9565c4c6-9d59-4441-93ac-ab3d171ddf41.txt</requestContentFileDescription>
     <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
     <header name="Accept-Encoding" value="gzip, deflate"/>
@@ -92,8 +92,8 @@ Content-Type: image/jpeg</responseHeaders>
     path="/themes/default/images/filters-bg.jpg" postType="2"
     recordedArtifactZipFileName="team/vus/@create report in @ushahidi - @tosca/%resources%/recorded-artifacts/30ef5db2-c369-4769-b11e-642ef6190063.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="sampledemo.neotys.com" slaProfileEnabled="false"
-    uid="1a397a18-ca27-490e-b32e-0aea46fab2d4" useKeepAlive="false">
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="1a397a18-ca27-490e-b32e-0aea46fab2d4" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_1a397a18-ca27-490e-b32e-0aea46fab2d4.txt</requestContentFileDescription>
     <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
     <header name="Accept-Encoding" value="gzip, deflate"/>
@@ -126,8 +126,8 @@ Content-Type: image/jpeg</responseHeaders>
     path="/themes/default/images/submit-incident.png" postType="2"
     recordedArtifactZipFileName="team/vus/@create report in @ushahidi - @tosca/%resources%/recorded-artifacts/30ef5db2-c369-4769-b11e-642ef6190063.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="sampledemo.neotys.com" slaProfileEnabled="false"
-    uid="cba35a4e-f8c0-463c-9aed-f5c19444a01a" useKeepAlive="false">
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="cba35a4e-f8c0-463c-9aed-f5c19444a01a" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_cba35a4e-f8c0-463c-9aed-f5c19444a01a.txt</requestContentFileDescription>
     <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
     <header name="Accept-Encoding" value="gzip, deflate"/>
@@ -160,8 +160,8 @@ Content-Type: image/png</responseHeaders>
     path="/themes/default/images/cat-filters-bg.jpg" postType="2"
     recordedArtifactZipFileName="team/vus/@create report in @ushahidi - @tosca/%resources%/recorded-artifacts/30ef5db2-c369-4769-b11e-642ef6190063.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="sampledemo.neotys.com" slaProfileEnabled="false"
-    uid="5b4ab867-b537-4b2f-8191-f79ad6200d74" useKeepAlive="false">
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="5b4ab867-b537-4b2f-8191-f79ad6200d74" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_5b4ab867-b537-4b2f-8191-f79ad6200d74.txt</requestContentFileDescription>
     <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
     <header name="Accept-Encoding" value="gzip, deflate"/>
@@ -191,8 +191,8 @@ Content-Type: image/jpeg</responseHeaders>
     method="GET" name="/scheduler" path="/scheduler" postType="2"
     recordedArtifactZipFileName="team/vus/@create report in @ushahidi - @tosca/%resources%/recorded-artifacts/30ef5db2-c369-4769-b11e-642ef6190063.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="sampledemo.neotys.com" slaProfileEnabled="false"
-    uid="ae18e3ff-f8f8-4031-9cca-ac3c6f8cd609" useKeepAlive="false">
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="ae18e3ff-f8f8-4031-9cca-ac3c6f8cd609" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_ae18e3ff-f8f8-4031-9cca-ac3c6f8cd609.txt</requestContentFileDescription>
     <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
     <header name="Accept-Encoding" value="gzip, deflate"/>
@@ -228,8 +228,8 @@ Content-Type: image/gif</responseHeaders>
     method="GET" name="/favicon.ico" path="/favicon.ico" postType="2"
     recordedArtifactZipFileName="team/vus/@create report in @ushahidi - @tosca/%resources%/recorded-artifacts/30ef5db2-c369-4769-b11e-642ef6190063.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="sampledemo.neotys.com" slaProfileEnabled="false"
-    uid="0336ab3c-1462-4045-bbb6-af4ad873eb7d" useKeepAlive="false">
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="0336ab3c-1462-4045-bbb6-af4ad873eb7d" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_0336ab3c-1462-4045-bbb6-af4ad873eb7d.txt</requestContentFileDescription>
     <header name="Accept" value="*/*"/>
     <header name="Accept-Encoding" value="gzip, deflate"/>

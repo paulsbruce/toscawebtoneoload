@@ -23,8 +23,8 @@
     postType="2"
     recordedArtifactZipFileName="team/vus/@create@weather@report/%resources%/recorded-artifacts/1db9795d-e145-4f7e-8f7c-bec11aa05337.zip"
     recordedResponseCode="200" responseSize="54411"
-    serverUid="sampledemo.neotys.com" slaProfileEnabled="false"
-    uid="33b2a911-5b5b-4eba-b032-ca0843dc50df" useKeepAlive="false">
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="33b2a911-5b5b-4eba-b032-ca0843dc50df" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_4308429c-45da-4261-83ff-2c232e9bb742.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_4308429c-45da-4261-83ff-2c232e9bb742.txt</requestContentFileDescription>
     <header name="Accept" value="text/html, application/xhtml+xml, image/jxr, */*"/>
@@ -62,8 +62,8 @@ Content-Type: text/html; charset=UTF-8</responseHeaders>
     path="/media/css/colorpicker.css" postType="2"
     recordedArtifactZipFileName="team/vus/@create@weather@report/%resources%/recorded-artifacts/1db9795d-e145-4f7e-8f7c-bec11aa05337.zip"
     recordedResponseCode="200" responseSize="3306"
-    serverUid="sampledemo.neotys.com" slaProfileEnabled="false"
-    uid="a545f717-8af9-4f9e-b2d1-572ff289a74f" useKeepAlive="false">
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="a545f717-8af9-4f9e-b2d1-572ff289a74f" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_c3150ca3-9ece-443a-a016-e624b1369edc.css</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_c3150ca3-9ece-443a-a016-e624b1369edc.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true" name="m"
@@ -101,8 +101,8 @@ Content-Type: text/css</responseHeaders>
     path="/media/css/jquery.treeview.css" postType="2"
     recordedArtifactZipFileName="team/vus/@create@weather@report/%resources%/recorded-artifacts/1db9795d-e145-4f7e-8f7c-bec11aa05337.zip"
     recordedResponseCode="200" responseSize="2606"
-    serverUid="sampledemo.neotys.com" slaProfileEnabled="false"
-    uid="25376512-7315-467d-baa0-09e0a07deb9b" useKeepAlive="false">
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="25376512-7315-467d-baa0-09e0a07deb9b" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_e82d9f57-3b3d-4146-acdc-d79166c7a037.css</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_e82d9f57-3b3d-4146-acdc-d79166c7a037.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true" name="m"
@@ -142,7 +142,8 @@ Content-Type: text/css</responseHeaders>
     recordedResponseCode="200"
     refererUid="33b2a911-5b5b-4eba-b032-ca0843dc50df"
     responseSize="7839" serverUid="sampledemo.neotys.com"
-    slaProfileEnabled="false" uid="b861c3ca-4060-4e15-b9b2-d465f427989d" useKeepAlive="false">
+    slaProfileEnabled="true" slaProfileName="fastfail"
+    uid="b861c3ca-4060-4e15-b9b2-d465f427989d" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_e17ad015-7edf-4683-90b6-55ce1057afc1</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_e17ad015-7edf-4683-90b6-55ce1057afc1.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true" name="m"
@@ -183,7 +184,8 @@ Content-Type: application/javascript</responseHeaders>
     recordedResponseCode="200"
     refererUid="33b2a911-5b5b-4eba-b032-ca0843dc50df"
     responseSize="17175" serverUid="sampledemo.neotys.com"
-    slaProfileEnabled="false" uid="310831e3-c579-4fde-95c3-ac925f4ff250" useKeepAlive="false">
+    slaProfileEnabled="true" slaProfileName="fastfail"
+    uid="310831e3-c579-4fde-95c3-ac925f4ff250" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_99ced91a-cb89-4694-81c6-279efdf2f2d8</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_99ced91a-cb89-4694-81c6-279efdf2f2d8.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true" name="m"
@@ -222,8 +224,8 @@ Content-Type: application/javascript</responseHeaders>
     path="/media/img/icon-calendar.gif" postType="2"
     recordedArtifactZipFileName="team/vus/@create@weather@report/%resources%/recorded-artifacts/1db9795d-e145-4f7e-8f7c-bec11aa05337.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="sampledemo.neotys.com" slaProfileEnabled="false"
-    uid="a740c2b1-5e4b-43d4-9766-e58485e071dc" useKeepAlive="false">
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="a740c2b1-5e4b-43d4-9766-e58485e071dc" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_e1c45381-1ade-4706-a799-f967185a7c94.txt</requestContentFileDescription>
     <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
     <header name="Accept-Encoding" value="gzip, deflate"/>
@@ -256,8 +258,8 @@ Content-Type: image/gif</responseHeaders>
     path="/media/img/icon-plus.gif" postType="2"
     recordedArtifactZipFileName="team/vus/@create@weather@report/%resources%/recorded-artifacts/1db9795d-e145-4f7e-8f7c-bec11aa05337.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="sampledemo.neotys.com" slaProfileEnabled="false"
-    uid="f146ebcd-fa2c-4010-8243-dc1779ef0f0e" useKeepAlive="false">
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="f146ebcd-fa2c-4010-8243-dc1779ef0f0e" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_131c6370-d280-455a-bd9f-0e3d310761f3.txt</requestContentFileDescription>
     <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
     <header name="Accept-Encoding" value="gzip, deflate"/>
@@ -292,8 +294,8 @@ Content-Type: image/gif</responseHeaders>
     postType="2"
     recordedArtifactZipFileName="team/vus/@create@weather@report/%resources%/recorded-artifacts/1db9795d-e145-4f7e-8f7c-bec11aa05337.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="sampledemo.neotys.com" slaProfileEnabled="false"
-    uid="973b970d-316e-4aa2-87d9-2b494a3492a3" useKeepAlive="false">
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="973b970d-316e-4aa2-87d9-2b494a3492a3" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_52fe4572-21f1-4e46-85b4-bbc289267354.txt</requestContentFileDescription>
     <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
     <header name="Accept-Encoding" value="gzip, deflate"/>
@@ -323,8 +325,8 @@ Content-Type: image/png</responseHeaders>
     method="GET" name="/scheduler" path="/scheduler" postType="2"
     recordedArtifactZipFileName="team/vus/@create@weather@report/%resources%/recorded-artifacts/1db9795d-e145-4f7e-8f7c-bec11aa05337.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="sampledemo.neotys.com" slaProfileEnabled="false"
-    uid="5f3a87a1-3014-4725-9df7-60a56e6375d3" useKeepAlive="false">
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="5f3a87a1-3014-4725-9df7-60a56e6375d3" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_497b9404-5d01-4fe3-aeb6-e840c86a0ee6.txt</requestContentFileDescription>
     <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
     <header name="Accept-Encoding" value="gzip, deflate"/>
