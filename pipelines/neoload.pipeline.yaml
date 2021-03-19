@@ -8,6 +8,7 @@ variables:
   neoloadApiUrl: 'https://neoload-api.saas.neotys.com/'
   workspaceId: '5f329c43f6ecb40001d7b3e2'
   zoneId: 'fNCnQ'
+  max_fail_percent: 25
   PYTHONUNBUFFERED: 1
 
 jobs:
@@ -26,7 +27,7 @@ jobs:
     inputs:
       targetType: 'inline'
       script: |
-        pip install neoload
+        pip install neoload==1.3.0.dev2
         neoload --version
 
   - task: Bash@3
@@ -47,7 +48,17 @@ jobs:
       script: |
         neoload run --name "TOSCANeoLoadFromAzure_$(Build.BuildNumber)" \
                     --description "Azure example with meta; $(Build.BuildUri)" \
-                       "TOSCANeoLoadFromAzure"
+                    --detached
+        sleep 10
+
+  - task: Bash@3
+    displayName: Wait for fastfail or finish signals
+    continueOnError: true
+    inputs:
+      targetType: 'inline'
+      script: |
+        neoload fastfail --max-failure $(max_fail_percent) slas cur &
+        neoload wait cur
 
   - task: Bash@3
     displayName: Get the junit SLA report
