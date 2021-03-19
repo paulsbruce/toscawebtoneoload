@@ -1,5 +1,5 @@
 <scenario postMonitoringTime="-1" preMonitoringTime="-1"
-    slaProfileEnabled="false" uid="fullTOSCA" virtualUsersStates="true">
+    slaProfileEnabled="false" traceVariables="true" uid="fullTOSCA" virtualUsersStates="true">
     <!--****** POPULATION POLICY ******-->
     <population-policy name="StandardPop">
         <duration-policy-entry iterations="1" time="300" timeUnit="0" type="2"/>
@@ -28,6 +28,7 @@
     <!--****** END DEBUG POLICY ******-->
     <!--****** START VU STATES ******-->
     <!--****** END VU STATES ******-->
+    <!--****** START EXCLUSION FILTER ******-->
     <request-path-exclusion-filter isEnabled="false">
         <regexps>
             <regexp>.*\.jpg</regexp>
@@ -44,4 +45,10 @@
             <regexp>.*\.properties</regexp>
         </regexps>
     </request-path-exclusion-filter>
+    <!--****** END  EXCLUSION FILTER ******-->
+    <!--****** START DYNATRACE MONITORING ******-->
+    <dynatrace-monitoring/>
+    <!--****** END  DYNATRACE MONITORING ******-->
+    <!--****** START TRACE VARIABLES ******-->
+    <!--****** END TRACE VARIABLES ******-->
 </scenario>
