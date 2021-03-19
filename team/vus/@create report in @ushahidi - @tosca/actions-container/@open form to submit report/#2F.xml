@@ -1,0 +1,765 @@
+<http-page executeResourcesDynamically="false" name="/"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@create report in @ushahidi - @tosca/%resources%/recorded-artifacts/2e745f62-f9ce-4b52-a8bd-b28736348347.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="2e745f62-f9ce-4b52-a8bd-b28736348347">
+    <embedded-action>f4cb195d-70e6-4c98-b506-e7a3a714a2d4</embedded-action>
+    <embedded-action>d242b71a-a133-46f3-8b5e-4f8dc4297cbd</embedded-action>
+    <embedded-action>60283569-b3ac-4737-bd6c-956433c4c972</embedded-action>
+    <embedded-action>01c4f40c-925d-4bfd-9e03-55999ec45434</embedded-action>
+    <embedded-action>c4942d60-aa90-4e03-b5cf-fe56320af0a3</embedded-action>
+    <embedded-action>4b118ba1-f586-49cb-b579-f2701968304e</embedded-action>
+    <embedded-action>7f6121bb-0a0e-4f83-8057-240bd7a398c7</embedded-action>
+    <embedded-action>e93ba9f8-8f11-4156-ba86-2cbc89586cc7</embedded-action>
+    <embedded-action>86c6f25b-f1bb-454d-a279-28edec1ac147</embedded-action>
+    <embedded-action>e37e2747-e5a4-45f7-b319-b8d509ef3481</embedded-action>
+    <embedded-action>5b55a685-b2ed-4245-91d6-a57ba9b1806b</embedded-action>
+    <embedded-action>98d339f0-774e-45e2-8839-e5214aa0f068</embedded-action>
+    <embedded-action>66a514ad-4965-4f6e-854d-b0a9d48b1165</embedded-action>
+    <embedded-action>5da6b34b-a895-49af-8711-42243a6c0f4e</embedded-action>
+    <embedded-action>68164121-797e-43ed-9868-52c00b261859</embedded-action>
+    <embedded-action>740d4649-5a1e-4930-8065-b0768118ee89</embedded-action>
+    <embedded-action>ef031ef3-5ce2-4bfe-a35c-13a0458647d2</embedded-action>
+    <embedded-action>3707d1cc-1daa-4f21-9873-f41850bd051a</embedded-action>
+    <embedded-action>1a1e7df1-08a0-42fa-a92f-9b4abe127abc</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/" path="/" postType="2"
+    recordedArtifactZipFileName="team/vus/@create report in @ushahidi - @tosca/%resources%/recorded-artifacts/2e745f62-f9ce-4b52-a8bd-b28736348347.zip"
+    recordedResponseCode="200" responseSize="25236"
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="false"
+    uid="f4cb195d-70e6-4c98-b506-e7a3a714a2d4" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_f4cb195d-70e6-4c98-b506-e7a3a714a2d4.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_f4cb195d-70e6-4c98-b506-e7a3a714a2d4.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html, application/xhtml+xml, image/jxr, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8,de-DE;q=0.5,de;q=0.3"/>
+    <header name="Cookie" value="rxVisitor=1585916374891RRO1ENUEAHVUCNSBDRRNLPS4GA4NFFTR; ushahidi=53kebfaicm7nl4mt3jp4p8o3k0"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="sampledemo.neotys.com"/>
+    <header name="Proxy-Connection" value="Keep-Alive"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 19 Mar 2021 16:08:42 GMT&#xd;
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16&#xd;
+X-Powered-By: PHP/5.4.16&#xd;
+Expires: Thu, 19 Nov 1981 08:52:00 GMT&#xd;
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0&#xd;
+Pragma: no-cache&#xd;
+Set-Cookie: ushahidi=53kebfaicm7nl4mt3jp4p8o3k0; expires=Fri, 19-Mar-2021 18:08:42 GMT; path=/; httponly&#xd;
+Vary: Accept-Encoding&#xd;
+Content-Encoding: gzip&#xd;
+Content-Length: 8487&#xd;
+Connection: close&#xd;
+Content-Type: text/html; charset=UTF-8&#xd;
+Set-Cookie: SRVNAME=S2; path=/</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css"
+    eTag="&quot;b4a-514cc67264b00&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 28 Apr 2015 17:43:40 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/media/css/global.css"
+    path="/media/css/global.css" postType="2"
+    recordedArtifactZipFileName="team/vus/@create report in @ushahidi - @tosca/%resources%/recorded-artifacts/2e745f62-f9ce-4b52-a8bd-b28736348347.zip"
+    recordedResponseCode="200" responseSize="2890"
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="false"
+    uid="d242b71a-a133-46f3-8b5e-4f8dc4297cbd" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_d242b71a-a133-46f3-8b5e-4f8dc4297cbd.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_d242b71a-a133-46f3-8b5e-4f8dc4297cbd.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="m"
+        recordRawValue="1430243020" separator="=" value="1430243020" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=""
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/css, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8,de-DE;q=0.5,de;q=0.3"/>
+    <header name="Cookie" value="rxVisitor=1585916374891RRO1ENUEAHVUCNSBDRRNLPS4GA4NFFTR; ushahidi=53kebfaicm7nl4mt3jp4p8o3k0; SRVNAME=S2"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="sampledemo.neotys.com"/>
+    <header name="Proxy-Connection" value="Keep-Alive"/>
+    <header name="Referer" value="http://sampledemo.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 19 Mar 2021 16:08:42 GMT&#xd;
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16&#xd;
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT&#xd;
+ETag: "b4a-514cc67264b00"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 2890&#xd;
+Connection: close&#xd;
+Content-Type: text/css</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css"
+    eTag="&quot;2e81-514cc67264b00&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 28 Apr 2015 17:43:40 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/media/css/openlayers.css"
+    path="/media/css/openlayers.css" postType="2"
+    recordedArtifactZipFileName="team/vus/@create report in @ushahidi - @tosca/%resources%/recorded-artifacts/2e745f62-f9ce-4b52-a8bd-b28736348347.zip"
+    recordedResponseCode="200" responseSize="11905"
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="false"
+    uid="60283569-b3ac-4737-bd6c-956433c4c972" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_60283569-b3ac-4737-bd6c-956433c4c972.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_60283569-b3ac-4737-bd6c-956433c4c972.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="m"
+        recordRawValue="1430243020" separator="=" value="1430243020" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=""
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/css, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8,de-DE;q=0.5,de;q=0.3"/>
+    <header name="Cookie" value="rxVisitor=1585916374891RRO1ENUEAHVUCNSBDRRNLPS4GA4NFFTR; ushahidi=53kebfaicm7nl4mt3jp4p8o3k0; SRVNAME=S2"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="sampledemo.neotys.com"/>
+    <header name="Proxy-Connection" value="Keep-Alive"/>
+    <header name="Referer" value="http://sampledemo.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 19 Mar 2021 16:08:42 GMT&#xd;
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16&#xd;
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT&#xd;
+ETag: "2e81-514cc67264b00"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 11905&#xd;
+Connection: close&#xd;
+Content-Type: text/css</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css"
+    eTag="&quot;aa5-514cc67264b00&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 28 Apr 2015 17:43:40 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/themes/default/css/slider.css"
+    path="/themes/default/css/slider.css" postType="2"
+    recordedArtifactZipFileName="team/vus/@create report in @ushahidi - @tosca/%resources%/recorded-artifacts/2e745f62-f9ce-4b52-a8bd-b28736348347.zip"
+    recordedResponseCode="200" responseSize="2725"
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="false"
+    uid="01c4f40c-925d-4bfd-9e03-55999ec45434" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_01c4f40c-925d-4bfd-9e03-55999ec45434.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_01c4f40c-925d-4bfd-9e03-55999ec45434.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="m"
+        recordRawValue="1430243020" separator="=" value="1430243020" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=""
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/css, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8,de-DE;q=0.5,de;q=0.3"/>
+    <header name="Cookie" value="rxVisitor=1585916374891RRO1ENUEAHVUCNSBDRRNLPS4GA4NFFTR; ushahidi=53kebfaicm7nl4mt3jp4p8o3k0; SRVNAME=S2"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="sampledemo.neotys.com"/>
+    <header name="Proxy-Connection" value="Keep-Alive"/>
+    <header name="Referer" value="http://sampledemo.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 19 Mar 2021 16:08:43 GMT&#xd;
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16&#xd;
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT&#xd;
+ETag: "aa5-514cc67264b00"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 2725&#xd;
+Connection: close&#xd;
+Content-Type: text/css</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css"
+    eTag="&quot;6bbd-514cc67264b00&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 28 Apr 2015 17:43:40 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/media/css/jquery-ui-themeroller.css"
+    path="/media/css/jquery-ui-themeroller.css" postType="2"
+    recordedArtifactZipFileName="team/vus/@create report in @ushahidi - @tosca/%resources%/recorded-artifacts/2e745f62-f9ce-4b52-a8bd-b28736348347.zip"
+    recordedResponseCode="200" responseSize="27581"
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="false"
+    uid="c4942d60-aa90-4e03-b5cf-fe56320af0a3" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_c4942d60-aa90-4e03-b5cf-fe56320af0a3.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_c4942d60-aa90-4e03-b5cf-fe56320af0a3.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="m"
+        recordRawValue="1430243020" separator="=" value="1430243020" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=""
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/css, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8,de-DE;q=0.5,de;q=0.3"/>
+    <header name="Cookie" value="rxVisitor=1585916374891RRO1ENUEAHVUCNSBDRRNLPS4GA4NFFTR; ushahidi=53kebfaicm7nl4mt3jp4p8o3k0; SRVNAME=S2"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="sampledemo.neotys.com"/>
+    <header name="Proxy-Connection" value="Keep-Alive"/>
+    <header name="Referer" value="http://sampledemo.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 19 Mar 2021 16:08:43 GMT&#xd;
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16&#xd;
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT&#xd;
+ETag: "6bbd-514cc67264b00"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 27581&#xd;
+Connection: close&#xd;
+Content-Type: text/css</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css"
+    eTag="&quot;164f-514cc67264b00&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 28 Apr 2015 17:43:40 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/themes/default/css/base.css"
+    path="/themes/default/css/base.css" postType="2"
+    recordedArtifactZipFileName="team/vus/@create report in @ushahidi - @tosca/%resources%/recorded-artifacts/2e745f62-f9ce-4b52-a8bd-b28736348347.zip"
+    recordedResponseCode="200" responseSize="5711"
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="false"
+    uid="4b118ba1-f586-49cb-b579-f2701968304e" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_4b118ba1-f586-49cb-b579-f2701968304e.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_4b118ba1-f586-49cb-b579-f2701968304e.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="m"
+        recordRawValue="1430243020" separator="=" value="1430243020" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=""
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/css, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8,de-DE;q=0.5,de;q=0.3"/>
+    <header name="Cookie" value="rxVisitor=1585916374891RRO1ENUEAHVUCNSBDRRNLPS4GA4NFFTR; ushahidi=53kebfaicm7nl4mt3jp4p8o3k0; SRVNAME=S2"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="sampledemo.neotys.com"/>
+    <header name="Proxy-Connection" value="Keep-Alive"/>
+    <header name="Referer" value="http://sampledemo.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 19 Mar 2021 16:08:42 GMT&#xd;
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16&#xd;
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT&#xd;
+ETag: "164f-514cc67264b00"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 5711&#xd;
+Connection: close&#xd;
+Content-Type: text/css</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css"
+    eTag="&quot;429-514cc67264b00&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 28 Apr 2015 17:43:40 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/themes/default/css/accordion.css"
+    path="/themes/default/css/accordion.css" postType="2"
+    recordedArtifactZipFileName="team/vus/@create report in @ushahidi - @tosca/%resources%/recorded-artifacts/2e745f62-f9ce-4b52-a8bd-b28736348347.zip"
+    recordedResponseCode="200" responseSize="1065"
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="false"
+    uid="7f6121bb-0a0e-4f83-8057-240bd7a398c7" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_7f6121bb-0a0e-4f83-8057-240bd7a398c7.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_7f6121bb-0a0e-4f83-8057-240bd7a398c7.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="m"
+        recordRawValue="1430243020" separator="=" value="1430243020" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=""
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/css, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8,de-DE;q=0.5,de;q=0.3"/>
+    <header name="Cookie" value="rxVisitor=1585916374891RRO1ENUEAHVUCNSBDRRNLPS4GA4NFFTR; ushahidi=53kebfaicm7nl4mt3jp4p8o3k0; SRVNAME=S2"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="sampledemo.neotys.com"/>
+    <header name="Proxy-Connection" value="Keep-Alive"/>
+    <header name="Referer" value="http://sampledemo.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 19 Mar 2021 16:08:42 GMT&#xd;
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16&#xd;
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT&#xd;
+ETag: "429-514cc67264b00"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 1065&#xd;
+Connection: close&#xd;
+Content-Type: text/css</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css"
+    eTag="&quot;c097-514cc67264b00&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 28 Apr 2015 17:43:40 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/themes/default/css/style.css"
+    path="/themes/default/css/style.css" postType="2"
+    recordedArtifactZipFileName="team/vus/@create report in @ushahidi - @tosca/%resources%/recorded-artifacts/2e745f62-f9ce-4b52-a8bd-b28736348347.zip"
+    recordedResponseCode="200" responseSize="49303"
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="false"
+    uid="e93ba9f8-8f11-4156-ba86-2cbc89586cc7" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_e93ba9f8-8f11-4156-ba86-2cbc89586cc7.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_e93ba9f8-8f11-4156-ba86-2cbc89586cc7.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="m"
+        recordRawValue="1430243020" separator="=" value="1430243020" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=""
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/css, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8,de-DE;q=0.5,de;q=0.3"/>
+    <header name="Cookie" value="rxVisitor=1585916374891RRO1ENUEAHVUCNSBDRRNLPS4GA4NFFTR; ushahidi=53kebfaicm7nl4mt3jp4p8o3k0; SRVNAME=S2"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="sampledemo.neotys.com"/>
+    <header name="Proxy-Connection" value="Keep-Alive"/>
+    <header name="Referer" value="http://sampledemo.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 19 Mar 2021 16:08:42 GMT&#xd;
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16&#xd;
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT&#xd;
+ETag: "c097-514cc67264b00"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 49303&#xd;
+Connection: close&#xd;
+Content-Type: text/css</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    eTag="&quot;11bf-514cc67264b00&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 28 Apr 2015 17:43:40 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/media/js/jquery.timeago.js"
+    path="/media/js/jquery.timeago.js" postType="2"
+    recordedArtifactZipFileName="team/vus/@create report in @ushahidi - @tosca/%resources%/recorded-artifacts/2e745f62-f9ce-4b52-a8bd-b28736348347.zip"
+    recordedResponseCode="200"
+    refererUid="f4cb195d-70e6-4c98-b506-e7a3a714a2d4"
+    responseSize="4543" serverUid="sampledemo.neotys.com"
+    slaProfileEnabled="false" uid="86c6f25b-f1bb-454d-a279-28edec1ac147" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_86c6f25b-f1bb-454d-a279-28edec1ac147</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_86c6f25b-f1bb-454d-a279-28edec1ac147.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="m"
+        recordRawValue="1430243020" separator="=" value="1430243020" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=""
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/javascript, */*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8,de-DE;q=0.5,de;q=0.3"/>
+    <header name="Cookie" value="rxVisitor=1585916374891RRO1ENUEAHVUCNSBDRRNLPS4GA4NFFTR; ushahidi=53kebfaicm7nl4mt3jp4p8o3k0; SRVNAME=S2"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="sampledemo.neotys.com"/>
+    <header name="Proxy-Connection" value="Keep-Alive"/>
+    <header name="Referer" value="http://sampledemo.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 19 Mar 2021 16:08:42 GMT&#xd;
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16&#xd;
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT&#xd;
+ETag: "11bf-514cc67264b00"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 4543&#xd;
+Connection: close&#xd;
+Content-Type: application/javascript</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="4"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    eTag="&quot;9bf-514cc67264b00&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 28 Apr 2015 17:43:40 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/media/js/jquery.pngFix.pack.js"
+    path="/media/js/jquery.pngFix.pack.js" postType="2"
+    recordedArtifactZipFileName="team/vus/@create report in @ushahidi - @tosca/%resources%/recorded-artifacts/2e745f62-f9ce-4b52-a8bd-b28736348347.zip"
+    recordedResponseCode="200"
+    refererUid="f4cb195d-70e6-4c98-b506-e7a3a714a2d4"
+    responseSize="2495" serverUid="sampledemo.neotys.com"
+    slaProfileEnabled="false" uid="e37e2747-e5a4-45f7-b319-b8d509ef3481" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_e37e2747-e5a4-45f7-b319-b8d509ef3481</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_e37e2747-e5a4-45f7-b319-b8d509ef3481.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="m"
+        recordRawValue="1430243020" separator="=" value="1430243020" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=""
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/javascript, */*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8,de-DE;q=0.5,de;q=0.3"/>
+    <header name="Cookie" value="rxVisitor=1585916374891RRO1ENUEAHVUCNSBDRRNLPS4GA4NFFTR; ushahidi=53kebfaicm7nl4mt3jp4p8o3k0; SRVNAME=S2"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="sampledemo.neotys.com"/>
+    <header name="Proxy-Connection" value="Keep-Alive"/>
+    <header name="Referer" value="http://sampledemo.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 19 Mar 2021 16:08:42 GMT&#xd;
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16&#xd;
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT&#xd;
+ETag: "9bf-514cc67264b00"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 2495&#xd;
+Connection: close&#xd;
+Content-Type: application/javascript</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="3"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    eTag="&quot;1367c-514cc67264b00&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 28 Apr 2015 17:43:40 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/media/js/jquery.ui.min.js"
+    path="/media/js/jquery.ui.min.js" postType="2"
+    recordedArtifactZipFileName="team/vus/@create report in @ushahidi - @tosca/%resources%/recorded-artifacts/2e745f62-f9ce-4b52-a8bd-b28736348347.zip"
+    recordedResponseCode="200"
+    refererUid="f4cb195d-70e6-4c98-b506-e7a3a714a2d4"
+    responseSize="79484" serverUid="sampledemo.neotys.com"
+    slaProfileEnabled="false" uid="5b55a685-b2ed-4245-91d6-a57ba9b1806b" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_5b55a685-b2ed-4245-91d6-a57ba9b1806b</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_5b55a685-b2ed-4245-91d6-a57ba9b1806b.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="m"
+        recordRawValue="1430243020" separator="=" value="1430243020" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=""
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/javascript, */*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8,de-DE;q=0.5,de;q=0.3"/>
+    <header name="Cookie" value="rxVisitor=1585916374891RRO1ENUEAHVUCNSBDRRNLPS4GA4NFFTR; ushahidi=53kebfaicm7nl4mt3jp4p8o3k0; SRVNAME=S2"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="sampledemo.neotys.com"/>
+    <header name="Proxy-Connection" value="Keep-Alive"/>
+    <header name="Referer" value="http://sampledemo.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 19 Mar 2021 16:08:42 GMT&#xd;
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16&#xd;
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT&#xd;
+ETag: "1367c-514cc67264b00"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 79484&#xd;
+Connection: close&#xd;
+Content-Type: application/javascript</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="2"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    eTag="&quot;17277-514cc67264b00&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 28 Apr 2015 17:43:40 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/media/js/jquery.js" path="/media/js/jquery.js"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@create report in @ushahidi - @tosca/%resources%/recorded-artifacts/2e745f62-f9ce-4b52-a8bd-b28736348347.zip"
+    recordedResponseCode="200"
+    refererUid="f4cb195d-70e6-4c98-b506-e7a3a714a2d4"
+    responseSize="94839" serverUid="sampledemo.neotys.com"
+    slaProfileEnabled="false" uid="98d339f0-774e-45e2-8839-e5214aa0f068" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_98d339f0-774e-45e2-8839-e5214aa0f068</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_98d339f0-774e-45e2-8839-e5214aa0f068.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="m"
+        recordRawValue="1430243020" separator="=" value="1430243020" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=""
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/javascript, */*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8,de-DE;q=0.5,de;q=0.3"/>
+    <header name="Cookie" value="rxVisitor=1585916374891RRO1ENUEAHVUCNSBDRRNLPS4GA4NFFTR; ushahidi=53kebfaicm7nl4mt3jp4p8o3k0; SRVNAME=S2"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="sampledemo.neotys.com"/>
+    <header name="Proxy-Connection" value="Keep-Alive"/>
+    <header name="Referer" value="http://sampledemo.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 19 Mar 2021 16:08:43 GMT&#xd;
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16&#xd;
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT&#xd;
+ETag: "17277-514cc67264b00"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 94839&#xd;
+Connection: close&#xd;
+Content-Type: application/javascript</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="1"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    eTag="&quot;4db-514cc67264b00&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 28 Apr 2015 17:43:40 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/media/js/global.js" path="/media/js/global.js"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@create report in @ushahidi - @tosca/%resources%/recorded-artifacts/2e745f62-f9ce-4b52-a8bd-b28736348347.zip"
+    recordedResponseCode="200"
+    refererUid="f4cb195d-70e6-4c98-b506-e7a3a714a2d4"
+    responseSize="1243" serverUid="sampledemo.neotys.com"
+    slaProfileEnabled="false" uid="66a514ad-4965-4f6e-854d-b0a9d48b1165" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_66a514ad-4965-4f6e-854d-b0a9d48b1165</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_66a514ad-4965-4f6e-854d-b0a9d48b1165.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="m"
+        recordRawValue="1430243020" separator="=" value="1430243020" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=""
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/javascript, */*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8,de-DE;q=0.5,de;q=0.3"/>
+    <header name="Cookie" value="rxVisitor=1585916374891RRO1ENUEAHVUCNSBDRRNLPS4GA4NFFTR; ushahidi=53kebfaicm7nl4mt3jp4p8o3k0; SRVNAME=S2"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="sampledemo.neotys.com"/>
+    <header name="Proxy-Connection" value="Keep-Alive"/>
+    <header name="Referer" value="http://sampledemo.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 19 Mar 2021 16:08:43 GMT&#xd;
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16&#xd;
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT&#xd;
+ETag: "4db-514cc67264b00"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 1243&#xd;
+Connection: close&#xd;
+Content-Type: application/javascript</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="5"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    eTag="&quot;bc0d0-514cc67264b00&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 28 Apr 2015 17:43:40 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/media/js/OpenLayers.js"
+    path="/media/js/OpenLayers.js" postType="2"
+    recordedArtifactZipFileName="team/vus/@create report in @ushahidi - @tosca/%resources%/recorded-artifacts/2e745f62-f9ce-4b52-a8bd-b28736348347.zip"
+    recordedResponseCode="200"
+    refererUid="f4cb195d-70e6-4c98-b506-e7a3a714a2d4"
+    responseSize="770256" serverUid="sampledemo.neotys.com"
+    slaProfileEnabled="false" uid="5da6b34b-a895-49af-8711-42243a6c0f4e" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_5da6b34b-a895-49af-8711-42243a6c0f4e</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_5da6b34b-a895-49af-8711-42243a6c0f4e.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="m"
+        recordRawValue="1430243020" separator="=" value="1430243020" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=""
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/javascript, */*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8,de-DE;q=0.5,de;q=0.3"/>
+    <header name="Cookie" value="rxVisitor=1585916374891RRO1ENUEAHVUCNSBDRRNLPS4GA4NFFTR; ushahidi=53kebfaicm7nl4mt3jp4p8o3k0; SRVNAME=S2"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="sampledemo.neotys.com"/>
+    <header name="Proxy-Connection" value="Keep-Alive"/>
+    <header name="Referer" value="http://sampledemo.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 19 Mar 2021 16:08:43 GMT&#xd;
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16&#xd;
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT&#xd;
+ETag: "bc0d0-514cc67264b00"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 770256&#xd;
+Connection: close&#xd;
+Content-Type: application/javascript</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="6"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    eTag="&quot;8a25-514cc67264b00&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 28 Apr 2015 17:43:40 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/media/js/ushahidi.js"
+    path="/media/js/ushahidi.js" postType="2"
+    recordedArtifactZipFileName="team/vus/@create report in @ushahidi - @tosca/%resources%/recorded-artifacts/2e745f62-f9ce-4b52-a8bd-b28736348347.zip"
+    recordedResponseCode="200"
+    refererUid="f4cb195d-70e6-4c98-b506-e7a3a714a2d4"
+    responseSize="35365" serverUid="sampledemo.neotys.com"
+    slaProfileEnabled="false" uid="68164121-797e-43ed-9868-52c00b261859" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_68164121-797e-43ed-9868-52c00b261859</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_68164121-797e-43ed-9868-52c00b261859.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="m"
+        recordRawValue="1430243020" separator="=" value="1430243020" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=""
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/javascript, */*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8,de-DE;q=0.5,de;q=0.3"/>
+    <header name="Cookie" value="rxVisitor=1585916374891RRO1ENUEAHVUCNSBDRRNLPS4GA4NFFTR; ushahidi=53kebfaicm7nl4mt3jp4p8o3k0; SRVNAME=S2"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="sampledemo.neotys.com"/>
+    <header name="Proxy-Connection" value="Keep-Alive"/>
+    <header name="Referer" value="http://sampledemo.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 19 Mar 2021 16:08:43 GMT&#xd;
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16&#xd;
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT&#xd;
+ETag: "8a25-514cc67264b00"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 35365&#xd;
+Connection: close&#xd;
+Content-Type: application/javascript</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="7"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    eTag="&quot;2183-514cc67264b00&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 28 Apr 2015 17:43:40 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/media/js/selectToUISlider.jQuery.js"
+    path="/media/js/selectToUISlider.jQuery.js" postType="2"
+    recordedArtifactZipFileName="team/vus/@create report in @ushahidi - @tosca/%resources%/recorded-artifacts/2e745f62-f9ce-4b52-a8bd-b28736348347.zip"
+    recordedResponseCode="200"
+    refererUid="f4cb195d-70e6-4c98-b506-e7a3a714a2d4"
+    responseSize="8579" serverUid="sampledemo.neotys.com"
+    slaProfileEnabled="false" uid="740d4649-5a1e-4930-8065-b0768118ee89" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_740d4649-5a1e-4930-8065-b0768118ee89</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_740d4649-5a1e-4930-8065-b0768118ee89.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="m"
+        recordRawValue="1430243020" separator="=" value="1430243020" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=""
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/javascript, */*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8,de-DE;q=0.5,de;q=0.3"/>
+    <header name="Cookie" value="rxVisitor=1585916374891RRO1ENUEAHVUCNSBDRRNLPS4GA4NFFTR; ushahidi=53kebfaicm7nl4mt3jp4p8o3k0; SRVNAME=S2"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="sampledemo.neotys.com"/>
+    <header name="Proxy-Connection" value="Keep-Alive"/>
+    <header name="Referer" value="http://sampledemo.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 19 Mar 2021 16:08:43 GMT&#xd;
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16&#xd;
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT&#xd;
+ETag: "2183-514cc67264b00"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 8579&#xd;
+Connection: close&#xd;
+Content-Type: application/javascript</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="9"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;135e-51b9e66247000&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Fri, 24 Jul 2015 12:46:56 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/media/uploads/banner_1437742016.png"
+    path="/media/uploads/banner_1437742016.png" postType="2"
+    recordedArtifactZipFileName="team/vus/@create report in @ushahidi - @tosca/%resources%/recorded-artifacts/2e745f62-f9ce-4b52-a8bd-b28736348347.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="false"
+    uid="ef031ef3-5ce2-4bfe-a35c-13a0458647d2" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_ef031ef3-5ce2-4bfe-a35c-13a0458647d2.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8,de-DE;q=0.5,de;q=0.3"/>
+    <header name="Cookie" value="rxVisitor=1585916374891RRO1ENUEAHVUCNSBDRRNLPS4GA4NFFTR; ushahidi=53kebfaicm7nl4mt3jp4p8o3k0; SRVNAME=S2"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="sampledemo.neotys.com"/>
+    <header name="Proxy-Connection" value="Keep-Alive"/>
+    <header name="Referer" value="http://sampledemo.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 19 Mar 2021 16:08:43 GMT&#xd;
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16&#xd;
+Last-Modified: Fri, 24 Jul 2015 12:46:56 GMT&#xd;
+ETag: "135e-51b9e66247000"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 4958&#xd;
+Connection: close&#xd;
+Content-Type: image/png</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;1ab-51b9e82ee6ec0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Fri, 24 Jul 2015 12:54:59 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/media/uploads/default_map_all_1437742499_m.png"
+    path="/media/uploads/default_map_all_1437742499_m.png" postType="2"
+    recordedArtifactZipFileName="team/vus/@create report in @ushahidi - @tosca/%resources%/recorded-artifacts/2e745f62-f9ce-4b52-a8bd-b28736348347.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="false"
+    uid="3707d1cc-1daa-4f21-9873-f41850bd051a" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_3707d1cc-1daa-4f21-9873-f41850bd051a.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8,de-DE;q=0.5,de;q=0.3"/>
+    <header name="Cookie" value="rxVisitor=1585916374891RRO1ENUEAHVUCNSBDRRNLPS4GA4NFFTR; ushahidi=53kebfaicm7nl4mt3jp4p8o3k0; SRVNAME=S2"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="sampledemo.neotys.com"/>
+    <header name="Proxy-Connection" value="Keep-Alive"/>
+    <header name="Referer" value="http://sampledemo.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 19 Mar 2021 16:08:43 GMT&#xd;
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16&#xd;
+Last-Modified: Fri, 24 Jul 2015 12:54:59 GMT&#xd;
+ETag: "1ab-51b9e82ee6ec0"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 427&#xd;
+Connection: close&#xd;
+Content-Type: image/png</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;5d0-514cc67264b00&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 28 Apr 2015 17:43:40 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/media/img/footer-logo.png"
+    path="/media/img/footer-logo.png" postType="2"
+    recordedArtifactZipFileName="team/vus/@create report in @ushahidi - @tosca/%resources%/recorded-artifacts/2e745f62-f9ce-4b52-a8bd-b28736348347.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="false"
+    uid="1a1e7df1-08a0-42fa-a92f-9b4abe127abc" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_1a1e7df1-08a0-42fa-a92f-9b4abe127abc.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8,de-DE;q=0.5,de;q=0.3"/>
+    <header name="Cookie" value="rxVisitor=1585916374891RRO1ENUEAHVUCNSBDRRNLPS4GA4NFFTR; ushahidi=53kebfaicm7nl4mt3jp4p8o3k0; SRVNAME=S2"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="sampledemo.neotys.com"/>
+    <header name="Proxy-Connection" value="Keep-Alive"/>
+    <header name="Referer" value="http://sampledemo.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 19 Mar 2021 16:08:43 GMT&#xd;
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16&#xd;
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT&#xd;
+ETag: "5d0-514cc67264b00"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 1488&#xd;
+Connection: close&#xd;
+Content-Type: image/png</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

@@ -1,0 +1,13 @@
+# Project description file
+
+project.name=toscawebtoneoload
+project.version=7.0
+project.original.version=7.0
+product.name=NeoLoad
+product.original.name=NeoLoad
+product.original.version=7.3.0
+project.id=5cf6ea2b-7e62-4e57-bb29-b46736cd8dbb
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=true
+team.server.project=/paulsbruce/toscawebtoneoload.git
