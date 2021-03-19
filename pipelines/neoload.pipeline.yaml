@@ -14,6 +14,8 @@ jobs:
 - job: RunLoadTest
   displayName: Run NeoLoad Test from Azure Devops
   steps:
+  - checkout: self
+
   - task: UsePythonVersion@0
     inputs:
       versionSpec: '3.8'
