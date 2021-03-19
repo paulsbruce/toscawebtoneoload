@@ -35,9 +35,12 @@ jobs:
     inputs:
       targetType: 'inline'
       script: |
+        pwd
+        ls -latr $(Build.SourcesDirectory)
+        ls -latr $(Build.SourcesDirectory)/s
         neoload login --url $(neoloadApiUrl) --workspace $(workspaceId) $(neoloadToken) \
                 test-settings --zone $(zoneId) --scenario fullTOSCA createorpatch "TOSCANeoLoadFromAzure" \
-                project --path . upload "TOSCANeoLoadFromAzure"
+                project --path s/ upload "TOSCANeoLoadFromAzure"
 
   - task: Bash@3
     displayName: Run the NeoLoad test
