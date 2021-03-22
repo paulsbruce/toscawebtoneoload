@@ -7,7 +7,7 @@ variables:
   neoloadToken: $(secret_nlw_token)
   neoloadApiUrl: 'https://neoload-api.saas.neotys.com/'
   workspaceId: '5f329c43f6ecb40001d7b3e2'
-  zoneId: 'fNCnQ'
+  zoneId: 'jlREk'
   max_fail_percent: 25
   PYTHONUNBUFFERED: 1
 
