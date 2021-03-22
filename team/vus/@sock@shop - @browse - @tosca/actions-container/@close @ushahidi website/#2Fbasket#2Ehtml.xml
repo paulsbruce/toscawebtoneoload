@@ -16,8 +16,8 @@
     method="GET" name="/basket.html" path="/basket.html" postType="2"
     recordedArtifactZipFileName="team/vus/@sock@shop - @browse - @tosca/%resources%/recorded-artifacts/862e545d-21e0-4e8f-808d-6dd9728adf0b.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="false"
-    uid="afc2a1e6-20b7-42c0-a6f7-46675c242673" useKeepAlive="false">
+    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="afc2a1e6-20b7-42c0-a6f7-46675c242673" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_afc2a1e6-20b7-42c0-a6f7-46675c242673.txt</requestContentFileDescription>
     <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"/>
     <header name="Accept-Encoding" value="gzip, deflate"/>

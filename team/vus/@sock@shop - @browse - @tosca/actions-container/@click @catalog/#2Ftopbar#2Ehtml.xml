@@ -16,8 +16,8 @@
     method="GET" name="/topbar.html" path="/topbar.html" postType="2"
     recordedArtifactZipFileName="team/vus/@sock@shop - @browse - @tosca/%resources%/recorded-artifacts/5eccc4e5-3ab7-4758-b45a-3eebecab0d0a.zip"
     recordedResponseCode="200" responseSize="6579"
-    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="false"
-    uid="eaa647a9-efd4-4c3e-8cf0-f030c0ec6bc1" useKeepAlive="false">
+    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="eaa647a9-efd4-4c3e-8cf0-f030c0ec6bc1" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_eaa647a9-efd4-4c3e-8cf0-f030c0ec6bc1.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_eaa647a9-efd4-4c3e-8cf0-f030c0ec6bc1.txt</requestContentFileDescription>
     <header name="Accept" value="text/html, */*; q=0.01"/>

@@ -37,8 +37,8 @@
     method="GET" name="/detail.html" path="/detail.html" postType="2"
     recordedArtifactZipFileName="team/vus/@sock@shop - @browse - @tosca/%resources%/recorded-artifacts/ad3d895e-76a0-40bd-a869-0fb9fa274e35.zip"
     recordedResponseCode="200" responseSize="10364"
-    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="false"
-    uid="95e1b5ca-17f6-41b8-9709-d73e501609e4" useKeepAlive="false">
+    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="95e1b5ca-17f6-41b8-9709-d73e501609e4" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_95e1b5ca-17f6-41b8-9709-d73e501609e4.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_95e1b5ca-17f6-41b8-9709-d73e501609e4.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true" name="id"
@@ -79,8 +79,8 @@ Connection: keep-alive</responseHeaders>
     path="/css/font-awesome.css" postType="2"
     recordedArtifactZipFileName="team/vus/@sock@shop - @browse - @tosca/%resources%/recorded-artifacts/ad3d895e-76a0-40bd-a869-0fb9fa274e35.zip"
     recordedResponseCode="200" responseSize="21643"
-    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="false"
-    uid="73d38936-0c8c-4b23-91aa-3fd44c526ae7" useKeepAlive="false">
+    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="73d38936-0c8c-4b23-91aa-3fd44c526ae7" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_73d38936-0c8c-4b23-91aa-3fd44c526ae7.css</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_73d38936-0c8c-4b23-91aa-3fd44c526ae7.txt</requestContentFileDescription>
     <header name="Accept" value="text/css,*/*;q=0.1"/>
@@ -116,8 +116,8 @@ Connection: keep-alive</responseHeaders>
     path="/css/bootstrap.min.css" postType="2"
     recordedArtifactZipFileName="team/vus/@sock@shop - @browse - @tosca/%resources%/recorded-artifacts/ad3d895e-76a0-40bd-a869-0fb9fa274e35.zip"
     recordedResponseCode="200" responseSize="121200"
-    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="false"
-    uid="3e1d4b82-3626-440b-8507-8f94700a484c" useKeepAlive="false">
+    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="3e1d4b82-3626-440b-8507-8f94700a484c" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_3e1d4b82-3626-440b-8507-8f94700a484c.css</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_3e1d4b82-3626-440b-8507-8f94700a484c.txt</requestContentFileDescription>
     <header name="Accept" value="text/css,*/*;q=0.1"/>
@@ -153,8 +153,8 @@ Connection: keep-alive</responseHeaders>
     postType="2"
     recordedArtifactZipFileName="team/vus/@sock@shop - @browse - @tosca/%resources%/recorded-artifacts/ad3d895e-76a0-40bd-a869-0fb9fa274e35.zip"
     recordedResponseCode="200" responseSize="47610"
-    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="false"
-    uid="abecde7d-6883-4e13-8a52-4eacb3019284" useKeepAlive="false">
+    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="abecde7d-6883-4e13-8a52-4eacb3019284" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_abecde7d-6883-4e13-8a52-4eacb3019284.css</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_abecde7d-6883-4e13-8a52-4eacb3019284.txt</requestContentFileDescription>
     <header name="Accept" value="text/css,*/*;q=0.1"/>
@@ -190,8 +190,8 @@ Connection: keep-alive</responseHeaders>
     path="/css/owl.carousel.css" postType="2"
     recordedArtifactZipFileName="team/vus/@sock@shop - @browse - @tosca/%resources%/recorded-artifacts/ad3d895e-76a0-40bd-a869-0fb9fa274e35.zip"
     recordedResponseCode="200" responseSize="1476"
-    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="false"
-    uid="907fb729-4923-4084-b3dd-22e74c8b26d7" useKeepAlive="false">
+    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="907fb729-4923-4084-b3dd-22e74c8b26d7" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_907fb729-4923-4084-b3dd-22e74c8b26d7.css</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_907fb729-4923-4084-b3dd-22e74c8b26d7.txt</requestContentFileDescription>
     <header name="Accept" value="text/css,*/*;q=0.1"/>
@@ -227,8 +227,8 @@ Connection: keep-alive</responseHeaders>
     postType="2"
     recordedArtifactZipFileName="team/vus/@sock@shop - @browse - @tosca/%resources%/recorded-artifacts/ad3d895e-76a0-40bd-a869-0fb9fa274e35.zip"
     recordedResponseCode="200" responseSize="35115"
-    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="false"
-    uid="c66d13df-58db-4047-a9db-d3514f934770" useKeepAlive="false">
+    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="c66d13df-58db-4047-a9db-d3514f934770" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_c66d13df-58db-4047-a9db-d3514f934770.css</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_c66d13df-58db-4047-a9db-d3514f934770.txt</requestContentFileDescription>
     <header name="Accept" value="text/css,*/*;q=0.1"/>
@@ -264,8 +264,8 @@ Connection: keep-alive</responseHeaders>
     postType="2"
     recordedArtifactZipFileName="team/vus/@sock@shop - @browse - @tosca/%resources%/recorded-artifacts/ad3d895e-76a0-40bd-a869-0fb9fa274e35.zip"
     recordedResponseCode="200" responseSize="1620"
-    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="false"
-    uid="9bce17dd-d74d-43cd-adc0-016604532a98" useKeepAlive="false">
+    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="9bce17dd-d74d-43cd-adc0-016604532a98" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_9bce17dd-d74d-43cd-adc0-016604532a98.css</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_9bce17dd-d74d-43cd-adc0-016604532a98.txt</requestContentFileDescription>
     <header name="Accept" value="text/css,*/*;q=0.1"/>
@@ -301,8 +301,8 @@ Connection: keep-alive</responseHeaders>
     postType="2"
     recordedArtifactZipFileName="team/vus/@sock@shop - @browse - @tosca/%resources%/recorded-artifacts/ad3d895e-76a0-40bd-a869-0fb9fa274e35.zip"
     recordedResponseCode="200" responseSize="37"
-    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="false"
-    uid="00b02c3e-5b1d-4365-8848-574ed87cb4da" useKeepAlive="false">
+    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="00b02c3e-5b1d-4365-8848-574ed87cb4da" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_00b02c3e-5b1d-4365-8848-574ed87cb4da.css</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_00b02c3e-5b1d-4365-8848-574ed87cb4da.txt</requestContentFileDescription>
     <header name="Accept" value="text/css,*/*;q=0.1"/>
@@ -340,7 +340,8 @@ Connection: keep-alive</responseHeaders>
     recordedResponseCode="200"
     refererUid="95e1b5ca-17f6-41b8-9709-d73e501609e4"
     responseSize="4591" serverUid="sockshop.neotys.perfreleng.org"
-    slaProfileEnabled="false" uid="f75c0d79-8c60-457d-b455-422252004eb9" useKeepAlive="false">
+    slaProfileEnabled="true" slaProfileName="fastfail"
+    uid="f75c0d79-8c60-457d-b455-422252004eb9" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_f75c0d79-8c60-457d-b455-422252004eb9</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_f75c0d79-8c60-457d-b455-422252004eb9.txt</requestContentFileDescription>
     <header name="Accept" value="*/*"/>
@@ -379,7 +380,8 @@ Connection: keep-alive</responseHeaders>
     recordedResponseCode="200"
     refererUid="95e1b5ca-17f6-41b8-9709-d73e501609e4"
     responseSize="96381" serverUid="sockshop.neotys.perfreleng.org"
-    slaProfileEnabled="false" uid="6a64ab69-94c6-4386-8ae3-d9e62dbdff36" useKeepAlive="false">
+    slaProfileEnabled="true" slaProfileName="fastfail"
+    uid="6a64ab69-94c6-4386-8ae3-d9e62dbdff36" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_6a64ab69-94c6-4386-8ae3-d9e62dbdff36</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_6a64ab69-94c6-4386-8ae3-d9e62dbdff36.txt</requestContentFileDescription>
     <header name="Accept" value="*/*"/>
@@ -418,7 +420,8 @@ Connection: keep-alive</responseHeaders>
     recordedResponseCode="200"
     refererUid="95e1b5ca-17f6-41b8-9709-d73e501609e4"
     responseSize="37045" serverUid="sockshop.neotys.perfreleng.org"
-    slaProfileEnabled="false" uid="09e97211-d035-41c4-bd67-beae23d70bf0" useKeepAlive="false">
+    slaProfileEnabled="true" slaProfileName="fastfail"
+    uid="09e97211-d035-41c4-bd67-beae23d70bf0" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_09e97211-d035-41c4-bd67-beae23d70bf0</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_09e97211-d035-41c4-bd67-beae23d70bf0.txt</requestContentFileDescription>
     <header name="Accept" value="*/*"/>
@@ -457,7 +460,8 @@ Connection: keep-alive</responseHeaders>
     recordedResponseCode="200"
     refererUid="95e1b5ca-17f6-41b8-9709-d73e501609e4"
     responseSize="3121" serverUid="sockshop.neotys.perfreleng.org"
-    slaProfileEnabled="false" uid="0653d3ff-1267-4d72-913d-bdd5a87e9149" useKeepAlive="false">
+    slaProfileEnabled="true" slaProfileName="fastfail"
+    uid="0653d3ff-1267-4d72-913d-bdd5a87e9149" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_0653d3ff-1267-4d72-913d-bdd5a87e9149</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_0653d3ff-1267-4d72-913d-bdd5a87e9149.txt</requestContentFileDescription>
     <header name="Accept" value="*/*"/>
@@ -496,7 +500,8 @@ Connection: keep-alive</responseHeaders>
     recordedResponseCode="200"
     refererUid="95e1b5ca-17f6-41b8-9709-d73e501609e4"
     responseSize="8044" serverUid="sockshop.neotys.perfreleng.org"
-    slaProfileEnabled="false" uid="0b12cbde-0362-48c8-a682-3759d27a5b4f" useKeepAlive="false">
+    slaProfileEnabled="true" slaProfileName="fastfail"
+    uid="0b12cbde-0362-48c8-a682-3759d27a5b4f" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_0b12cbde-0362-48c8-a682-3759d27a5b4f</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_0b12cbde-0362-48c8-a682-3759d27a5b4f.txt</requestContentFileDescription>
     <header name="Accept" value="*/*"/>
@@ -535,7 +540,8 @@ Connection: keep-alive</responseHeaders>
     recordedResponseCode="200"
     refererUid="95e1b5ca-17f6-41b8-9709-d73e501609e4"
     responseSize="51351" serverUid="sockshop.neotys.perfreleng.org"
-    slaProfileEnabled="false" uid="9176a831-3591-49b4-aed0-b92b3104b2d9" useKeepAlive="false">
+    slaProfileEnabled="true" slaProfileName="fastfail"
+    uid="9176a831-3591-49b4-aed0-b92b3104b2d9" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_9176a831-3591-49b4-aed0-b92b3104b2d9</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_9176a831-3591-49b4-aed0-b92b3104b2d9.txt</requestContentFileDescription>
     <header name="Accept" value="*/*"/>
@@ -574,7 +580,8 @@ Connection: keep-alive</responseHeaders>
     recordedResponseCode="200"
     refererUid="95e1b5ca-17f6-41b8-9709-d73e501609e4"
     responseSize="3424" serverUid="sockshop.neotys.perfreleng.org"
-    slaProfileEnabled="false" uid="a5fa9739-901e-4571-9f29-38880023cd89" useKeepAlive="false">
+    slaProfileEnabled="true" slaProfileName="fastfail"
+    uid="a5fa9739-901e-4571-9f29-38880023cd89" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_a5fa9739-901e-4571-9f29-38880023cd89</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_a5fa9739-901e-4571-9f29-38880023cd89.txt</requestContentFileDescription>
     <header name="Accept" value="*/*"/>
@@ -613,7 +620,8 @@ Connection: keep-alive</responseHeaders>
     recordedResponseCode="200"
     refererUid="95e1b5ca-17f6-41b8-9709-d73e501609e4"
     responseSize="14916" serverUid="sockshop.neotys.perfreleng.org"
-    slaProfileEnabled="false" uid="5852e274-421e-4d3e-9a2d-6d6e3182aea2" useKeepAlive="false">
+    slaProfileEnabled="true" slaProfileName="fastfail"
+    uid="5852e274-421e-4d3e-9a2d-6d6e3182aea2" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_5852e274-421e-4d3e-9a2d-6d6e3182aea2</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_5852e274-421e-4d3e-9a2d-6d6e3182aea2.txt</requestContentFileDescription>
     <header name="Accept" value="*/*"/>
@@ -651,7 +659,8 @@ Connection: keep-alive</responseHeaders>
     recordedResponseCode="200"
     refererUid="95e1b5ca-17f6-41b8-9709-d73e501609e4"
     responseSize="4102" serverUid="sockshop.neotys.perfreleng.org"
-    slaProfileEnabled="false" uid="b221a588-795e-41ce-8a3d-06a8559b708b" useKeepAlive="false">
+    slaProfileEnabled="true" slaProfileName="fastfail"
+    uid="b221a588-795e-41ce-8a3d-06a8559b708b" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_b221a588-795e-41ce-8a3d-06a8559b708b</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_b221a588-795e-41ce-8a3d-06a8559b708b.txt</requestContentFileDescription>
     <header name="Accept" value="*/*"/>
@@ -690,7 +699,8 @@ Connection: keep-alive</responseHeaders>
     recordedResponseCode="200"
     refererUid="95e1b5ca-17f6-41b8-9709-d73e501609e4"
     responseSize="9974" serverUid="sockshop.neotys.perfreleng.org"
-    slaProfileEnabled="false" uid="43b6cf30-82ae-4d2d-87c4-5849e2e3e3b7" useKeepAlive="false">
+    slaProfileEnabled="true" slaProfileName="fastfail"
+    uid="43b6cf30-82ae-4d2d-87c4-5849e2e3e3b7" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_43b6cf30-82ae-4d2d-87c4-5849e2e3e3b7</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_43b6cf30-82ae-4d2d-87c4-5849e2e3e3b7.txt</requestContentFileDescription>
     <header name="Accept" value="*/*"/>
@@ -728,7 +738,8 @@ Connection: keep-alive</responseHeaders>
     recordedResponseCode="200"
     refererUid="95e1b5ca-17f6-41b8-9709-d73e501609e4"
     responseSize="8832" serverUid="sockshop.neotys.perfreleng.org"
-    slaProfileEnabled="false" uid="1ebed073-5187-4bf6-9f2d-07ec055078b5" useKeepAlive="false">
+    slaProfileEnabled="true" slaProfileName="fastfail"
+    uid="1ebed073-5187-4bf6-9f2d-07ec055078b5" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_1ebed073-5187-4bf6-9f2d-07ec055078b5</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_1ebed073-5187-4bf6-9f2d-07ec055078b5.txt</requestContentFileDescription>
     <header name="Accept" value="*/*"/>
@@ -765,8 +776,8 @@ Connection: keep-alive</responseHeaders>
     path="/css/fonts/fontawesome-webfont.woff" postType="2"
     recordedArtifactZipFileName="team/vus/@sock@shop - @browse - @tosca/%resources%/recorded-artifacts/ad3d895e-76a0-40bd-a869-0fb9fa274e35.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="false"
-    uid="002a2995-a5c0-4ed9-bce9-227cec1bff92" useKeepAlive="false">
+    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="002a2995-a5c0-4ed9-bce9-227cec1bff92" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_002a2995-a5c0-4ed9-bce9-227cec1bff92.txt</requestContentFileDescription>
     <parameter encodeName="true" encodeValue="true" name="v"
         recordRawValue="4.0.3" separator="=" value="4.0.3" valueMode="USE_VALUE"/>
@@ -804,8 +815,8 @@ Connection: keep-alive</responseHeaders>
     postType="2"
     recordedArtifactZipFileName="team/vus/@sock@shop - @browse - @tosca/%resources%/recorded-artifacts/ad3d895e-76a0-40bd-a869-0fb9fa274e35.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="false"
-    uid="f3e8304d-9804-4bbb-9e68-22ba0a9267bc" useKeepAlive="false">
+    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="f3e8304d-9804-4bbb-9e68-22ba0a9267bc" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_f3e8304d-9804-4bbb-9e68-22ba0a9267bc.txt</requestContentFileDescription>
     <header name="Accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
     <header name="Accept-Encoding" value="gzip, deflate"/>
@@ -837,8 +848,8 @@ Connection: keep-alive</responseHeaders>
     path="/catalogue/03fef6ac-1896-4ce8-bd69-b798f85c6e0b" postType="2"
     recordedArtifactZipFileName="team/vus/@sock@shop - @browse - @tosca/%resources%/recorded-artifacts/ad3d895e-76a0-40bd-a869-0fb9fa274e35.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="false"
-    uid="13a9cd12-ccd7-476c-a9bd-c8489faff771" useKeepAlive="false">
+    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="13a9cd12-ccd7-476c-a9bd-c8489faff771" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_13a9cd12-ccd7-476c-a9bd-c8489faff771.txt</requestContentFileDescription>
     <header name="Accept" value="application/json, text/javascript, */*; q=0.01"/>
     <header name="Accept-Encoding" value="gzip, deflate"/>
