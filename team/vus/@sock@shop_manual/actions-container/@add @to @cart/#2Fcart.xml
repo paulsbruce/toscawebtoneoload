@@ -1,0 +1,37 @@
+<http-page executeResourcesDynamically="false" name="/cart"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@sock@shop_manual/%resources%/recorded-artifacts/8ecba54b-36af-41bd-9ccc-bebeaa36c17f.zip"
+    slaProfileEnabled="false" thinkTime="4964"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="8ecba54b-36af-41bd-9ccc-bebeaa36c17f">
+    <embedded-action>f7c03a48-1803-4d53-82d8-6aec2b0f9798</embedded-action>
+</http-page>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/cart" path="/cart" postType="4"
+    recordedArtifactZipFileName="team/vus/@sock@shop_manual/%resources%/recorded-artifacts/8ecba54b-36af-41bd-9ccc-bebeaa36c17f.zip"
+    recordedResponseCode="201" responseSize="0"
+    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="false"
+    uid="f7c03a48-1803-4d53-82d8-6aec2b0f9798" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_dafae075-20cf-45fa-b34e-3c80b175330a.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Content-Type" value="application/json; charset=UTF-8"/>
+    <header name="Cookie" value="md.sid=s%3AJFegbciTR-pdv7hwwBiAESnB7GripfV5.HxS5OyWk7hOkzbGRoIv9UnioUGIalknwEUpwtIxsF2s"/>
+    <header name="Host" value="sockshop.neotys.perfreleng.org"/>
+    <header name="Origin" value="http://sockshop.neotys.perfreleng.org"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://sockshop.neotys.perfreleng.org/detail.html?id=808a2de1-1aaa-4c25-a9b9-6612e8f29a38"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"/>
+    <header name="X-Requested-With" value="XMLHttpRequest"/>
+    <responseHeaders>HTTP/1.1 201 Created&#xd;
+X-Powered-By: Express&#xd;
+Date: Mon, 22 Mar 2021 13:00:04 GMT&#xd;
+Connection: keep-alive&#xd;
+Transfer-Encoding: chunked</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"id":"808a2de1-1aaa-4c25-a9b9-6612e8f29a38"}]]></textPostContent>
+</http-action>

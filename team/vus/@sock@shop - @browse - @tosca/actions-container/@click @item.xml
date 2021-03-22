@@ -1,0 +1,9 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Click Item" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="c82194d7-4502-4623-8508-f95dfc5e7e36" weightsEnabled="false">
+    <weighted-embedded-action uid="3e45a333-88bc-4623-a3a5-00bbcbb1957d"/>
+    <weighted-embedded-action uid="60219d6a-9ada-48e3-bc34-0f6ecd4ede66"/>
+    <weighted-embedded-action uid="f5e57a22-b257-447e-912e-e6d7e37d9a6b"/>
+    <weighted-embedded-action uid="0a82a660-88a2-4858-8a8d-d3eb543cc9a8"/>
+</basic-logical-action-container>

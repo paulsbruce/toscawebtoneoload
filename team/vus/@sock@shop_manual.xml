@@ -1,0 +1,29 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false"
+    type="LEGACY" uid="SockShop_manual">
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="a5d7d0a9-f3a3-460f-ad66-d3dc26821d78"/>
+        <weighted-embedded-action uid="2cc5299b-530d-4607-8e88-013f2ab64471"/>
+        <weighted-embedded-action uid="65b7aaaa-7197-43ca-8395-26dc7cf95807"/>
+        <weighted-embedded-action uid="5be8fd90-f6b3-4a63-8bf9-26a5a04ba95b"/>
+        <weighted-embedded-action uid="4ba660aa-ddac-4490-b3b5-b8504b8fce40"/>
+        <weighted-embedded-action uid="84dda025-4d45-4c1e-8a86-02115c7a6f00"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="0" thinktimeValue="5000"/>
+</virtual-user>

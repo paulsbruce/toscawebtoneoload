@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Close Ushahidi website" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="128d3a8c-e987-4436-9665-44a0ece3c48d" weightsEnabled="false">
+    <weighted-embedded-action uid="862e545d-21e0-4e8f-808d-6dd9728adf0b"/>
+</basic-logical-action-container>
