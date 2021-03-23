@@ -1,0 +1,27 @@
+<connection-prometheus interval="30000" name="sock-shop_all"
+    server-name="prometheus" server-port="0" step="5000"
+    uid="6a4f3b8a-4d44-4b0f-9a5c-68bb81e39bd3" url="/">
+    <monitor-category name="Queries" short-display-name="Queries">
+        <monitor-prometheus callTime="ON_BENCH" computing="0"
+            format="NUMBER" group-by="{{instance}}"
+            legend-format="cpu on {{pod}}/{{container}}"
+            name="rate(container_cpu_user_seconds_total{namespace=&quot;sock-shop&quot;,container!=&quot;POD&quot;,container!=&quot;&quot;}[2m:5s]) * 100"
+            promql="rate(container_cpu_user_seconds_total{namespace=&quot;sock-shop&quot;,container!=&quot;POD&quot;,container!=&quot;&quot;}[2m:5s]) * 100"
+            sampling="0"
+            short-display-name="rate(container_cpu_user_seconds_total{namespace=_sock-sho..." unit=""/>
+        <monitor-prometheus callTime="ON_BENCH" computing="0"
+            format="NUMBER" group-by="{{instance}}"
+            legend-format="mem on {{pod}}/{{container}}"
+            name="container_memory_usage_bytes{namespace=&quot;sock-shop&quot;,container!=&quot;POD&quot;,container!=&quot;&quot;} / 1000000"
+            promql="container_memory_usage_bytes{namespace=&quot;sock-shop&quot;,container!=&quot;POD&quot;,container!=&quot;&quot;} / 1000000"
+            sampling="0"
+            short-display-name="container_memory_usage_bytes{namespace=_sock-shop_,contai..." unit=""/>
+        <monitor-prometheus callTime="ON_BENCH" computing="0"
+            format="NUMBER" group-by="Pod {{pod}}"
+            legend-format="restarts {{container}}"
+            name="kube_pod_container_status_restarts_total{namespace=&quot;sock-shop&quot;}"
+            promql="kube_pod_container_status_restarts_total{namespace=&quot;sock-shop&quot;}"
+            sampling="0"
+            short-display-name="kube_pod_container_status_restarts_total{namespace=_sock-..." unit=""/>
+    </monitor-category>
+</connection-prometheus>

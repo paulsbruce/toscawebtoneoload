@@ -1,9 +1,0 @@
-<basic-logical-action-container element-number="1" execution-type="0"
-    name="Log Out" pacingEnd="0" pacingMode="MODE_NO_PACING"
-    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
-    uid="84dda025-4d45-4c1e-8a86-02115c7a6f00" weightsEnabled="false">
-    <weighted-embedded-action uid="9e0696ce-b643-4cff-b655-758252b71933"/>
-    <weighted-embedded-action uid="4143deb2-90b4-4304-ae80-d50b8ef8131c"/>
-    <weighted-embedded-action uid="6ac99df3-349e-4a10-b386-0f7d380a6a32"/>
-    <weighted-embedded-action uid="f545a315-2a9e-4afc-b79b-808df278ac06"/>
-</basic-logical-action-container>
