@@ -27,7 +27,7 @@ jobs:
     inputs:
       targetType: 'inline'
       script: |
-        pip install neoload==1.3.0.dev4
+        pip install neoload==1.3.0.dev5
         neoload --version
 
   - task: Bash@3
