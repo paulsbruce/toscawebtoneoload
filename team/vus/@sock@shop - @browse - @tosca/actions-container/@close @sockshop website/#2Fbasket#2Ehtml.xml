@@ -1,7 +1,7 @@
 <http-page executeResourcesDynamically="false" name="/basket.html"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@sock@shop - @browse - @tosca/%resources%/recorded-artifacts/1197589f-d5f1-4bc8-8af1-4c550c5b0545.zip"
-    slaProfileEnabled="false" thinkTime="4284"
+    slaProfileEnabled="false" thinkTime="${RandPageThinkTimeMs}"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="1197589f-d5f1-4bc8-8af1-4c550c5b0545">
     <embedded-action>774df61d-afc9-4126-b404-9780c9ebfade</embedded-action>

@@ -1,7 +1,7 @@
 <http-page executeResourcesDynamically="false" name="/cart"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@sock@shop - @browse - @tosca/%resources%/recorded-artifacts/c244a10a-b9cc-4c22-ba1c-b943675a3de9.zip"
-    slaProfileEnabled="false" thinkTime="2690"
+    slaProfileEnabled="false" thinkTime="${RandPageThinkTimeMs}"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="c244a10a-b9cc-4c22-ba1c-b943675a3de9">
     <embedded-action>962d8957-be1d-490a-b4fc-a6ee41be2e1a</embedded-action>
