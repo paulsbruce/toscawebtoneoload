@@ -15,6 +15,21 @@
             <lg-host-entry>$zoneID=Default zone;$lgID=localhost:7100</lg-host-entry>
         </lg-hosts>
     </population-policy>
+    <!--****** POPULATION POLICY ******-->
+    <population-policy name="qtest">
+        <duration-policy-entry iterations="1" time="120" timeUnit="0" type="1"/>
+        <volume-policy-entry>
+            <constant-volume-policy iterationNumber="1" userNumber="1"/>
+        </volume-policy-entry>
+        <start-stop-policy-entry start-delay="0" start-type="0"
+            stop-delay="60000" stop-type="0"/>
+        <runtime-policy continueOnError="true" thinktimePolicy="0"
+            thinktimeValue="5000" vuStartDelay="0" vuStartMode="0"/>
+        <!--****** POPULATION LG HOSTS ******-->
+        <lg-hosts>
+            <lg-host-entry>$zoneID=Default zone;$lgID=localhost:7100</lg-host-entry>
+        </lg-hosts>
+    </population-policy>
     <dashboards defaultDashboardUid="Graph board"/>
     <!--****** DASHBOARDS  ******-->
     <charts-model-description name="Graph board">
@@ -1313,7 +1328,6 @@
                 monitorName="2:__name__:kube_pod_container_status_restarts_total, container:user-db, endpoint:http, instance:192.168.106.188:8080, job:kube-state-metrics, namespace:sock-shop, pod:user-db-79b99f877f-jm8xb, service:prometheus-kube-state-metrics"
                 monitoredHostName="localhost" scale="1.0" selected="false"/>
         </chart-description>
-        <empty-chart-description/>
     </charts-model-description>
     <!--****** END DASHBOARDS  ******-->
     <!--****** START DATA FILTERS  ******-->
