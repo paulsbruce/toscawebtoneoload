@@ -5,9 +5,9 @@ pool:
 
 variables:
   neoloadToken: $(secret_nlw_token)
-  neoloadApiUrl: 'https://neoload-api.saas.neotys.com/'
-  workspaceId: '5f329c43f6ecb40001d7b3e2'
-  zoneId: 'fNCnQ'
+  neoloadApiUrl: 'https://neoload-web-api.neotys.perfreleng.org/'
+  workspaceId: '5fd12022430f780001e3fb61'
+  zoneId: 'wNBKe'
   max_fail_percent: 25
   PYTHONUNBUFFERED: 1
 
