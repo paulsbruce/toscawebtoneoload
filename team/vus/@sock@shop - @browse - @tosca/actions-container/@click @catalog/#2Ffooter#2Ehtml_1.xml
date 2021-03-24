@@ -18,7 +18,7 @@
     method="GET" name="/footer.html" path="/footer.html" postType="2"
     recordedArtifactZipFileName="team/vus/@sock@shop - @browse - @tosca/%resources%/recorded-artifacts/408b0aca-a47b-4c40-b5aa-867eb81546c9.zip"
     recordedResponseCode="200" responseSize="3172"
-    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="true"
+    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="false"
     slaProfileName="fastfail" uid="859a87f5-920e-4913-a997-28b0d43052c4" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_859a87f5-920e-4913-a997-28b0d43052c4.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_859a87f5-920e-4913-a997-28b0d43052c4.txt</requestContentFileDescription>

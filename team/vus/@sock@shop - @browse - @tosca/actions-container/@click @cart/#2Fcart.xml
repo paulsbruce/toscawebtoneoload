@@ -14,7 +14,8 @@
     recordedArtifactZipFileName="team/vus/@sock@shop - @browse - @tosca/%resources%/recorded-artifacts/c244a10a-b9cc-4c22-ba1c-b943675a3de9.zip"
     recordedResponseCode="201" responseSize="0"
     serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="true"
-    slaProfileName="fastfail" uid="962d8957-be1d-490a-b4fc-a6ee41be2e1a" useKeepAlive="false">
+    slaProfileName="CartCalls"
+    uid="962d8957-be1d-490a-b4fc-a6ee41be2e1a" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_962d8957-be1d-490a-b4fc-a6ee41be2e1a.txt</requestContentFileDescription>
     <header name="Accept" value="*/*"/>
     <header name="Accept-Encoding" value="gzip, deflate"/>

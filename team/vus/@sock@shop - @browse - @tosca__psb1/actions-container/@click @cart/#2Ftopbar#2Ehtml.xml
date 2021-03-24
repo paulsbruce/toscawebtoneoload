@@ -18,7 +18,7 @@
     method="GET" name="/topbar.html" path="/topbar.html" postType="2"
     recordedArtifactZipFileName="team/vus/@sock@shop - @browse - @tosca__psb1/%resources%/recorded-artifacts/d0606a0a-bd3e-4895-88f0-42eb374e888d.zip"
     recordedResponseCode="200" responseSize="6579"
-    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="true"
+    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="false"
     slaProfileName="fastfail" uid="ad59c1b0-0c86-4cb7-a2cd-ad9475c45309" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_8f9dd9e1-c5e7-4ded-a76d-ccf8834e3f96.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_8f9dd9e1-c5e7-4ded-a76d-ccf8834e3f96.txt</requestContentFileDescription>
@@ -53,7 +53,7 @@ Connection: keep-alive</responseHeaders>
     path="/catalogue/03fef6ac-1896-4ce8-bd69-b798f85c6e0b" postType="2"
     recordedArtifactZipFileName="team/vus/@sock@shop - @browse - @tosca__psb1/%resources%/recorded-artifacts/d0606a0a-bd3e-4895-88f0-42eb374e888d.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="true"
+    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="false"
     slaProfileName="fastfail" uid="eb5190fa-b6a6-4012-a17d-83ef5a802918" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_4323e9d5-f765-413e-989e-05f338c9caf7.txt</requestContentFileDescription>
     <header name="Accept" value="application/json, text/javascript, */*; q=0.01"/>
@@ -82,7 +82,7 @@ Transfer-Encoding: chunked</responseHeaders>
     method="GET" name="/favicon.png" path="/favicon.png" postType="2"
     recordedArtifactZipFileName="team/vus/@sock@shop - @browse - @tosca__psb1/%resources%/recorded-artifacts/d0606a0a-bd3e-4895-88f0-42eb374e888d.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="true"
+    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="false"
     slaProfileName="fastfail" uid="fdb24ee8-10db-4ee1-bb40-ca1d99c14df0" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_15da3d21-9e49-4e3c-97df-dabbf305b96d.txt</requestContentFileDescription>
     <header name="Accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
