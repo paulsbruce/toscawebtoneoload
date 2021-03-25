@@ -1,5 +1,5 @@
 scenarios:
-- name: fullTOSCA
+- name: adhoc
   populations:
   - name: StandardPop
     rampup_load:
