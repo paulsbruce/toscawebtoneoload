@@ -47,7 +47,7 @@ jobs:
     inputs:
       targetType: 'inline'
       script: |
-        echo "Installing NeoLoad from Pypi Live (~20sec); if you don't want to do this, bake the NeoLoad CLI in!"
+        echo "Installing NeoLoad from Pypi Live (~20sec); if you don't want to do this, bake the NeoLoad CLI in to your worker image!"
         pip install -q neoload==1.3.0.dev5
         neoload --version
         neoload login --url $(neoloadApiUrl) --workspace $(workspaceId) $(neoloadToken)
@@ -70,8 +70,8 @@ jobs:
 
         neoload validate .
 
-        vus_per_lg_estimate=500
-        (( NUM_LGS=(${{ parameters.vus }}+$vus_per_lg_estimate-1)/$vus_per_lg_estimate ))
+        vus_per_lg_estimate=300
+        NUM_LGS=(${{ parameters.vus }}+$vus_per_lg_estimate-1)/$vus_per_lg_estimate
         echo "Estimated # of LGs ($vus_per_lg_estimate/LG): $NUM_LGS"
 
         neoload test-settings --zone $(zoneId) --lgs $NUM_LGS --scenario ${{ parameters.scenario }} createorpatch "TOSCANeoLoadFromAzure" \
@@ -84,9 +84,10 @@ jobs:
       targetType: 'inline'
       script: |
         set +x
-        (( LICENSE_VUS=(${{ parameters.vus }}+1) ))
+        LICENSE_VUS=(${{ parameters.vus }}+1)
+        echo "License VUs: $LICENSE_VUS"
 
-        neoload run --name "TOSCANeoLoadFromAzure_$(Build.BuildNumber)" \
+        neoload run --debug --name "TOSCANeoLoadFromAzure_$(Build.BuildNumber)" \
                     --description "Azure example with meta; $(Build.BuildUri)" \
                     --scenario ${{ parameters.scenario }} \
                     --web-vu $LICENSE_VUS \
