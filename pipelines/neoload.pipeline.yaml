@@ -66,8 +66,10 @@ jobs:
 
         neoload validate .
 
+        NUM_LGS=(( result=(${{ parameters.vus }}+500-1)/by ))
+
         neoload login --url $(neoloadApiUrl) --workspace $(workspaceId) $(neoloadToken) \
-                test-settings --zone $(zoneId) --lgs 1 --scenario ${{ parameters.scenario }} createorpatch "TOSCANeoLoadFromAzure" \
+                test-settings --zone $(zoneId) --lgs $NUM_LGS --scenario ${{ parameters.scenario }} createorpatch "TOSCANeoLoadFromAzure" \
                 project --path $(Build.SourcesDirectory) upload "TOSCANeoLoadFromAzure"
 
   - task: Bash@3
