@@ -12,16 +12,16 @@ parameters:
   - sanityTOSCA
   - fullTOSCA
 - name: duration
-  displayName: Test Duration
-  type: string
-  default: 2min
+  displayName: Test Duration (Mins)
+  type: number
+  default: 2
 - name: vus
-  displayName: Test VUs
-  type: string
+  displayName: Test VUs (as License Permits)
+  type: number
   default: 5
 - name: max_sla_failure_percent
-  displayName: Max SLA Failure Percent
-  type: string
+  displayName: Max SLA Failure Percent (0-100)
+  type: number
   default: 25
 
 variables:
@@ -47,7 +47,7 @@ jobs:
     inputs:
       targetType: 'inline'
       script: |
-        pip install neoload==1.3.0.dev5
+        pip install -q neoload==1.3.0.dev5
         neoload --version
 
   - task: Bash@3
@@ -58,10 +58,10 @@ jobs:
       script: |
         cp yaml/scenario.template ./actual-scenario.yaml
         sed -i 's/\[\[max_users\]\]/${{ parameters.vus }}/g' ./actual-scenario.yaml
-        sed -i 's/\[\[max_duration\]\]/${{ parameters.duration }}/g' ./actual-scenario.yaml
+        sed -i 's/\[\[max_duration\]\]/${{ parameters.duration }}m/g' ./actual-scenario.yaml
 
         neoload validate .
-        
+
         neoload login --url $(neoloadApiUrl) --workspace $(workspaceId) $(neoloadToken) \
                 test-settings --zone $(zoneId) --lgs 1 --scenario ${{ parameters.scenario }} createorpatch "TOSCANeoLoadFromAzure" \
                 project --path $(Build.SourcesDirectory) upload "TOSCANeoLoadFromAzure"
