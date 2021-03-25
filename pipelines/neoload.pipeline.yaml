@@ -66,7 +66,9 @@ jobs:
 
         neoload validate .
 
-        NUM_LGS=(( result=(${{ parameters.vus }}+500-1)/by ))
+        vus_per_lg_estimate=500
+        NUM_LGS=(( result=(${{ parameters.vus }}+$vus_per_lg_estimate-1)/$vus_per_lg_estimate ))
+        echo "Estimated # of LGs ($vus_per_lg_estimate/LG): $NUM_LGS"
 
         neoload login --url $(neoloadApiUrl) --workspace $(workspaceId) $(neoloadToken) \
                 test-settings --zone $(zoneId) --lgs $NUM_LGS --scenario ${{ parameters.scenario }} createorpatch "TOSCANeoLoadFromAzure" \
