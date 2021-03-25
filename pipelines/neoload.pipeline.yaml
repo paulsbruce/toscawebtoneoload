@@ -11,13 +11,24 @@ parameters:
   values:
   - sanityTOSCA
   - fullTOSCA
+- name: duration
+  displayName: Test Duration
+  type: string
+  default: 2min
+- name: vus
+  displayName: Test VUs
+  type: string
+  default: 5
+- name: max_sla_failure_percent
+  displayName: Max SLA Failure Percent
+  type: string
+  default: 25
 
 variables:
   neoloadToken: $(secret_nlw_token)
   neoloadApiUrl: 'https://neoload-web-api.neotys.perfreleng.org/'
   workspaceId: '5fd12022430f780001e3fb61'
   zoneId: 'wNBKe'
-  max_fail_percent: 25
   PYTHONUNBUFFERED: 1
 
 jobs:
@@ -45,7 +56,12 @@ jobs:
     inputs:
       targetType: 'inline'
       script: |
+        cp yaml/scenario.template ./actual-scenario.yaml
+        sed -i 's/\[\[max_users\]\]/${{ parameters.vus }}/g' ./actual-scenario.yaml
+        sed -i 's/\[\[max_duration\]\]/${{ parameters.duration }}/g' ./actual-scenario.yaml
+
         neoload validate .
+        
         neoload login --url $(neoloadApiUrl) --workspace $(workspaceId) $(neoloadToken) \
                 test-settings --zone $(zoneId) --lgs 1 --scenario ${{ parameters.scenario }} createorpatch "TOSCANeoLoadFromAzure" \
                 project --path $(Build.SourcesDirectory) upload "TOSCANeoLoadFromAzure"
@@ -59,7 +75,7 @@ jobs:
         neoload run --name "TOSCANeoLoadFromAzure_$(Build.BuildNumber)" \
                     --description "Azure example with meta; $(Build.BuildUri)" \
                     --scenario ${{ parameters.scenario }} \
-                    --as-code yaml/scenarios.template.nl.yaml,yaml/slas.template.nl.yaml \
+                    --as-code yaml/actual-scenario.yaml,yaml/slas.template.nl.yaml \
                     --detached
         sleep 10
 
@@ -69,7 +85,7 @@ jobs:
     inputs:
       targetType: 'inline'
       script: |
-        { sleep 120; neoload fastfail --max-failure $(max_fail_percent) slas cur; } &
+        { sleep 120; neoload fastfail --max-failure ${{ parameters.max_sla_failure_percent }} slas cur; } &
         neoload wait cur
 
   - task: Bash@3
