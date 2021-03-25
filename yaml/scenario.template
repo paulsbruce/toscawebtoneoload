@@ -8,23 +8,23 @@ scenarios:
       increment_users: 1
       increment_every: 2s
       duration: [[max_duration]]
-    apm_configuration:
-      dynatrace_tags:
-      - neotys-cpt
-      dynatrace_anomaly_rules:
-      - metric_id: builtin:host.cpu.usage
-        operator: ABOVE
-        value: 80
-        severity: PERFORMANCE
-      - metric_id: builtin:host.mem.usage
-        operator: ABOVE
-        value: 80
-        severity: PERFORMANCE
-    excluded_urls:
-    - .*\.jpg
-    - .*\.jpeg
-    - .*\.gif
-    - .*\.png
+  apm_configuration:
+    dynatrace_tags:
+    - neotys-cpt
+    dynatrace_anomaly_rules:
+    - metric_id: builtin:host.cpu.usage
+      operator: ABOVE
+      value: 80
+      severity: PERFORMANCE
+    - metric_id: builtin:host.mem.usage
+      operator: ABOVE
+      value: 80
+      severity: PERFORMANCE
+  excluded_urls:
+  - .*\.jpg
+  - .*\.jpeg
+  - .*\.gif
+  - .*\.png
   - name: qtest
     constant_load:
       users: 1

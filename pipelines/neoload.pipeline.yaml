@@ -57,9 +57,10 @@ jobs:
     inputs:
       targetType: 'inline'
       script: |
-        cp yaml/scenario.template ./actual-scenario.yaml
-        sed -i 's/\[\[max_users\]\]/${{ parameters.vus }}/g' ./actual-scenario.yaml
-        sed -i 's/\[\[max_duration\]\]/${{ parameters.duration }}m/g' ./actual-scenario.yaml
+        DYN_SCENARIO_FILE=$(Build.SourcesDirectory)/actual-scenario.yaml
+        cp yaml/scenario.template $DYN_SCENARIO_FILE
+        sed -i 's/\[\[max_users\]\]/${{ parameters.vus }}/g' $DYN_SCENARIO_FILE
+        sed -i 's/\[\[max_duration\]\]/${{ parameters.duration }}m/g' $DYN_SCENARIO_FILE
 
         cat ./actual-scenario.yaml
 
