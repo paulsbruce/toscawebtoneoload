@@ -42,7 +42,7 @@ jobs:
       versionSpec: '3.8'
 
   - task: Bash@3
-    displayName: Install NeoLoad
+    displayName: Install NeoLoad and Auth
     continueOnError: false
     inputs:
       targetType: 'inline'
@@ -50,6 +50,8 @@ jobs:
         echo "Installing NeoLoad from Pypi Live (~20sec); if you don't want to do this, bake the NeoLoad CLI in!"
         pip install -q neoload==1.3.0.dev5
         neoload --version
+        neoload login --url $(neoloadApiUrl) --workspace $(workspaceId) $(neoloadToken)
+
 
   - task: Bash@3
     displayName: Configure the NeoLoad test
@@ -57,6 +59,8 @@ jobs:
     inputs:
       targetType: 'inline'
       script: |
+        set +x
+        
         DYN_SCENARIO_FILE=$(Build.SourcesDirectory)/actual-scenario.yaml
         cp yaml/scenario.template $DYN_SCENARIO_FILE
         sed -i 's/\[\[max_users\]\]/${{ parameters.vus }}/g' $DYN_SCENARIO_FILE
@@ -70,8 +74,7 @@ jobs:
         (( NUM_LGS=(${{ parameters.vus }}+$vus_per_lg_estimate-1)/$vus_per_lg_estimate ))
         echo "Estimated # of LGs ($vus_per_lg_estimate/LG): $NUM_LGS"
 
-        neoload login --url $(neoloadApiUrl) --workspace $(workspaceId) $(neoloadToken) \
-                test-settings --zone $(zoneId) --lgs $NUM_LGS --scenario ${{ parameters.scenario }} createorpatch "TOSCANeoLoadFromAzure" \
+        neoload test-settings --zone $(zoneId) --lgs $NUM_LGS --scenario ${{ parameters.scenario }} createorpatch "TOSCANeoLoadFromAzure" \
                 project --path $(Build.SourcesDirectory) upload "TOSCANeoLoadFromAzure"
 
   - task: Bash@3
