@@ -60,7 +60,7 @@ jobs:
       targetType: 'inline'
       script: |
         set +x
-        
+
         DYN_SCENARIO_FILE=$(Build.SourcesDirectory)/actual-scenario.yaml
         cp yaml/scenario.template $DYN_SCENARIO_FILE
         sed -i 's/\[\[max_users\]\]/${{ parameters.vus }}/g' $DYN_SCENARIO_FILE
@@ -83,6 +83,7 @@ jobs:
     inputs:
       targetType: 'inline'
       script: |
+        set +x
         (( LICENSE_VUS=(${{ parameters.vus }}+1) ))
 
         neoload run --name "TOSCANeoLoadFromAzure_$(Build.BuildNumber)" \
