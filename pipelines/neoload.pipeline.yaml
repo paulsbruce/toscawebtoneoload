@@ -67,7 +67,7 @@ jobs:
         neoload validate .
 
         vus_per_lg_estimate=500
-        NUM_LGS=(( result=(${{ parameters.vus }}+$vus_per_lg_estimate-1)/$vus_per_lg_estimate ))
+        (( NUM_LGS=(${{ parameters.vus }}+$vus_per_lg_estimate-1)/$vus_per_lg_estimate ))
         echo "Estimated # of LGs ($vus_per_lg_estimate/LG): $NUM_LGS"
 
         neoload login --url $(neoloadApiUrl) --workspace $(workspaceId) $(neoloadToken) \
