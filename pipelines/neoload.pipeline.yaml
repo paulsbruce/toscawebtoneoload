@@ -87,7 +87,7 @@ jobs:
         (( LICENSE_VUS=${{ parameters.vus }}+1 ))
         echo "License VUs: $LICENSE_VUS"
 
-        neoload run --debug --name "TOSCANeoLoadFromAzure_$(Build.BuildNumber)" \
+        neoload --debug run --name "TOSCANeoLoadFromAzure_$(Build.BuildNumber)" \
                     --description "Azure example with meta; $(Build.BuildUri)" \
                     --scenario ${{ parameters.scenario }} \
                     --web-vu $LICENSE_VUS \
