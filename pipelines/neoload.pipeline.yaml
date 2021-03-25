@@ -36,6 +36,7 @@ jobs:
     inputs:
       targetType: 'inline'
       script: |
+        neoload validate .
         neoload login --url $(neoloadApiUrl) --workspace $(workspaceId) $(neoloadToken) \
                 test-settings --zone $(zoneId) --lgs 1 --scenario fullTOSCA createorpatch "TOSCANeoLoadFromAzure" \
                 project --path $(Build.SourcesDirectory) upload "TOSCANeoLoadFromAzure"
@@ -48,6 +49,8 @@ jobs:
       script: |
         neoload run --name "TOSCANeoLoadFromAzure_$(Build.BuildNumber)" \
                     --description "Azure example with meta; $(Build.BuildUri)" \
+                    --scenario sanityTOSCA \
+                    --as-code yaml/scenarios.template.nl.yaml,yaml/slas.template.nl.yaml \
                     --detached
         sleep 10
 
