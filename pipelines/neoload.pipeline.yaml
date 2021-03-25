@@ -60,6 +60,8 @@ jobs:
         sed -i 's/\[\[max_users\]\]/${{ parameters.vus }}/g' ./actual-scenario.yaml
         sed -i 's/\[\[max_duration\]\]/${{ parameters.duration }}m/g' ./actual-scenario.yaml
 
+        cat ./actual-scenario.yaml
+
         neoload validate .
 
         neoload login --url $(neoloadApiUrl) --workspace $(workspaceId) $(neoloadToken) \
