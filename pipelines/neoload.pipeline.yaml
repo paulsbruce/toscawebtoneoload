@@ -7,16 +7,17 @@ parameters:
 - name: scenario
   displayName: NeoLoad Scenario
   type: string
-  default: sanityTOSCA
+  default: adhoc
   values:
+  - adhoc
   - sanityTOSCA
   - fullTOSCA
 - name: duration
-  displayName: Test Duration (Mins)
+  displayName: "Adhoc: Test Duration (Mins)"
   type: number
   default: 2
 - name: vus
-  displayName: Test VUs (as License Permits)
+  displayName: "Adhoc: Test VUs (as License Permits)"
   type: number
   default: 5
 - name: max_sla_failure_percent
