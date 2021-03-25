@@ -3,6 +3,15 @@ trigger: none
 pool:
   vmImage: 'ubuntu-18.04'
 
+parameters:
+- name: scenario
+  displayName: NeoLoad Scenario
+  type: string
+  default: sanityTOSCA
+  values:
+  - sanityTOSCA
+  - fullTOSCA
+
 variables:
   neoloadToken: $(secret_nlw_token)
   neoloadApiUrl: 'https://neoload-web-api.neotys.perfreleng.org/'
@@ -38,7 +47,7 @@ jobs:
       script: |
         neoload validate .
         neoload login --url $(neoloadApiUrl) --workspace $(workspaceId) $(neoloadToken) \
-                test-settings --zone $(zoneId) --lgs 1 --scenario fullTOSCA createorpatch "TOSCANeoLoadFromAzure" \
+                test-settings --zone $(zoneId) --lgs 1 --scenario ${{ parameters.scenario }} createorpatch "TOSCANeoLoadFromAzure" \
                 project --path $(Build.SourcesDirectory) upload "TOSCANeoLoadFromAzure"
 
   - task: Bash@3
@@ -49,7 +58,7 @@ jobs:
       script: |
         neoload run --name "TOSCANeoLoadFromAzure_$(Build.BuildNumber)" \
                     --description "Azure example with meta; $(Build.BuildUri)" \
-                    --scenario sanityTOSCA \
+                    --scenario ${{ parameters.scenario }} \
                     --as-code yaml/scenarios.template.nl.yaml,yaml/slas.template.nl.yaml \
                     --detached
         sleep 10
