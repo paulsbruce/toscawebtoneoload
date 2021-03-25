@@ -87,13 +87,13 @@ jobs:
         set +x
         (( LICENSE_VUS=${{ parameters.vus }}+1 ))
         echo "License VUs: $LICENSE_VUS"
+        if [ "${{ parameters.scenario }}" -eq "adhoc" ]; then VUS_ARG="--web-vu $LICENSE_VUS"; fi
 
         neoload --debug run --name "TOSCANeoLoadFromAzure_$(Build.BuildNumber)" \
                     --description "Azure example with meta; $(Build.BuildUri)" \
                     --scenario ${{ parameters.scenario }} \
-                    --web-vu $LICENSE_VUS \
                     --as-code actual-scenario.yaml,yaml/slas.template.nl.yaml \
-                    --detached
+                    --detached $VUS_ARG
         sleep 10
 
   - task: Bash@3
