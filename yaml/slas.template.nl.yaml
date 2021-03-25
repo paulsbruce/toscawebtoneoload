@@ -7,5 +7,5 @@ sla_profiles:
 - name: CartCalls
   description: "CartCalls: Avg Resp Time and Error Rates"
   thresholds:
-  - avg-resp-time warn >= 2s fail >= 10s per test
+  - avg-resp-time warn >= 2s fail >= 10s per interval
   - error-rate warn >= 5% fail >= 10% per test
