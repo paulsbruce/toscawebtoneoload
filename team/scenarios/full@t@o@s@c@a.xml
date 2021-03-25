@@ -2,7 +2,7 @@
     slaProfileEnabled="false" traceVariables="true" uid="fullTOSCA" virtualUsersStates="true">
     <!--****** POPULATION POLICY ******-->
     <population-policy name="StandardPop">
-        <duration-policy-entry iterations="1" time="3600" timeUnit="0" type="2"/>
+        <duration-policy-entry iterations="1" time="900" timeUnit="0" type="2"/>
         <volume-policy-entry>
             <rampup-volume-policy delayIncrement="2.0"
                 delayTypeIncrement="1" initialUserNumber="2"
