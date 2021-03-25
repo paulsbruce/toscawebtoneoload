@@ -71,7 +71,7 @@ jobs:
         neoload validate .
 
         vus_per_lg_estimate=300
-        NUM_LGS=$((${{ parameters.vus }}+$vus_per_lg_estimate-1)/$vus_per_lg_estimate)
+        (( NUM_LGS=(${{ parameters.vus }}+$vus_per_lg_estimate-1)/$vus_per_lg_estimate ))
         echo "Estimated # of LGs ($vus_per_lg_estimate/LG): $NUM_LGS"
 
         neoload test-settings --zone $(zoneId) --lgs $NUM_LGS --scenario ${{ parameters.scenario }} createorpatch "TOSCANeoLoadFromAzure" \
@@ -84,7 +84,7 @@ jobs:
       targetType: 'inline'
       script: |
         set +x
-        LICENSE_VUS=$(${{ parameters.vus }}+1)
+        (( LICENSE_VUS=${{ parameters.vus }}+1 ))
         echo "License VUs: $LICENSE_VUS"
 
         neoload run --debug --name "TOSCANeoLoadFromAzure_$(Build.BuildNumber)" \
