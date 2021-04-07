@@ -1,0 +1,11 @@
+sla_profiles:
+- name: fastfail
+  description: "Fastfail: Avg Resp Time and Error Rates"
+  thresholds:
+  - avg-resp-time warn >= 2s fail >= 10s per interval
+  - errors-per-sec warn >= 1 fail >= 10 per interval
+- name: CartCalls
+  description: "CartCalls: Avg Resp Time and Error Rates"
+  thresholds:
+  - avg-resp-time warn >= 2s fail >= 10s per interval
+  - error-rate warn >= 5% fail >= 10% per test

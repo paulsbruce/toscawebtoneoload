@@ -1,3 +1,2 @@
-<dynaTraceSettings dynaTraceEnabled="false" logicalNamesEnabled="false"
-    login="admin" password="" port="2020" recordSessionEnabled="false"
-    server="" sessionLockingEnabled="false" ssl="false" systemName="" version="2.X"/>
+<dynaTraceSettings dynaTraceEnabled="true"
+    token="5r7raI9lmt16Ie7Bir9rv2INmrWc0Uz0" url="https://vwv51099.live.dynatrace.com"/>

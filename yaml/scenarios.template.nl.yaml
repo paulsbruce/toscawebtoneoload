@@ -1,0 +1,31 @@
+scenarios:
+- name: fullTOSCA
+  populations:
+  - name: StandardPop
+    rampup_load:
+      min_users: 1
+      max_users: 100
+      increment_users: 1
+      increment_every: 2s
+      duration: 30m
+    apm_configuration:
+      dynatrace_tags:
+      - neotys-cpt
+      dynatrace_anomaly_rules:
+      - metric_id: builtin:host.cpu.usage
+        operator: ABOVE
+        value: 80
+        severity: PERFORMANCE
+      - metric_id: builtin:host.mem.usage
+        operator: ABOVE
+        value: 80
+        severity: PERFORMANCE
+    excluded_urls:
+    - .*\.jpg
+    - .*\.jpeg
+    - .*\.gif
+    - .*\.png
+  - name: qtest
+    constant_load:
+      users: 1
+      duration: 1 iterations

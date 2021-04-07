@@ -1,8 +1,0 @@
-<basic-logical-action-container element-number="1" execution-type="0"
-    name="Open form to submit report" pacingEnd="0"
-    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
-    slaProfileEnabled="false" uid="aeea4ece-ade8-4412-8951-701fcc0e30df" weightsEnabled="false">
-    <weighted-embedded-action uid="2e745f62-f9ce-4b52-a8bd-b28736348347"/>
-    <weighted-embedded-action uid="30ef5db2-c369-4769-b11e-642ef6190063"/>
-    <weighted-embedded-action uid="99b380dd-0839-460e-ae34-1ac3c3cbe78f"/>
-</basic-logical-action-container>

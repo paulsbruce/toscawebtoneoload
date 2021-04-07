@@ -1,0 +1,4 @@
+<monitored-host host-name="localhost" mehost-name="localhost" uid="Prometheus on Cluster psb-sut">
+    <embedded-action>a1567245-bfc2-4074-be32-d3f3f7481f80</embedded-action>
+    <embedded-action>2d4f30f9-b846-4937-817e-f6af6d8749f5</embedded-action>
+</monitored-host>

@@ -1,7 +1,7 @@
 # Project description file
 
 project.name=toscawebtoneoload
-project.version=7.0
+project.version=8.2
 project.original.version=7.0
 product.name=NeoLoad
 product.original.name=NeoLoad

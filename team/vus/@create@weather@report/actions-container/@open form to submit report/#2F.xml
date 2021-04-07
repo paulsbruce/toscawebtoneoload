@@ -1,0 +1,773 @@
+<http-page executeResourcesDynamically="false" name="/"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@create@weather@report/%resources%/recorded-artifacts/ff51aaa0-c671-4d74-b4b0-4f6431f9ea2e.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="ff51aaa0-c671-4d74-b4b0-4f6431f9ea2e">
+    <embedded-action>0dcc2e84-83aa-4c8a-b74b-35e68d0aba76</embedded-action>
+    <embedded-action>39135806-1e44-46d7-95a8-a1b165bd4f83</embedded-action>
+    <embedded-action>3c1476a1-3eec-4ed2-a6ad-b42152b29106</embedded-action>
+    <embedded-action>caac2e55-984a-480c-8ab1-c57bba66008b</embedded-action>
+    <embedded-action>4c06db13-30d6-429e-9de5-39659703f72c</embedded-action>
+    <embedded-action>c1ef8c69-1c56-48b9-a73c-7d1dddeb41dc</embedded-action>
+    <embedded-action>a9d71882-e31a-495f-97e7-6034e818a422</embedded-action>
+    <embedded-action>1db1b8a5-dc3b-4aa7-b7b1-370a3e164589</embedded-action>
+    <embedded-action>86c439c3-8124-4185-b3cf-a0cdcc365992</embedded-action>
+    <embedded-action>fc2d3151-838a-4f71-a738-8ae2d1fa2589</embedded-action>
+    <embedded-action>ea53bcc6-67b5-4a9a-ab0d-d5c05dc4d969</embedded-action>
+    <embedded-action>5c7e324f-674c-4bb3-afd9-377c39a23d9a</embedded-action>
+    <embedded-action>95ec5dbe-6067-451d-a85d-75d4b1eb8ce9</embedded-action>
+    <embedded-action>82ac2d71-edf7-4338-8564-88f03338a808</embedded-action>
+    <embedded-action>2902e5bf-82b9-4ecc-b044-2d4fdbae4ecc</embedded-action>
+    <embedded-action>8e217e07-b17e-4950-96a2-69df79fa9786</embedded-action>
+    <embedded-action>59cd63a4-41bc-471f-ae8d-3118b90cac3a</embedded-action>
+    <embedded-action>767df12b-89a3-4cef-aaf0-fc86a2520b25</embedded-action>
+    <embedded-action>41e9a13a-38a0-44a5-a844-15a785a0f356</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/" path="/" postType="2"
+    recordedArtifactZipFileName="team/vus/@create@weather@report/%resources%/recorded-artifacts/ff51aaa0-c671-4d74-b4b0-4f6431f9ea2e.zip"
+    recordedResponseCode="200" responseSize="25236"
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="0dcc2e84-83aa-4c8a-b74b-35e68d0aba76" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_703cfb35-eec7-4f95-9ce4-52e520c9ebc3.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_703cfb35-eec7-4f95-9ce4-52e520c9ebc3.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html, application/xhtml+xml, image/jxr, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8,de-DE;q=0.5,de;q=0.3"/>
+    <header name="Cookie" value="rxVisitor=1585916374891RRO1ENUEAHVUCNSBDRRNLPS4GA4NFFTR; ushahidi=53kebfaicm7nl4mt3jp4p8o3k0"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="sampledemo.neotys.com"/>
+    <header name="Proxy-Connection" value="Keep-Alive"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 19 Mar 2021 16:08:42 GMT&#xd;
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16&#xd;
+X-Powered-By: PHP/5.4.16&#xd;
+Expires: Thu, 19 Nov 1981 08:52:00 GMT&#xd;
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0&#xd;
+Pragma: no-cache&#xd;
+Set-Cookie: ushahidi=53kebfaicm7nl4mt3jp4p8o3k0; expires=Fri, 19-Mar-2021 18:08:42 GMT; path=/; httponly&#xd;
+Vary: Accept-Encoding&#xd;
+Content-Encoding: gzip&#xd;
+Content-Length: 8487&#xd;
+Connection: close&#xd;
+Content-Type: text/html; charset=UTF-8&#xd;
+Set-Cookie: SRVNAME=S2; path=/</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css"
+    eTag="&quot;b4a-514cc67264b00&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 28 Apr 2015 17:43:40 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/media/css/global.css"
+    path="/media/css/global.css" postType="2"
+    recordedArtifactZipFileName="team/vus/@create@weather@report/%resources%/recorded-artifacts/ff51aaa0-c671-4d74-b4b0-4f6431f9ea2e.zip"
+    recordedResponseCode="200" responseSize="2890"
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="39135806-1e44-46d7-95a8-a1b165bd4f83" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_c1158c25-9bb1-42b9-99ec-c9fab881368a.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_c1158c25-9bb1-42b9-99ec-c9fab881368a.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="m"
+        recordRawValue="1430243020" separator="=" value="1430243020" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=""
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/css, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8,de-DE;q=0.5,de;q=0.3"/>
+    <header name="Cookie" value="rxVisitor=1585916374891RRO1ENUEAHVUCNSBDRRNLPS4GA4NFFTR; ushahidi=53kebfaicm7nl4mt3jp4p8o3k0; SRVNAME=S2"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="sampledemo.neotys.com"/>
+    <header name="Proxy-Connection" value="Keep-Alive"/>
+    <header name="Referer" value="http://sampledemo.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 19 Mar 2021 16:08:42 GMT&#xd;
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16&#xd;
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT&#xd;
+ETag: "b4a-514cc67264b00"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 2890&#xd;
+Connection: close&#xd;
+Content-Type: text/css</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css"
+    eTag="&quot;2e81-514cc67264b00&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 28 Apr 2015 17:43:40 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/media/css/openlayers.css"
+    path="/media/css/openlayers.css" postType="2"
+    recordedArtifactZipFileName="team/vus/@create@weather@report/%resources%/recorded-artifacts/ff51aaa0-c671-4d74-b4b0-4f6431f9ea2e.zip"
+    recordedResponseCode="200" responseSize="11905"
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="3c1476a1-3eec-4ed2-a6ad-b42152b29106" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_2d7ac82e-6971-4152-a3cf-f40c0c5ae5f3.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_2d7ac82e-6971-4152-a3cf-f40c0c5ae5f3.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="m"
+        recordRawValue="1430243020" separator="=" value="1430243020" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=""
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/css, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8,de-DE;q=0.5,de;q=0.3"/>
+    <header name="Cookie" value="rxVisitor=1585916374891RRO1ENUEAHVUCNSBDRRNLPS4GA4NFFTR; ushahidi=53kebfaicm7nl4mt3jp4p8o3k0; SRVNAME=S2"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="sampledemo.neotys.com"/>
+    <header name="Proxy-Connection" value="Keep-Alive"/>
+    <header name="Referer" value="http://sampledemo.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 19 Mar 2021 16:08:42 GMT&#xd;
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16&#xd;
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT&#xd;
+ETag: "2e81-514cc67264b00"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 11905&#xd;
+Connection: close&#xd;
+Content-Type: text/css</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css"
+    eTag="&quot;aa5-514cc67264b00&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 28 Apr 2015 17:43:40 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/themes/default/css/slider.css"
+    path="/themes/default/css/slider.css" postType="2"
+    recordedArtifactZipFileName="team/vus/@create@weather@report/%resources%/recorded-artifacts/ff51aaa0-c671-4d74-b4b0-4f6431f9ea2e.zip"
+    recordedResponseCode="200" responseSize="2725"
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="caac2e55-984a-480c-8ab1-c57bba66008b" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_8c6fc123-1f86-46db-aaaf-ac5dd5753695.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_8c6fc123-1f86-46db-aaaf-ac5dd5753695.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="m"
+        recordRawValue="1430243020" separator="=" value="1430243020" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=""
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/css, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8,de-DE;q=0.5,de;q=0.3"/>
+    <header name="Cookie" value="rxVisitor=1585916374891RRO1ENUEAHVUCNSBDRRNLPS4GA4NFFTR; ushahidi=53kebfaicm7nl4mt3jp4p8o3k0; SRVNAME=S2"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="sampledemo.neotys.com"/>
+    <header name="Proxy-Connection" value="Keep-Alive"/>
+    <header name="Referer" value="http://sampledemo.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 19 Mar 2021 16:08:43 GMT&#xd;
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16&#xd;
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT&#xd;
+ETag: "aa5-514cc67264b00"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 2725&#xd;
+Connection: close&#xd;
+Content-Type: text/css</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css"
+    eTag="&quot;6bbd-514cc67264b00&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 28 Apr 2015 17:43:40 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/media/css/jquery-ui-themeroller.css"
+    path="/media/css/jquery-ui-themeroller.css" postType="2"
+    recordedArtifactZipFileName="team/vus/@create@weather@report/%resources%/recorded-artifacts/ff51aaa0-c671-4d74-b4b0-4f6431f9ea2e.zip"
+    recordedResponseCode="200" responseSize="27581"
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="4c06db13-30d6-429e-9de5-39659703f72c" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_b9ebbb02-7a97-4229-92e7-66b58cb70a6e.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_b9ebbb02-7a97-4229-92e7-66b58cb70a6e.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="m"
+        recordRawValue="1430243020" separator="=" value="1430243020" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=""
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/css, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8,de-DE;q=0.5,de;q=0.3"/>
+    <header name="Cookie" value="rxVisitor=1585916374891RRO1ENUEAHVUCNSBDRRNLPS4GA4NFFTR; ushahidi=53kebfaicm7nl4mt3jp4p8o3k0; SRVNAME=S2"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="sampledemo.neotys.com"/>
+    <header name="Proxy-Connection" value="Keep-Alive"/>
+    <header name="Referer" value="http://sampledemo.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 19 Mar 2021 16:08:43 GMT&#xd;
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16&#xd;
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT&#xd;
+ETag: "6bbd-514cc67264b00"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 27581&#xd;
+Connection: close&#xd;
+Content-Type: text/css</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css"
+    eTag="&quot;164f-514cc67264b00&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 28 Apr 2015 17:43:40 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/themes/default/css/base.css"
+    path="/themes/default/css/base.css" postType="2"
+    recordedArtifactZipFileName="team/vus/@create@weather@report/%resources%/recorded-artifacts/ff51aaa0-c671-4d74-b4b0-4f6431f9ea2e.zip"
+    recordedResponseCode="200" responseSize="5711"
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="c1ef8c69-1c56-48b9-a73c-7d1dddeb41dc" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_055889ce-9557-49f6-b0ce-5e5150fafe5d.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_055889ce-9557-49f6-b0ce-5e5150fafe5d.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="m"
+        recordRawValue="1430243020" separator="=" value="1430243020" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=""
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/css, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8,de-DE;q=0.5,de;q=0.3"/>
+    <header name="Cookie" value="rxVisitor=1585916374891RRO1ENUEAHVUCNSBDRRNLPS4GA4NFFTR; ushahidi=53kebfaicm7nl4mt3jp4p8o3k0; SRVNAME=S2"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="sampledemo.neotys.com"/>
+    <header name="Proxy-Connection" value="Keep-Alive"/>
+    <header name="Referer" value="http://sampledemo.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 19 Mar 2021 16:08:42 GMT&#xd;
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16&#xd;
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT&#xd;
+ETag: "164f-514cc67264b00"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 5711&#xd;
+Connection: close&#xd;
+Content-Type: text/css</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css"
+    eTag="&quot;429-514cc67264b00&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 28 Apr 2015 17:43:40 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/themes/default/css/accordion.css"
+    path="/themes/default/css/accordion.css" postType="2"
+    recordedArtifactZipFileName="team/vus/@create@weather@report/%resources%/recorded-artifacts/ff51aaa0-c671-4d74-b4b0-4f6431f9ea2e.zip"
+    recordedResponseCode="200" responseSize="1065"
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="a9d71882-e31a-495f-97e7-6034e818a422" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_5f4688c6-bb34-411f-b0b8-c257da3e99d8.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_5f4688c6-bb34-411f-b0b8-c257da3e99d8.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="m"
+        recordRawValue="1430243020" separator="=" value="1430243020" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=""
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/css, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8,de-DE;q=0.5,de;q=0.3"/>
+    <header name="Cookie" value="rxVisitor=1585916374891RRO1ENUEAHVUCNSBDRRNLPS4GA4NFFTR; ushahidi=53kebfaicm7nl4mt3jp4p8o3k0; SRVNAME=S2"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="sampledemo.neotys.com"/>
+    <header name="Proxy-Connection" value="Keep-Alive"/>
+    <header name="Referer" value="http://sampledemo.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 19 Mar 2021 16:08:42 GMT&#xd;
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16&#xd;
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT&#xd;
+ETag: "429-514cc67264b00"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 1065&#xd;
+Connection: close&#xd;
+Content-Type: text/css</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css"
+    eTag="&quot;c097-514cc67264b00&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 28 Apr 2015 17:43:40 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/themes/default/css/style.css"
+    path="/themes/default/css/style.css" postType="2"
+    recordedArtifactZipFileName="team/vus/@create@weather@report/%resources%/recorded-artifacts/ff51aaa0-c671-4d74-b4b0-4f6431f9ea2e.zip"
+    recordedResponseCode="200" responseSize="49303"
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="1db1b8a5-dc3b-4aa7-b7b1-370a3e164589" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_68eff8dd-eb51-4160-a12c-62b0ca94bd8c.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_68eff8dd-eb51-4160-a12c-62b0ca94bd8c.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="m"
+        recordRawValue="1430243020" separator="=" value="1430243020" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=""
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/css, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8,de-DE;q=0.5,de;q=0.3"/>
+    <header name="Cookie" value="rxVisitor=1585916374891RRO1ENUEAHVUCNSBDRRNLPS4GA4NFFTR; ushahidi=53kebfaicm7nl4mt3jp4p8o3k0; SRVNAME=S2"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="sampledemo.neotys.com"/>
+    <header name="Proxy-Connection" value="Keep-Alive"/>
+    <header name="Referer" value="http://sampledemo.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 19 Mar 2021 16:08:42 GMT&#xd;
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16&#xd;
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT&#xd;
+ETag: "c097-514cc67264b00"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 49303&#xd;
+Connection: close&#xd;
+Content-Type: text/css</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    eTag="&quot;11bf-514cc67264b00&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 28 Apr 2015 17:43:40 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/media/js/jquery.timeago.js"
+    path="/media/js/jquery.timeago.js" postType="2"
+    recordedArtifactZipFileName="team/vus/@create@weather@report/%resources%/recorded-artifacts/ff51aaa0-c671-4d74-b4b0-4f6431f9ea2e.zip"
+    recordedResponseCode="200"
+    refererUid="0dcc2e84-83aa-4c8a-b74b-35e68d0aba76"
+    responseSize="4543" serverUid="sampledemo.neotys.com"
+    slaProfileEnabled="true" slaProfileName="fastfail"
+    uid="86c439c3-8124-4185-b3cf-a0cdcc365992" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_f2205490-c5ce-44ef-9c9f-4287c9a9e39f</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_f2205490-c5ce-44ef-9c9f-4287c9a9e39f.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="m"
+        recordRawValue="1430243020" separator="=" value="1430243020" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=""
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/javascript, */*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8,de-DE;q=0.5,de;q=0.3"/>
+    <header name="Cookie" value="rxVisitor=1585916374891RRO1ENUEAHVUCNSBDRRNLPS4GA4NFFTR; ushahidi=53kebfaicm7nl4mt3jp4p8o3k0; SRVNAME=S2"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="sampledemo.neotys.com"/>
+    <header name="Proxy-Connection" value="Keep-Alive"/>
+    <header name="Referer" value="http://sampledemo.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 19 Mar 2021 16:08:42 GMT&#xd;
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16&#xd;
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT&#xd;
+ETag: "11bf-514cc67264b00"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 4543&#xd;
+Connection: close&#xd;
+Content-Type: application/javascript</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="4"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    eTag="&quot;9bf-514cc67264b00&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 28 Apr 2015 17:43:40 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/media/js/jquery.pngFix.pack.js"
+    path="/media/js/jquery.pngFix.pack.js" postType="2"
+    recordedArtifactZipFileName="team/vus/@create@weather@report/%resources%/recorded-artifacts/ff51aaa0-c671-4d74-b4b0-4f6431f9ea2e.zip"
+    recordedResponseCode="200"
+    refererUid="0dcc2e84-83aa-4c8a-b74b-35e68d0aba76"
+    responseSize="2495" serverUid="sampledemo.neotys.com"
+    slaProfileEnabled="true" slaProfileName="fastfail"
+    uid="fc2d3151-838a-4f71-a738-8ae2d1fa2589" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_399d3e23-2111-46c7-b7f7-e08e2779c0cc</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_399d3e23-2111-46c7-b7f7-e08e2779c0cc.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="m"
+        recordRawValue="1430243020" separator="=" value="1430243020" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=""
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/javascript, */*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8,de-DE;q=0.5,de;q=0.3"/>
+    <header name="Cookie" value="rxVisitor=1585916374891RRO1ENUEAHVUCNSBDRRNLPS4GA4NFFTR; ushahidi=53kebfaicm7nl4mt3jp4p8o3k0; SRVNAME=S2"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="sampledemo.neotys.com"/>
+    <header name="Proxy-Connection" value="Keep-Alive"/>
+    <header name="Referer" value="http://sampledemo.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 19 Mar 2021 16:08:42 GMT&#xd;
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16&#xd;
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT&#xd;
+ETag: "9bf-514cc67264b00"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 2495&#xd;
+Connection: close&#xd;
+Content-Type: application/javascript</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="3"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    eTag="&quot;1367c-514cc67264b00&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 28 Apr 2015 17:43:40 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/media/js/jquery.ui.min.js"
+    path="/media/js/jquery.ui.min.js" postType="2"
+    recordedArtifactZipFileName="team/vus/@create@weather@report/%resources%/recorded-artifacts/ff51aaa0-c671-4d74-b4b0-4f6431f9ea2e.zip"
+    recordedResponseCode="200"
+    refererUid="0dcc2e84-83aa-4c8a-b74b-35e68d0aba76"
+    responseSize="79484" serverUid="sampledemo.neotys.com"
+    slaProfileEnabled="true" slaProfileName="fastfail"
+    uid="ea53bcc6-67b5-4a9a-ab0d-d5c05dc4d969" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_e1a5de02-0ca8-4f4b-8430-258f763e98d6</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_e1a5de02-0ca8-4f4b-8430-258f763e98d6.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="m"
+        recordRawValue="1430243020" separator="=" value="1430243020" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=""
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/javascript, */*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8,de-DE;q=0.5,de;q=0.3"/>
+    <header name="Cookie" value="rxVisitor=1585916374891RRO1ENUEAHVUCNSBDRRNLPS4GA4NFFTR; ushahidi=53kebfaicm7nl4mt3jp4p8o3k0; SRVNAME=S2"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="sampledemo.neotys.com"/>
+    <header name="Proxy-Connection" value="Keep-Alive"/>
+    <header name="Referer" value="http://sampledemo.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 19 Mar 2021 16:08:42 GMT&#xd;
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16&#xd;
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT&#xd;
+ETag: "1367c-514cc67264b00"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 79484&#xd;
+Connection: close&#xd;
+Content-Type: application/javascript</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="2"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    eTag="&quot;17277-514cc67264b00&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 28 Apr 2015 17:43:40 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/media/js/jquery.js" path="/media/js/jquery.js"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@create@weather@report/%resources%/recorded-artifacts/ff51aaa0-c671-4d74-b4b0-4f6431f9ea2e.zip"
+    recordedResponseCode="200"
+    refererUid="0dcc2e84-83aa-4c8a-b74b-35e68d0aba76"
+    responseSize="94839" serverUid="sampledemo.neotys.com"
+    slaProfileEnabled="true" slaProfileName="fastfail"
+    uid="5c7e324f-674c-4bb3-afd9-377c39a23d9a" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_3c5f0100-2d0f-4caa-8140-9bf06b14f1e3</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_3c5f0100-2d0f-4caa-8140-9bf06b14f1e3.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="m"
+        recordRawValue="1430243020" separator="=" value="1430243020" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=""
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/javascript, */*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8,de-DE;q=0.5,de;q=0.3"/>
+    <header name="Cookie" value="rxVisitor=1585916374891RRO1ENUEAHVUCNSBDRRNLPS4GA4NFFTR; ushahidi=53kebfaicm7nl4mt3jp4p8o3k0; SRVNAME=S2"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="sampledemo.neotys.com"/>
+    <header name="Proxy-Connection" value="Keep-Alive"/>
+    <header name="Referer" value="http://sampledemo.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 19 Mar 2021 16:08:43 GMT&#xd;
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16&#xd;
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT&#xd;
+ETag: "17277-514cc67264b00"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 94839&#xd;
+Connection: close&#xd;
+Content-Type: application/javascript</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="1"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    eTag="&quot;4db-514cc67264b00&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 28 Apr 2015 17:43:40 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/media/js/global.js" path="/media/js/global.js"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@create@weather@report/%resources%/recorded-artifacts/ff51aaa0-c671-4d74-b4b0-4f6431f9ea2e.zip"
+    recordedResponseCode="200"
+    refererUid="0dcc2e84-83aa-4c8a-b74b-35e68d0aba76"
+    responseSize="1243" serverUid="sampledemo.neotys.com"
+    slaProfileEnabled="true" slaProfileName="fastfail"
+    uid="95ec5dbe-6067-451d-a85d-75d4b1eb8ce9" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_8ad6a5d8-0102-45d7-8da1-39b46908a13c</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_8ad6a5d8-0102-45d7-8da1-39b46908a13c.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="m"
+        recordRawValue="1430243020" separator="=" value="1430243020" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=""
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/javascript, */*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8,de-DE;q=0.5,de;q=0.3"/>
+    <header name="Cookie" value="rxVisitor=1585916374891RRO1ENUEAHVUCNSBDRRNLPS4GA4NFFTR; ushahidi=53kebfaicm7nl4mt3jp4p8o3k0; SRVNAME=S2"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="sampledemo.neotys.com"/>
+    <header name="Proxy-Connection" value="Keep-Alive"/>
+    <header name="Referer" value="http://sampledemo.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 19 Mar 2021 16:08:43 GMT&#xd;
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16&#xd;
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT&#xd;
+ETag: "4db-514cc67264b00"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 1243&#xd;
+Connection: close&#xd;
+Content-Type: application/javascript</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="5"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    eTag="&quot;bc0d0-514cc67264b00&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 28 Apr 2015 17:43:40 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/media/js/OpenLayers.js"
+    path="/media/js/OpenLayers.js" postType="2"
+    recordedArtifactZipFileName="team/vus/@create@weather@report/%resources%/recorded-artifacts/ff51aaa0-c671-4d74-b4b0-4f6431f9ea2e.zip"
+    recordedResponseCode="200"
+    refererUid="0dcc2e84-83aa-4c8a-b74b-35e68d0aba76"
+    responseSize="770256" serverUid="sampledemo.neotys.com"
+    slaProfileEnabled="true" slaProfileName="fastfail"
+    uid="82ac2d71-edf7-4338-8564-88f03338a808" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_982bc91a-505d-4143-a99b-e2707a4581a7</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_982bc91a-505d-4143-a99b-e2707a4581a7.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="m"
+        recordRawValue="1430243020" separator="=" value="1430243020" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=""
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/javascript, */*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8,de-DE;q=0.5,de;q=0.3"/>
+    <header name="Cookie" value="rxVisitor=1585916374891RRO1ENUEAHVUCNSBDRRNLPS4GA4NFFTR; ushahidi=53kebfaicm7nl4mt3jp4p8o3k0; SRVNAME=S2"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="sampledemo.neotys.com"/>
+    <header name="Proxy-Connection" value="Keep-Alive"/>
+    <header name="Referer" value="http://sampledemo.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 19 Mar 2021 16:08:43 GMT&#xd;
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16&#xd;
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT&#xd;
+ETag: "bc0d0-514cc67264b00"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 770256&#xd;
+Connection: close&#xd;
+Content-Type: application/javascript</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="6"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    eTag="&quot;8a25-514cc67264b00&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 28 Apr 2015 17:43:40 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/media/js/ushahidi.js"
+    path="/media/js/ushahidi.js" postType="2"
+    recordedArtifactZipFileName="team/vus/@create@weather@report/%resources%/recorded-artifacts/ff51aaa0-c671-4d74-b4b0-4f6431f9ea2e.zip"
+    recordedResponseCode="200"
+    refererUid="0dcc2e84-83aa-4c8a-b74b-35e68d0aba76"
+    responseSize="35365" serverUid="sampledemo.neotys.com"
+    slaProfileEnabled="true" slaProfileName="fastfail"
+    uid="2902e5bf-82b9-4ecc-b044-2d4fdbae4ecc" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_f51e7e52-123e-4208-98b0-2b1d890b0446</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_f51e7e52-123e-4208-98b0-2b1d890b0446.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="m"
+        recordRawValue="1430243020" separator="=" value="1430243020" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=""
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/javascript, */*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8,de-DE;q=0.5,de;q=0.3"/>
+    <header name="Cookie" value="rxVisitor=1585916374891RRO1ENUEAHVUCNSBDRRNLPS4GA4NFFTR; ushahidi=53kebfaicm7nl4mt3jp4p8o3k0; SRVNAME=S2"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="sampledemo.neotys.com"/>
+    <header name="Proxy-Connection" value="Keep-Alive"/>
+    <header name="Referer" value="http://sampledemo.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 19 Mar 2021 16:08:43 GMT&#xd;
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16&#xd;
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT&#xd;
+ETag: "8a25-514cc67264b00"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 35365&#xd;
+Connection: close&#xd;
+Content-Type: application/javascript</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="7"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    eTag="&quot;2183-514cc67264b00&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 28 Apr 2015 17:43:40 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/media/js/selectToUISlider.jQuery.js"
+    path="/media/js/selectToUISlider.jQuery.js" postType="2"
+    recordedArtifactZipFileName="team/vus/@create@weather@report/%resources%/recorded-artifacts/ff51aaa0-c671-4d74-b4b0-4f6431f9ea2e.zip"
+    recordedResponseCode="200"
+    refererUid="0dcc2e84-83aa-4c8a-b74b-35e68d0aba76"
+    responseSize="8579" serverUid="sampledemo.neotys.com"
+    slaProfileEnabled="true" slaProfileName="fastfail"
+    uid="8e217e07-b17e-4950-96a2-69df79fa9786" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_6ef4d38c-b867-4d19-956b-b55b6c133a17</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_6ef4d38c-b867-4d19-956b-b55b6c133a17.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="m"
+        recordRawValue="1430243020" separator="=" value="1430243020" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=""
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/javascript, */*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8,de-DE;q=0.5,de;q=0.3"/>
+    <header name="Cookie" value="rxVisitor=1585916374891RRO1ENUEAHVUCNSBDRRNLPS4GA4NFFTR; ushahidi=53kebfaicm7nl4mt3jp4p8o3k0; SRVNAME=S2"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="sampledemo.neotys.com"/>
+    <header name="Proxy-Connection" value="Keep-Alive"/>
+    <header name="Referer" value="http://sampledemo.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 19 Mar 2021 16:08:43 GMT&#xd;
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16&#xd;
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT&#xd;
+ETag: "2183-514cc67264b00"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 8579&#xd;
+Connection: close&#xd;
+Content-Type: application/javascript</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="9"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;135e-51b9e66247000&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Fri, 24 Jul 2015 12:46:56 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/media/uploads/banner_1437742016.png"
+    path="/media/uploads/banner_1437742016.png" postType="2"
+    recordedArtifactZipFileName="team/vus/@create@weather@report/%resources%/recorded-artifacts/ff51aaa0-c671-4d74-b4b0-4f6431f9ea2e.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="59cd63a4-41bc-471f-ae8d-3118b90cac3a" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_615ab3ed-f724-4459-b515-b12d807019d5.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8,de-DE;q=0.5,de;q=0.3"/>
+    <header name="Cookie" value="rxVisitor=1585916374891RRO1ENUEAHVUCNSBDRRNLPS4GA4NFFTR; ushahidi=53kebfaicm7nl4mt3jp4p8o3k0; SRVNAME=S2"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="sampledemo.neotys.com"/>
+    <header name="Proxy-Connection" value="Keep-Alive"/>
+    <header name="Referer" value="http://sampledemo.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 19 Mar 2021 16:08:43 GMT&#xd;
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16&#xd;
+Last-Modified: Fri, 24 Jul 2015 12:46:56 GMT&#xd;
+ETag: "135e-51b9e66247000"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 4958&#xd;
+Connection: close&#xd;
+Content-Type: image/png</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;1ab-51b9e82ee6ec0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Fri, 24 Jul 2015 12:54:59 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/media/uploads/default_map_all_1437742499_m.png"
+    path="/media/uploads/default_map_all_1437742499_m.png" postType="2"
+    recordedArtifactZipFileName="team/vus/@create@weather@report/%resources%/recorded-artifacts/ff51aaa0-c671-4d74-b4b0-4f6431f9ea2e.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="767df12b-89a3-4cef-aaf0-fc86a2520b25" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_340d6adc-1031-4532-b031-6892509441cc.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8,de-DE;q=0.5,de;q=0.3"/>
+    <header name="Cookie" value="rxVisitor=1585916374891RRO1ENUEAHVUCNSBDRRNLPS4GA4NFFTR; ushahidi=53kebfaicm7nl4mt3jp4p8o3k0; SRVNAME=S2"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="sampledemo.neotys.com"/>
+    <header name="Proxy-Connection" value="Keep-Alive"/>
+    <header name="Referer" value="http://sampledemo.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 19 Mar 2021 16:08:43 GMT&#xd;
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16&#xd;
+Last-Modified: Fri, 24 Jul 2015 12:54:59 GMT&#xd;
+ETag: "1ab-51b9e82ee6ec0"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 427&#xd;
+Connection: close&#xd;
+Content-Type: image/png</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;5d0-514cc67264b00&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 28 Apr 2015 17:43:40 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/media/img/footer-logo.png"
+    path="/media/img/footer-logo.png" postType="2"
+    recordedArtifactZipFileName="team/vus/@create@weather@report/%resources%/recorded-artifacts/ff51aaa0-c671-4d74-b4b0-4f6431f9ea2e.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="sampledemo.neotys.com" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="41e9a13a-38a0-44a5-a844-15a785a0f356" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_e94935cc-a6a6-4a32-8333-bb7d4aefdd81.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8,de-DE;q=0.5,de;q=0.3"/>
+    <header name="Cookie" value="rxVisitor=1585916374891RRO1ENUEAHVUCNSBDRRNLPS4GA4NFFTR; ushahidi=53kebfaicm7nl4mt3jp4p8o3k0; SRVNAME=S2"/>
+    <header name="DNT" value="1"/>
+    <header name="Host" value="sampledemo.neotys.com"/>
+    <header name="Proxy-Connection" value="Keep-Alive"/>
+    <header name="Referer" value="http://sampledemo.neotys.com/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 19 Mar 2021 16:08:43 GMT&#xd;
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16&#xd;
+Last-Modified: Tue, 28 Apr 2015 17:43:40 GMT&#xd;
+ETag: "5d0-514cc67264b00"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 1488&#xd;
+Connection: close&#xd;
+Content-Type: image/png</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
