@@ -129,6 +129,11 @@ jobs:
       archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip' 
       replaceExistingArchive: true 
 
+  - task: PublishBuildArtifacts@1
+    inputs:
+      pathToPublish: '$(Common.TestResultsDirectory)/transactions.csv'
+      artifactName: transactions.csv
+
   - task: PublishTestResults@2
     inputs:
       testResultsFormat: 'JUnit'
