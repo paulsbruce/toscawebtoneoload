@@ -113,6 +113,22 @@ jobs:
       script: |
        neoload test-results --junit-file $(Common.TestResultsDirectory)/neoload-slas.xml junitsla
 
+  - task: Bash@3
+    displayName: Get the Transactions CSV file
+    continueOnError: false
+    inputs:
+      targetType: 'inline'
+      script: |
+       neoload report --template builtin:transactions-csv --out-file $(Common.TestResultsDirectory)/transactions.csv
+
+  - task: ArchiveFiles@2
+    inputs:
+      rootFolderOrFile: '$(Common.TestResultsDirectory)/transactions.csv' 
+      includeRootFolder: false
+      archiveType: 'zip'
+      archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip' 
+      replaceExistingArchive: true 
+
   - task: PublishTestResults@2
     inputs:
       testResultsFormat: 'JUnit'
