@@ -12,6 +12,7 @@ parameters:
   - adhoc
   - sanityTOSCA
   - fullTOSCA
+  - manyTransactions
 - name: duration
   displayName: "Adhoc: Test Duration (Mins)"
   type: number
