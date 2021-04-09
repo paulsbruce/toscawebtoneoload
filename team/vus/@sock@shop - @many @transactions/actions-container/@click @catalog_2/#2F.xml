@@ -1,0 +1,890 @@
+<http-page executeResourcesDynamically="false" name="/"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@sock@shop - @many @transactions/%resources%/recorded-artifacts/d9bff690-78c5-45ad-bb6c-38c980c01b9d.zip"
+    slaProfileEnabled="false" thinkTime="${RandPageThinkTimeMs}"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="d9bff690-78c5-45ad-bb6c-38c980c01b9d">
+    <embedded-action>914a467a-b00d-4a57-8c4f-4cb413696cdd</embedded-action>
+    <embedded-action>461c2485-d2f5-43f3-a735-0e9f0414315b</embedded-action>
+    <embedded-action>d5854b2e-09e5-414f-bc85-16e05622ebba</embedded-action>
+    <embedded-action>df5f78cd-8750-4414-8001-84f6b3ddb10c</embedded-action>
+    <embedded-action>7468ea56-c111-4246-8871-3daeb0a11f46</embedded-action>
+    <embedded-action>002a4b4b-0a87-47f4-a259-76a690ba1d43</embedded-action>
+    <embedded-action>c4cdd3c0-de04-4404-a030-6fcf3b38a44a</embedded-action>
+    <embedded-action>c1966f4d-f222-4003-8d1e-db1a05d5b7bb</embedded-action>
+    <embedded-action>f95da30d-7852-4862-8c52-dd9e672fa788</embedded-action>
+    <embedded-action>015b9278-3d51-4a98-b841-52c462899f07</embedded-action>
+    <embedded-action>288bea09-2a00-40c8-8f23-b956bd156652</embedded-action>
+    <embedded-action>e30b72a3-96ea-4524-abdc-880139fa125f</embedded-action>
+    <embedded-action>deb8b5af-59bd-42b2-9eed-75067c829f06</embedded-action>
+    <embedded-action>135104b4-7386-4030-add4-014ae0476694</embedded-action>
+    <embedded-action>1f38e582-da2a-4d9c-8423-152b37ed52e4</embedded-action>
+    <embedded-action>f21b5a59-9690-4764-8c89-287413a3e23e</embedded-action>
+    <embedded-action>912a796f-61de-4a0d-9e6a-8f6e56177994</embedded-action>
+    <embedded-action>842bf01c-5609-47f6-9555-898cf88060b9</embedded-action>
+    <embedded-action>fcb5780c-00b5-4c6c-a9e5-6b411ff4d011</embedded-action>
+    <embedded-action>4c721f50-b9f0-4cee-8e9b-02478243bc20</embedded-action>
+    <embedded-action>6a9af548-2f9a-4aaa-b7bc-78d7c6d09273</embedded-action>
+    <embedded-action>975add81-0561-451f-bc84-a37d060f798c</embedded-action>
+    <embedded-action>29916c18-019e-4ec6-9355-ce142a8238d4</embedded-action>
+    <embedded-action>496295ba-5284-4423-9b40-0827aed0b3ea</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=UTF-8"
+    eTag="W/&quot;21f0-15af0a320b8&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 21 Mar 2017 11:31:47 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/" path="/" postType="2"
+    recordedArtifactZipFileName="team/vus/@sock@shop - @many @transactions/%resources%/recorded-artifacts/d9bff690-78c5-45ad-bb6c-38c980c01b9d.zip"
+    recordedResponseCode="200" responseSize="8688"
+    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="true"
+    slaProfileName="fastfail" uid="914a467a-b00d-4a57-8c4f-4cb413696cdd" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_b3efbe22-5d70-43b9-bfa0-78d33b4a656d.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_b3efbe22-5d70-43b9-bfa0-78d33b4a656d.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="1" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="0" extractTypeAdv="0" extractTypeSimple="0"
+        matchNumber="3" matchNumberAdv="3" matchNumberSimple="1"
+        name="shop_uuid"
+        regExp="([0-9|a-z]{8})-([0-9|a-z]{4})-([0-9|a-z]{4})-([0-9|a-z]{4})-([0-9|a-z]{12})"
+        regExpAdv="([0-9|a-z]{8})-([0-9|a-z]{4})-([0-9|a-z]{4})-([0-9|a-z]{4})-([0-9|a-z]{12})"
+        setDefaultValue="true" startsWithSimple=""
+        template="$1$-$2$-$3$-$4$-$5$" templateAdv="$1$-$2$-$3$-$4$-$5$"
+        uid="ba844440-a975-4b5f-b9b1-5e948218d8fe" xpath=""/>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Host" value="sockshop.neotys.perfreleng.org"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+X-Powered-By: Express&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: public, max-age=0&#xd;
+Last-Modified: Tue, 21 Mar 2017 11:31:47 GMT&#xd;
+ETag: W/"21f0-15af0a320b8"&#xd;
+Content-Type: text/html; charset=UTF-8&#xd;
+Content-Length: 8688&#xd;
+Date: Tue, 23 Mar 2021 12:48:18 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css; charset=UTF-8"
+    eTag="W/&quot;548b-15af0a320b8&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 21 Mar 2017 11:31:47 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/css/font-awesome.css"
+    path="/css/font-awesome.css" postType="2"
+    recordedArtifactZipFileName="team/vus/@sock@shop - @many @transactions/%resources%/recorded-artifacts/d9bff690-78c5-45ad-bb6c-38c980c01b9d.zip"
+    recordedResponseCode="200" responseSize="21643"
+    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="false"
+    slaProfileName="fastfail" uid="461c2485-d2f5-43f3-a735-0e9f0414315b" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_25888677-ca2a-4100-91b9-e537f2626a7b.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_25888677-ca2a-4100-91b9-e537f2626a7b.txt</requestContentFileDescription>
+    <header name="Accept" value="text/css,*/*;q=0.1"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Host" value="sockshop.neotys.perfreleng.org"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://sockshop.neotys.perfreleng.org/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+X-Powered-By: Express&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: public, max-age=0&#xd;
+Last-Modified: Tue, 21 Mar 2017 11:31:47 GMT&#xd;
+ETag: W/"548b-15af0a320b8"&#xd;
+Content-Type: text/css; charset=UTF-8&#xd;
+Content-Length: 21643&#xd;
+Date: Tue, 23 Mar 2021 12:48:18 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css; charset=UTF-8"
+    eTag="W/&quot;1d970-15af0a320b8&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 21 Mar 2017 11:31:47 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/css/bootstrap.min.css"
+    path="/css/bootstrap.min.css" postType="2"
+    recordedArtifactZipFileName="team/vus/@sock@shop - @many @transactions/%resources%/recorded-artifacts/d9bff690-78c5-45ad-bb6c-38c980c01b9d.zip"
+    recordedResponseCode="200" responseSize="121200"
+    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="false"
+    slaProfileName="fastfail" uid="d5854b2e-09e5-414f-bc85-16e05622ebba" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_406ef6b9-065f-46c2-a313-914c152f49b8.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_406ef6b9-065f-46c2-a313-914c152f49b8.txt</requestContentFileDescription>
+    <header name="Accept" value="text/css,*/*;q=0.1"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Host" value="sockshop.neotys.perfreleng.org"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://sockshop.neotys.perfreleng.org/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+X-Powered-By: Express&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: public, max-age=0&#xd;
+Last-Modified: Tue, 21 Mar 2017 11:31:47 GMT&#xd;
+ETag: W/"1d970-15af0a320b8"&#xd;
+Content-Type: text/css; charset=UTF-8&#xd;
+Content-Length: 121200&#xd;
+Date: Tue, 23 Mar 2021 12:48:18 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css; charset=UTF-8"
+    eTag="W/&quot;b9fa-15af0a320b8&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 21 Mar 2017 11:31:47 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/css/animate.min.css" path="/css/animate.min.css"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@sock@shop - @many @transactions/%resources%/recorded-artifacts/d9bff690-78c5-45ad-bb6c-38c980c01b9d.zip"
+    recordedResponseCode="200" responseSize="47610"
+    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="false"
+    slaProfileName="fastfail" uid="df5f78cd-8750-4414-8001-84f6b3ddb10c" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_f9084f33-1d22-4fa4-9bf8-475eed6da7e7.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_f9084f33-1d22-4fa4-9bf8-475eed6da7e7.txt</requestContentFileDescription>
+    <header name="Accept" value="text/css,*/*;q=0.1"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Host" value="sockshop.neotys.perfreleng.org"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://sockshop.neotys.perfreleng.org/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+X-Powered-By: Express&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: public, max-age=0&#xd;
+Last-Modified: Tue, 21 Mar 2017 11:31:47 GMT&#xd;
+ETag: W/"b9fa-15af0a320b8"&#xd;
+Content-Type: text/css; charset=UTF-8&#xd;
+Content-Length: 47610&#xd;
+Date: Tue, 23 Mar 2021 12:48:18 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css; charset=UTF-8"
+    eTag="W/&quot;892b-15af0a320b8&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 21 Mar 2017 11:31:47 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/css/style.blue.css" path="/css/style.blue.css"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@sock@shop - @many @transactions/%resources%/recorded-artifacts/d9bff690-78c5-45ad-bb6c-38c980c01b9d.zip"
+    recordedResponseCode="200" responseSize="35115"
+    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="false"
+    slaProfileName="fastfail" uid="7468ea56-c111-4246-8871-3daeb0a11f46" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_9f9e447f-44dc-4693-924c-45219d1e818b.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_9f9e447f-44dc-4693-924c-45219d1e818b.txt</requestContentFileDescription>
+    <header name="Accept" value="text/css,*/*;q=0.1"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Host" value="sockshop.neotys.perfreleng.org"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://sockshop.neotys.perfreleng.org/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+X-Powered-By: Express&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: public, max-age=0&#xd;
+Last-Modified: Tue, 21 Mar 2017 11:31:47 GMT&#xd;
+ETag: W/"892b-15af0a320b8"&#xd;
+Content-Type: text/css; charset=UTF-8&#xd;
+Content-Length: 35115&#xd;
+Date: Tue, 23 Mar 2021 12:48:18 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css; charset=UTF-8"
+    eTag="W/&quot;654-15af0a320b8&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 21 Mar 2017 11:31:47 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/css/owl.theme.css" path="/css/owl.theme.css"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@sock@shop - @many @transactions/%resources%/recorded-artifacts/d9bff690-78c5-45ad-bb6c-38c980c01b9d.zip"
+    recordedResponseCode="200" responseSize="1620"
+    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="false"
+    slaProfileName="fastfail" uid="002a4b4b-0a87-47f4-a259-76a690ba1d43" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_7a335166-7d03-4a07-b8e0-fc15f98468e2.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_7a335166-7d03-4a07-b8e0-fc15f98468e2.txt</requestContentFileDescription>
+    <header name="Accept" value="text/css,*/*;q=0.1"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Host" value="sockshop.neotys.perfreleng.org"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://sockshop.neotys.perfreleng.org/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+X-Powered-By: Express&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: public, max-age=0&#xd;
+Last-Modified: Tue, 21 Mar 2017 11:31:47 GMT&#xd;
+ETag: W/"654-15af0a320b8"&#xd;
+Content-Type: text/css; charset=UTF-8&#xd;
+Content-Length: 1620&#xd;
+Date: Tue, 23 Mar 2021 12:48:18 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css; charset=UTF-8"
+    eTag="W/&quot;5c4-15af0a320b8&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 21 Mar 2017 11:31:47 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/css/owl.carousel.css"
+    path="/css/owl.carousel.css" postType="2"
+    recordedArtifactZipFileName="team/vus/@sock@shop - @many @transactions/%resources%/recorded-artifacts/d9bff690-78c5-45ad-bb6c-38c980c01b9d.zip"
+    recordedResponseCode="200" responseSize="1476"
+    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="false"
+    slaProfileName="fastfail" uid="c4cdd3c0-de04-4404-a030-6fcf3b38a44a" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_a097b77d-d5f0-4357-b391-2fbc1dc55a45.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_a097b77d-d5f0-4357-b391-2fbc1dc55a45.txt</requestContentFileDescription>
+    <header name="Accept" value="text/css,*/*;q=0.1"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Host" value="sockshop.neotys.perfreleng.org"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://sockshop.neotys.perfreleng.org/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+X-Powered-By: Express&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: public, max-age=0&#xd;
+Last-Modified: Tue, 21 Mar 2017 11:31:47 GMT&#xd;
+ETag: W/"5c4-15af0a320b8"&#xd;
+Content-Type: text/css; charset=UTF-8&#xd;
+Content-Length: 1476&#xd;
+Date: Tue, 23 Mar 2021 12:48:18 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css; charset=UTF-8"
+    eTag="W/&quot;25-15af0a320b8&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 21 Mar 2017 11:31:47 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/css/custom.css" path="/css/custom.css"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@sock@shop - @many @transactions/%resources%/recorded-artifacts/d9bff690-78c5-45ad-bb6c-38c980c01b9d.zip"
+    recordedResponseCode="200" responseSize="37"
+    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="false"
+    slaProfileName="fastfail" uid="c1966f4d-f222-4003-8d1e-db1a05d5b7bb" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_c2f4970b-4d7d-4ed0-865b-4f842adc638d.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_c2f4970b-4d7d-4ed0-865b-4f842adc638d.txt</requestContentFileDescription>
+    <header name="Accept" value="text/css,*/*;q=0.1"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Host" value="sockshop.neotys.perfreleng.org"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://sockshop.neotys.perfreleng.org/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+X-Powered-By: Express&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: public, max-age=0&#xd;
+Last-Modified: Tue, 21 Mar 2017 11:31:47 GMT&#xd;
+ETag: W/"25-15af0a320b8"&#xd;
+Content-Type: text/css; charset=UTF-8&#xd;
+Content-Length: 37&#xd;
+Date: Tue, 23 Mar 2021 12:48:18 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    eTag="W/&quot;11ef-15af0a320b8&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 21 Mar 2017 11:31:47 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/js/respond.min.js" path="/js/respond.min.js"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@sock@shop - @many @transactions/%resources%/recorded-artifacts/d9bff690-78c5-45ad-bb6c-38c980c01b9d.zip"
+    recordedResponseCode="200"
+    refererUid="914a467a-b00d-4a57-8c4f-4cb413696cdd"
+    responseSize="4591" serverUid="sockshop.neotys.perfreleng.org"
+    slaProfileEnabled="false" slaProfileName="fastfail"
+    uid="f95da30d-7852-4862-8c52-dd9e672fa788" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_c4d4b7ff-9e20-4af5-b2af-d4cdd06f1f5d</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_c4d4b7ff-9e20-4af5-b2af-d4cdd06f1f5d.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Host" value="sockshop.neotys.perfreleng.org"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://sockshop.neotys.perfreleng.org/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+X-Powered-By: Express&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: public, max-age=0&#xd;
+Last-Modified: Tue, 21 Mar 2017 11:31:47 GMT&#xd;
+ETag: W/"11ef-15af0a320b8"&#xd;
+Content-Type: application/javascript&#xd;
+Content-Length: 4591&#xd;
+Date: Tue, 23 Mar 2021 12:48:18 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="1"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    eTag="W/&quot;1787d-15af0a320b8&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 21 Mar 2017 11:31:47 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/js/jquery-1.11.0.min.js"
+    path="/js/jquery-1.11.0.min.js" postType="2"
+    recordedArtifactZipFileName="team/vus/@sock@shop - @many @transactions/%resources%/recorded-artifacts/d9bff690-78c5-45ad-bb6c-38c980c01b9d.zip"
+    recordedResponseCode="200"
+    refererUid="914a467a-b00d-4a57-8c4f-4cb413696cdd"
+    responseSize="96381" serverUid="sockshop.neotys.perfreleng.org"
+    slaProfileEnabled="false" slaProfileName="fastfail"
+    uid="015b9278-3d51-4a98-b841-52c462899f07" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_0e146954-6509-453b-a3b6-0c08b6e03e05</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_0e146954-6509-453b-a3b6-0c08b6e03e05.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Host" value="sockshop.neotys.perfreleng.org"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://sockshop.neotys.perfreleng.org/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+X-Powered-By: Express&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: public, max-age=0&#xd;
+Last-Modified: Tue, 21 Mar 2017 11:31:47 GMT&#xd;
+ETag: W/"1787d-15af0a320b8"&#xd;
+Content-Type: application/javascript&#xd;
+Content-Length: 96381&#xd;
+Date: Tue, 23 Mar 2021 12:48:18 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="2"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    eTag="W/&quot;90b5-15af0a320b8&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 21 Mar 2017 11:31:47 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/js/bootstrap.min.js" path="/js/bootstrap.min.js"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@sock@shop - @many @transactions/%resources%/recorded-artifacts/d9bff690-78c5-45ad-bb6c-38c980c01b9d.zip"
+    recordedResponseCode="200"
+    refererUid="914a467a-b00d-4a57-8c4f-4cb413696cdd"
+    responseSize="37045" serverUid="sockshop.neotys.perfreleng.org"
+    slaProfileEnabled="false" slaProfileName="fastfail"
+    uid="288bea09-2a00-40c8-8f23-b956bd156652" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_7469c0a1-f79d-4b2a-add7-fe067ceb0ee1</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_7469c0a1-f79d-4b2a-add7-fe067ceb0ee1.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Host" value="sockshop.neotys.perfreleng.org"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://sockshop.neotys.perfreleng.org/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+X-Powered-By: Express&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: public, max-age=0&#xd;
+Last-Modified: Tue, 21 Mar 2017 11:31:47 GMT&#xd;
+ETag: W/"90b5-15af0a320b8"&#xd;
+Content-Type: application/javascript&#xd;
+Content-Length: 37045&#xd;
+Date: Tue, 23 Mar 2021 12:48:18 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="3"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    eTag="W/&quot;12d2-15af0a320b8&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 21 Mar 2017 11:31:47 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/js/js.cookie.js" path="/js/js.cookie.js"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@sock@shop - @many @transactions/%resources%/recorded-artifacts/d9bff690-78c5-45ad-bb6c-38c980c01b9d.zip"
+    recordedResponseCode="200"
+    refererUid="914a467a-b00d-4a57-8c4f-4cb413696cdd"
+    responseSize="4818" serverUid="sockshop.neotys.perfreleng.org"
+    slaProfileEnabled="false" slaProfileName="fastfail"
+    uid="e30b72a3-96ea-4524-abdc-880139fa125f" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_118cf4bd-4cbd-4093-a2cd-d96daf0b9d8f</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_118cf4bd-4cbd-4093-a2cd-d96daf0b9d8f.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Host" value="sockshop.neotys.perfreleng.org"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://sockshop.neotys.perfreleng.org/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+X-Powered-By: Express&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: public, max-age=0&#xd;
+Last-Modified: Tue, 21 Mar 2017 11:31:47 GMT&#xd;
+ETag: W/"12d2-15af0a320b8"&#xd;
+Content-Type: application/javascript&#xd;
+Content-Length: 4818&#xd;
+Date: Tue, 23 Mar 2021 12:48:18 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="4"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    eTag="W/&quot;c31-15af0a320b8&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 21 Mar 2017 11:31:47 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/js/jquery.cookie.js" path="/js/jquery.cookie.js"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@sock@shop - @many @transactions/%resources%/recorded-artifacts/d9bff690-78c5-45ad-bb6c-38c980c01b9d.zip"
+    recordedResponseCode="200"
+    refererUid="914a467a-b00d-4a57-8c4f-4cb413696cdd"
+    responseSize="3121" serverUid="sockshop.neotys.perfreleng.org"
+    slaProfileEnabled="false" slaProfileName="fastfail"
+    uid="deb8b5af-59bd-42b2-9eed-75067c829f06" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_12ea975b-b3c5-46de-84ff-7688017ebd21</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_12ea975b-b3c5-46de-84ff-7688017ebd21.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Host" value="sockshop.neotys.perfreleng.org"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://sockshop.neotys.perfreleng.org/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+X-Powered-By: Express&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: public, max-age=0&#xd;
+Last-Modified: Tue, 21 Mar 2017 11:31:47 GMT&#xd;
+ETag: W/"c31-15af0a320b8"&#xd;
+Content-Type: application/javascript&#xd;
+Content-Length: 3121&#xd;
+Date: Tue, 23 Mar 2021 12:48:18 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="6"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    eTag="W/&quot;2280-15af0a320b8&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 21 Mar 2017 11:31:47 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/js/client.js" path="/js/client.js" postType="2"
+    recordedArtifactZipFileName="team/vus/@sock@shop - @many @transactions/%resources%/recorded-artifacts/d9bff690-78c5-45ad-bb6c-38c980c01b9d.zip"
+    recordedResponseCode="200"
+    refererUid="914a467a-b00d-4a57-8c4f-4cb413696cdd"
+    responseSize="8832" serverUid="sockshop.neotys.perfreleng.org"
+    slaProfileEnabled="false" slaProfileName="fastfail"
+    uid="135104b4-7386-4030-add4-014ae0476694" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_be6f8982-96bb-463c-95f9-383551cad536</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_be6f8982-96bb-463c-95f9-383551cad536.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Host" value="sockshop.neotys.perfreleng.org"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://sockshop.neotys.perfreleng.org/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+X-Powered-By: Express&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: public, max-age=0&#xd;
+Last-Modified: Tue, 21 Mar 2017 11:31:47 GMT&#xd;
+ETag: W/"2280-15af0a320b8"&#xd;
+Content-Type: application/javascript&#xd;
+Content-Length: 8832&#xd;
+Date: Tue, 23 Mar 2021 12:48:18 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="5"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    eTag="W/&quot;1f6c-15af0a320b8&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 21 Mar 2017 11:31:47 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/js/waypoints.min.js" path="/js/waypoints.min.js"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@sock@shop - @many @transactions/%resources%/recorded-artifacts/d9bff690-78c5-45ad-bb6c-38c980c01b9d.zip"
+    recordedResponseCode="200"
+    refererUid="914a467a-b00d-4a57-8c4f-4cb413696cdd"
+    responseSize="8044" serverUid="sockshop.neotys.perfreleng.org"
+    slaProfileEnabled="false" slaProfileName="fastfail"
+    uid="1f38e582-da2a-4d9c-8423-152b37ed52e4" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_a511f492-e41a-4939-93e4-4bb5eb77730b</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_a511f492-e41a-4939-93e4-4bb5eb77730b.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Host" value="sockshop.neotys.perfreleng.org"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://sockshop.neotys.perfreleng.org/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+X-Powered-By: Express&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: public, max-age=0&#xd;
+Last-Modified: Tue, 21 Mar 2017 11:31:47 GMT&#xd;
+ETag: W/"1f6c-15af0a320b8"&#xd;
+Content-Type: application/javascript&#xd;
+Content-Length: 8044&#xd;
+Date: Tue, 23 Mar 2021 12:48:18 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="7"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="application/font-woff"
+    eTag="W/&quot;ad90-15af0a320b8&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 21 Mar 2017 11:31:47 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/css/fonts/fontawesome-webfont.woff"
+    path="/css/fonts/fontawesome-webfont.woff" postType="2"
+    recordedArtifactZipFileName="team/vus/@sock@shop - @many @transactions/%resources%/recorded-artifacts/d9bff690-78c5-45ad-bb6c-38c980c01b9d.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="false"
+    slaProfileName="fastfail" uid="f21b5a59-9690-4764-8c89-287413a3e23e" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_84dd8e24-8d16-449f-880b-47510d43d8fe.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="4.0.3" separator="=" value="4.0.3" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Host" value="sockshop.neotys.perfreleng.org"/>
+    <header name="Origin" value="http://sockshop.neotys.perfreleng.org"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://sockshop.neotys.perfreleng.org/css/font-awesome.css"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+X-Powered-By: Express&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: public, max-age=0&#xd;
+Last-Modified: Tue, 21 Mar 2017 11:31:47 GMT&#xd;
+ETag: W/"ad90-15af0a320b8"&#xd;
+Content-Type: application/font-woff&#xd;
+Content-Length: 44432&#xd;
+Date: Tue, 23 Mar 2021 12:48:18 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/jpeg"
+    eTag="W/&quot;12aa2-15af0a320b8&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 21 Mar 2017 11:31:47 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/img/colourful_socks_banner.jpg"
+    path="/img/colourful_socks_banner.jpg" postType="2"
+    recordedArtifactZipFileName="team/vus/@sock@shop - @many @transactions/%resources%/recorded-artifacts/d9bff690-78c5-45ad-bb6c-38c980c01b9d.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="false"
+    slaProfileName="fastfail" uid="912a796f-61de-4a0d-9e6a-8f6e56177994" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_184c9d6e-69d1-4493-8c05-91719f9c8621.txt</requestContentFileDescription>
+    <header name="Accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Host" value="sockshop.neotys.perfreleng.org"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://sockshop.neotys.perfreleng.org/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+X-Powered-By: Express&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: public, max-age=0&#xd;
+Last-Modified: Tue, 21 Mar 2017 11:31:47 GMT&#xd;
+ETag: W/"12aa2-15af0a320b8"&#xd;
+Content-Type: image/jpeg&#xd;
+Content-Length: 76450&#xd;
+Date: Tue, 23 Mar 2021 12:48:18 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/jpeg"
+    eTag="W/&quot;f74a-15af0a320b8&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 21 Mar 2017 11:31:47 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/img/holy_socks_banner.jpg"
+    path="/img/holy_socks_banner.jpg" postType="2"
+    recordedArtifactZipFileName="team/vus/@sock@shop - @many @transactions/%resources%/recorded-artifacts/d9bff690-78c5-45ad-bb6c-38c980c01b9d.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="false"
+    slaProfileName="fastfail" uid="842bf01c-5609-47f6-9555-898cf88060b9" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_2985b103-564e-4cdd-bb49-dca6c1e80323.txt</requestContentFileDescription>
+    <header name="Accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Host" value="sockshop.neotys.perfreleng.org"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://sockshop.neotys.perfreleng.org/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+X-Powered-By: Express&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: public, max-age=0&#xd;
+Last-Modified: Tue, 21 Mar 2017 11:31:47 GMT&#xd;
+ETag: W/"f74a-15af0a320b8"&#xd;
+Content-Type: image/jpeg&#xd;
+Content-Length: 63306&#xd;
+Date: Tue, 23 Mar 2021 12:48:18 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/jpeg"
+    eTag="W/&quot;1348f-15af0a320b8&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 21 Mar 2017 11:31:47 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/img/rugby_socks_banner.jpg"
+    path="/img/rugby_socks_banner.jpg" postType="2"
+    recordedArtifactZipFileName="team/vus/@sock@shop - @many @transactions/%resources%/recorded-artifacts/d9bff690-78c5-45ad-bb6c-38c980c01b9d.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="sockshop.neotys.perfreleng.org" slaProfileEnabled="false"
+    slaProfileName="fastfail" uid="fcb5780c-00b5-4c6c-a9e5-6b411ff4d011" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_7002a1e5-3b34-4771-844c-c1347dbf3fef.txt</requestContentFileDescription>
+    <header name="Accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Host" value="sockshop.neotys.perfreleng.org"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://sockshop.neotys.perfreleng.org/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+X-Powered-By: Express&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: public, max-age=0&#xd;
+Last-Modified: Tue, 21 Mar 2017 11:31:47 GMT&#xd;
+ETag: W/"1348f-15af0a320b8"&#xd;
+Content-Type: image/jpeg&#xd;
+Content-Length: 78991&#xd;
+Date: Tue, 23 Mar 2021 12:48:18 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    eTag="W/&quot;c897-15af0a320b8&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 21 Mar 2017 11:31:47 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/js/modernizr.js" path="/js/modernizr.js"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@sock@shop - @many @transactions/%resources%/recorded-artifacts/d9bff690-78c5-45ad-bb6c-38c980c01b9d.zip"
+    recordedResponseCode="200"
+    refererUid="914a467a-b00d-4a57-8c4f-4cb413696cdd"
+    responseSize="51351" serverUid="sockshop.neotys.perfreleng.org"
+    slaProfileEnabled="false" slaProfileName="fastfail"
+    uid="4c721f50-b9f0-4cee-8e9b-02478243bc20" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_562c5e89-4417-41bd-9d46-72f36dbacf54</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_562c5e89-4417-41bd-9d46-72f36dbacf54.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Host" value="sockshop.neotys.perfreleng.org"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://sockshop.neotys.perfreleng.org/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+X-Powered-By: Express&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: public, max-age=0&#xd;
+Last-Modified: Tue, 21 Mar 2017 11:31:47 GMT&#xd;
+ETag: W/"c897-15af0a320b8"&#xd;
+Content-Type: application/javascript&#xd;
+Content-Length: 51351&#xd;
+Date: Tue, 23 Mar 2021 12:48:18 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="8"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    eTag="W/&quot;d60-15af0a320b8&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 21 Mar 2017 11:31:47 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/js/bootstrap-hover-dropdown.js"
+    path="/js/bootstrap-hover-dropdown.js" postType="2"
+    recordedArtifactZipFileName="team/vus/@sock@shop - @many @transactions/%resources%/recorded-artifacts/d9bff690-78c5-45ad-bb6c-38c980c01b9d.zip"
+    recordedResponseCode="200"
+    refererUid="914a467a-b00d-4a57-8c4f-4cb413696cdd"
+    responseSize="3424" serverUid="sockshop.neotys.perfreleng.org"
+    slaProfileEnabled="false" slaProfileName="fastfail"
+    uid="6a9af548-2f9a-4aaa-b7bc-78d7c6d09273" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_f149e0c2-cbcd-41f5-9bca-27c9b0e97fd8</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_f149e0c2-cbcd-41f5-9bca-27c9b0e97fd8.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Host" value="sockshop.neotys.perfreleng.org"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://sockshop.neotys.perfreleng.org/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+X-Powered-By: Express&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: public, max-age=0&#xd;
+Last-Modified: Tue, 21 Mar 2017 11:31:47 GMT&#xd;
+ETag: W/"d60-15af0a320b8"&#xd;
+Content-Type: application/javascript&#xd;
+Content-Length: 3424&#xd;
+Date: Tue, 23 Mar 2021 12:48:18 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="9"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    eTag="W/&quot;3a44-15af0a320b8&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 21 Mar 2017 11:31:47 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/js/owl.carousel.min.js"
+    path="/js/owl.carousel.min.js" postType="2"
+    recordedArtifactZipFileName="team/vus/@sock@shop - @many @transactions/%resources%/recorded-artifacts/d9bff690-78c5-45ad-bb6c-38c980c01b9d.zip"
+    recordedResponseCode="200"
+    refererUid="914a467a-b00d-4a57-8c4f-4cb413696cdd"
+    responseSize="14916" serverUid="sockshop.neotys.perfreleng.org"
+    slaProfileEnabled="false" slaProfileName="fastfail"
+    uid="975add81-0561-451f-bc84-a37d060f798c" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_862a32ff-8a51-494c-9794-a3e6cea06dad</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_862a32ff-8a51-494c-9794-a3e6cea06dad.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Host" value="sockshop.neotys.perfreleng.org"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://sockshop.neotys.perfreleng.org/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+X-Powered-By: Express&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: public, max-age=0&#xd;
+Last-Modified: Tue, 21 Mar 2017 11:31:47 GMT&#xd;
+ETag: W/"3a44-15af0a320b8"&#xd;
+Content-Type: application/javascript&#xd;
+Content-Length: 14916&#xd;
+Date: Tue, 23 Mar 2021 12:48:18 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="10"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    eTag="W/&quot;1006-15af0a320b8&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 21 Mar 2017 11:31:47 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/js/front.js" path="/js/front.js" postType="2"
+    recordedArtifactZipFileName="team/vus/@sock@shop - @many @transactions/%resources%/recorded-artifacts/d9bff690-78c5-45ad-bb6c-38c980c01b9d.zip"
+    recordedResponseCode="200"
+    refererUid="914a467a-b00d-4a57-8c4f-4cb413696cdd"
+    responseSize="4102" serverUid="sockshop.neotys.perfreleng.org"
+    slaProfileEnabled="false" slaProfileName="fastfail"
+    uid="29916c18-019e-4ec6-9355-ce142a8238d4" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_2d3b127d-fb7c-4f84-ab9d-60db880a251a</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_2d3b127d-fb7c-4f84-ab9d-60db880a251a.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Host" value="sockshop.neotys.perfreleng.org"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://sockshop.neotys.perfreleng.org/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+X-Powered-By: Express&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: public, max-age=0&#xd;
+Last-Modified: Tue, 21 Mar 2017 11:31:47 GMT&#xd;
+ETag: W/"1006-15af0a320b8"&#xd;
+Content-Type: application/javascript&#xd;
+Content-Length: 4102&#xd;
+Date: Tue, 23 Mar 2021 12:48:18 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="11"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    eTag="W/&quot;26f6-15af0a320b8&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 21 Mar 2017 11:31:47 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/js/jquery.query-object.js"
+    path="/js/jquery.query-object.js" postType="2"
+    recordedArtifactZipFileName="team/vus/@sock@shop - @many @transactions/%resources%/recorded-artifacts/d9bff690-78c5-45ad-bb6c-38c980c01b9d.zip"
+    recordedResponseCode="200"
+    refererUid="914a467a-b00d-4a57-8c4f-4cb413696cdd"
+    responseSize="9974" serverUid="sockshop.neotys.perfreleng.org"
+    slaProfileEnabled="false" slaProfileName="fastfail"
+    uid="496295ba-5284-4423-9b40-0827aed0b3ea" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_ac5f6ab1-2b56-403d-a43b-c3ef661b459e</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_ac5f6ab1-2b56-403d-a43b-c3ef661b459e.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Host" value="sockshop.neotys.perfreleng.org"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://sockshop.neotys.perfreleng.org/"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+X-Powered-By: Express&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: public, max-age=0&#xd;
+Last-Modified: Tue, 21 Mar 2017 11:31:47 GMT&#xd;
+ETag: W/"26f6-15af0a320b8"&#xd;
+Content-Type: application/javascript&#xd;
+Content-Length: 9974&#xd;
+Date: Tue, 23 Mar 2021 12:48:18 GMT&#xd;
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="12"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>

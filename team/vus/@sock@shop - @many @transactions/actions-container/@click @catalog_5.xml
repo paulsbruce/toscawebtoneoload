@@ -1,0 +1,13 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Click Catalog_5" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="05da3e5d-7b93-4961-9912-b19e98632cbb" weightsEnabled="false">
+    <weighted-embedded-action uid="90cb29d8-2e94-4fca-8e83-9a2f06a77369"/>
+    <weighted-embedded-action uid="83b806d3-3763-4d99-a631-bebc5dca52fb"/>
+    <weighted-embedded-action uid="d302e14a-dab9-4d36-81b9-1b972af66b87"/>
+    <weighted-embedded-action uid="d40a9223-91a8-448b-88e2-4cd78d89ad70"/>
+    <weighted-embedded-action uid="adaf93cf-c72c-495c-b2ca-4cca4cead2e7"/>
+    <weighted-embedded-action uid="c178faf4-4099-464a-8657-da428289d104"/>
+    <weighted-embedded-action uid="4ddc733b-5184-4a68-a6aa-a7326dd767fd"/>
+    <weighted-embedded-action uid="27533f2d-793e-4f22-9b8e-acabdbfcfac4"/>
+</basic-logical-action-container>

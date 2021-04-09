@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Close Sockshop website_2" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="21fd9092-cd75-44bf-9866-2c5ca7ecba0a" weightsEnabled="false">
+    <weighted-embedded-action uid="5a8ce227-a46b-4a96-ae12-acb801d9a353"/>
+</basic-logical-action-container>

@@ -1,0 +1,9 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Add to Cart_3" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="12340b86-7960-4ccc-b0e1-7f3920869de9" weightsEnabled="false">
+    <weighted-embedded-action uid="39f1b557-b599-4924-8f84-14a3c642f886"/>
+    <weighted-embedded-action uid="ab064ad5-8e97-418c-b1a7-97b0f1a20ddd"/>
+    <weighted-embedded-action uid="4cbd636d-4c16-4457-b019-a225591d600f"/>
+    <weighted-embedded-action uid="df091388-df89-4650-91e9-011edd3eb488"/>
+</basic-logical-action-container>

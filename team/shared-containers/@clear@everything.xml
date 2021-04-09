@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="ClearEverything" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="568753ef-7f95-4dbe-926a-bea5ff159248" weightsEnabled="false">
+    <weighted-embedded-action uid="b79550bb-64e4-4eb3-9a10-33ef18fe5b66"/>
+</basic-logical-action-container>
+<shared-element>568753ef-7f95-4dbe-926a-bea5ff159248</shared-element>

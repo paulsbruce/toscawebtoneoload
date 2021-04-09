@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Click Cart" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="db07cced-a4a8-4388-83a7-9522025cc548" weightsEnabled="false">
+    <weighted-embedded-action uid="a54e7a07-9a16-4799-ae5b-84ad8969729c"/>
+    <weighted-embedded-action uid="c1b0b8f9-e33c-41e7-a2f0-031e54e8dd42"/>
+    <weighted-embedded-action uid="bd3a4f0e-62e1-4ef6-bcf4-5cdad8803d98"/>
+    <weighted-embedded-action uid="4c3ce94d-2421-4f56-ae9f-754f704cc53a"/>
+    <weighted-embedded-action uid="1b7268c0-df34-486a-a450-137a45cc0f8a"/>
+</basic-logical-action-container>
