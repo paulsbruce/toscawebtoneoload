@@ -48,7 +48,9 @@
     </request-path-exclusion-filter>
     <!--****** END  EXCLUSION FILTER ******-->
     <!--****** START DYNATRACE MONITORING ******-->
-    <dynatrace-monitoring/>
+    <dynatrace-monitoring>
+        <tag>neotys-cpt</tag>
+    </dynatrace-monitoring>
     <!--****** END  DYNATRACE MONITORING ******-->
     <!--****** START TRACE VARIABLES ******-->
     <!--****** END TRACE VARIABLES ******-->
