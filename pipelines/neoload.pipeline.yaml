@@ -68,7 +68,7 @@ jobs:
         sed -i 's/\[\[max_users\]\]/${{ parameters.vus }}/g' $DYN_SCENARIO_FILE
         sed -i 's/\[\[max_duration\]\]/${{ parameters.duration }}m/g' $DYN_SCENARIO_FILE
 
-        #cat ./actual-scenario.yaml
+        cat ./actual-scenario.yaml
 
         neoload validate .
 
@@ -93,11 +93,11 @@ jobs:
         VUS_ARG="--web-vu $LICENSE_VUS"
 
         neoload --debug run --name "TOSCANeoLoadFromAzure_$(Build.BuildNumber)" \
-                    --description "Azure example with meta; $(Build.BuildUri)" \
                     --scenario ${{ parameters.scenario }} \
                     --as-code actual-scenario.yaml,yaml/slas.template.nl.yaml \
                     --detached $VUS_ARG
         sleep 10
+        #            --description "Azure example with meta; $(Build.BuildUri)" \
 
   - task: Bash@3
     displayName: Wait for fastfail or finish signals
