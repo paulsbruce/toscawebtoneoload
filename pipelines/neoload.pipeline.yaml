@@ -49,7 +49,7 @@ jobs:
     inputs:
       targetType: 'inline'
       script: |
-        echo "Installing NeoLoad from Pypi Live (~20sec); if you don't want to do this, bake the NeoLoad CLI in to your worker image!"
+        echo "Installing NeoLoad from Pypi Live (~10sec); if you don't want to do this, bake the NeoLoad CLI in to your worker image!"
         pip install -q neoload
         neoload --version
         neoload login --url $(neoloadApiUrl) --workspace $(workspaceId) $(neoloadToken)
@@ -88,7 +88,9 @@ jobs:
         set +x
         (( LICENSE_VUS=${{ parameters.vus }}+1 ))
         echo "License VUs: $LICENSE_VUS"
-        if [ "${{ parameters.scenario }}" -eq "adhoc" ]; then VUS_ARG="--web-vu $LICENSE_VUS"; fi
+        #if [ "${{ parameters.scenario }}" -eq "adhoc" ]; then VUS_ARG="--web-vu $LICENSE_VUS"; fi
+        echo "adhoc selected"
+        VUS_ARG="--web-vu $LICENSE_VUS"
 
         neoload --debug run --name "TOSCANeoLoadFromAzure_$(Build.BuildNumber)" \
                     --description "Azure example with meta; $(Build.BuildUri)" \
