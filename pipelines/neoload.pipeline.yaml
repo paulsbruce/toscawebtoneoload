@@ -88,16 +88,14 @@ jobs:
         set +x
         (( LICENSE_VUS=${{ parameters.vus }}+1 ))
         echo "License VUs: $LICENSE_VUS"
-        #if [ "${{ parameters.scenario }}" -eq "adhoc" ]; then VUS_ARG="--web-vu $LICENSE_VUS"; fi
-        echo "adhoc selected"
-        VUS_ARG="--web-vu $LICENSE_VUS"
+        if [ "${{ parameters.scenario }}" -eq "adhoc" ]; then VUS_ARG="--web-vu $LICENSE_VUS"; fi
 
         neoload --debug run --name "TOSCANeoLoadFromAzure_$(Build.BuildNumber)" \
+                    --description "Azure example with meta; $(Build.BuildUri)" \
                     --scenario ${{ parameters.scenario }} \
                     --as-code actual-scenario.yaml,yaml/slas.template.nl.yaml \
                     --detached $VUS_ARG
         sleep 10
-        #            --description "Azure example with meta; $(Build.BuildUri)" \
 
   - task: Bash@3
     displayName: Wait for fastfail or finish signals
