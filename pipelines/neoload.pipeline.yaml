@@ -28,9 +28,9 @@ parameters:
 
 variables:
   neoloadToken: $(secret_nlw_token)
-  neoloadApiUrl: 'https://neoload-web-api.neotys.perfreleng.org/'
-  workspaceId: '5fd12022430f780001e3fb61'
-  zoneId: 'wNBKe'
+  neoloadApiUrl: $(nlw_api_url)
+  workspaceId: $(workspace_id)
+  zoneId: $(zone_id)
   PYTHONUNBUFFERED: 1
 
 jobs:
