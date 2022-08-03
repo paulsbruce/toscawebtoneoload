@@ -1,0 +1,16 @@
+# Project description file
+
+project.name=sock_shop_demo
+project.version=8.3
+project.original.version=7.0
+product.name=NeoLoad
+product.original.name=NeoLoad
+product.original.version=7.3.0
+project.workspace=5fd12022430f780001e3fb61
+project.test-settings=fb9ba738-a6d2-40da-a4bb-b4db79261c67
+project.is-open-test-settings-after-upload=false
+project.id=8be56506-80e3-44f7-b3cd-0bb41ba2f638
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=true
+team.server.project=paulsbruce/toscawebtoneoload.git

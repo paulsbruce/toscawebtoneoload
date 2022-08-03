@@ -1,0 +1,5 @@
+<loop-action loop="8" name="custom_data" uid="9624b2c4-64ab-4bed-b454-18c80b2e2968">
+    <embedded-action>4fbddc40-0757-4b9f-ae5d-4d136a5e0fd3</embedded-action>
+    <embedded-action>02234d29-005b-4c20-83af-d376646142ab</embedded-action>
+    <embedded-action>666ab0e0-e603-4a69-a9c6-98cde8f65375</embedded-action>
+</loop-action>

@@ -1,0 +1,27 @@
+<connection-prometheus interval="30000" name="sock-shop_physical"
+    server-name="prometheus" server-port="0" step="5000"
+    uid="2d4f30f9-b846-4937-817e-f6af6d8749f5" url="/">
+    <monitor-category name="Queries" short-display-name="Queries">
+        <monitor-prometheus callTime="ON_BENCH" computing="0"
+            format="NUMBER" group-by="{{node}}"
+            legend-format="cpu for {{node}}"
+            name="sum by (node) (rate(container_cpu_user_seconds_total{namespace=&quot;sock-shop&quot;,container!=&quot;POD&quot;,container!=&quot;&quot;}[2m:5s]) * 100)"
+            promql="sum by (node) (rate(container_cpu_user_seconds_total{namespace=&quot;sock-shop&quot;,container!=&quot;POD&quot;,container!=&quot;&quot;}[2m:5s]) * 100)"
+            sampling="0"
+            short-display-name="sum by (node) (rate(container_cpu_user_seconds_total{name..." unit=""/>
+        <monitor-prometheus callTime="ON_BENCH" computing="0"
+            format="NUMBER" group-by="{{node}}"
+            legend-format="mem for {{node}}"
+            name="sum by (node) (container_memory_usage_bytes{namespace=&quot;sock-shop&quot;,container!=&quot;POD&quot;,container!=&quot;&quot;} / 1000000)"
+            promql="sum by (node) (container_memory_usage_bytes{namespace=&quot;sock-shop&quot;,container!=&quot;POD&quot;,container!=&quot;&quot;} / 1000000)"
+            sampling="0"
+            short-display-name="sum by (node) (container_memory_usage_bytes{namespace=_so..." unit=""/>
+        <monitor-prometheus callTime="ON_BENCH" computing="0"
+            format="NUMBER" group-by="{{node}}"
+            legend-format="restarts for {{node}}"
+            name="sum by (node) (kube_pod_container_status_restarts_total{namespace=&quot;sock-shop&quot;})"
+            promql="sum by (node) (kube_pod_container_status_restarts_total{namespace=&quot;sock-shop&quot;})"
+            sampling="0"
+            short-display-name="sum by (node) (kube_pod_container_status_restarts_total{n..." unit=""/>
+    </monitor-category>
+</connection-prometheus>

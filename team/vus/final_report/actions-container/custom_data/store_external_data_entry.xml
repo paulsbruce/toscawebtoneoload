@@ -1,0 +1,21 @@
+<custom-action actionType="Store External Data Entry" enabled="false"
+    isHit="false" name="store_external_data_entry" uid="666ab0e0-e603-4a69-a9c6-98cde8f65375">
+    <description>This action stores a value in the External Data part of the results through the DataExchange API.
+
+Possible parameters are:
+- value: (required) the numerical value to store in the entry. Example: ${myVariable}.
+- path: (required) the string representing the list of nodes that contains the entry. Path separator is '|'.
+- unit: (optional) the unit of the entry.
+- url: (optional) the url of the entry.
+- code: (optional) the string code of the status associated to the entry.
+- message: (optional) the message of the status associated to the entry.
+- state: (optional) the state of the status associated to the entry. Possible values are PASS and FAIL.
+- DataExchangeAPIURL: (optional) Where the DataExchange server is located. Optional, by default it is: http://${NL-ControllerIp}:7400/DataExchange/v1/Service.svc/.
+- DataExchangeAPIKey: (optional) identification key specified in NeoLoad.
+- locale: (optional) the locale used to parse the numerical value. Default are English then French.</description>
+    <custom-action-parameter name="value" type="TEXT" value="${rand_int}"/>
+    <custom-action-parameter name="path" type="TEXT" value="Custom|custom_data_counter_${custom_data_counter}"/>
+    <custom-action-parameter name="unit" type="TEXT" value="ms"/>
+    <custom-action-parameter name="message" type="TEXT" value="This is a custom message with value for custom data counter ${custom_data_counter}"/>
+    <responsePageFileDescription>recorded-responses/res_666ab0e0-e603-4a69-a9c6-98cde8f65375</responsePageFileDescription>
+</custom-action>

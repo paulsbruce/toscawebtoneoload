@@ -1,0 +1,33 @@
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name=""
+    path="/v3/workspaces/${nlw_workspace_id}/test-results/${nlw_test_result_id}/monitors"
+    postCharset="" postType="4" serverUid="nlw"
+    slaProfileEnabled="false" uid="02234d29-005b-4c20-83af-d376646142ab" useKeepAlive="false">
+    <responsePageFileDescription>team/vus/final_report/%resources%/recorded-responses/res_02234d29-005b-4c20-83af-d376646142ab</responsePageFileDescription>
+    <header name="accountToken" value="${nlw_account_token}"/>
+    <header name="accept" value="*/*"/>
+    <header name="Content-Type" value="application/json"/>
+    <responseHeaders/>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{
+  "monitors": [
+    {
+      "name": "The counter custom_data_counter_${custom_data_counter}",
+      "path": [
+        "Custom",
+        "custom_data_counter_${custom_data_counter}"
+      ],
+      "unit": "ms",
+      "values": [
+        {
+          "timestamp": ${timestamp_epoch},
+          "value": ${rand_int}
+        }
+      ]
+    }
+  ]
+}]]></textPostContent>
+</http-action>
