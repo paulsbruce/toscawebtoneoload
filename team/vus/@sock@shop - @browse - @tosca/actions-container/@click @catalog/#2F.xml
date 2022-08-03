@@ -36,12 +36,12 @@
     lastModified="Mon, 04 Apr 2022 21:25:07 GMT"
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
-    method="GET" name="/" path="/" postType="2"
+    method="GET" name="/" path="/" postCharset="" postType="2"
     recordedArtifactZipFileName="team/vus/@sock@shop - @browse - @tosca/%resources%/recorded-artifacts/619665bd-a45f-4cc9-aac0-ef8816756e11.zip"
     recordedResponseCode="200" responseSize="8688" serverUid="front-end"
     slaProfileEnabled="true" slaProfileName="fastfail"
     uid="8a9947b8-5e19-456d-b794-7d77cfa69d5e" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_8a9947b8-5e19-456d-b794-7d77cfa69d5e.html</responsePageFileDescription>
+    <responsePageFileDescription>recorded-responses/res_8a9947b8-5e19-456d-b794-7d77cfa69d5e.0.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_8a9947b8-5e19-456d-b794-7d77cfa69d5e.txt</requestContentFileDescription>
     <variable-extractor assertionOnNoMatch="true"
         defaultValue="&lt;NOT FOUND>" displayMode="1" endsWithSimple=""
@@ -61,6 +61,7 @@
     <header name="Proxy-Connection" value="keep-alive"/>
     <header name="Upgrade-Insecure-Requests" value="1"/>
     <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"/>
+    <header name="Arbitrage" value="1234"/>
     <responseHeaders>HTTP/1.1 200 OK&#xd;
 X-Powered-By: Express&#xd;
 Accept-Ranges: bytes&#xd;
