@@ -1,0 +1,7 @@
+<http-server hostname="socks.tricentis.perfreleng.org" port="80"
+    ssl="false" uid="front-end" urlrewriting-argument-name=""
+    urlrewriting-enabled="false" urlrewriting-path-extension="false"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";">
+    <authorization password="V2Lr9nbEsioo8bnJZRH9ZA==" realm=""
+        scheme="Basic" userName="paulsbruce"/>
+</http-server>

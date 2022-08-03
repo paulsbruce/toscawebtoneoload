@@ -1,0 +1,776 @@
+<scenario postMonitoringTime="-1" preMonitoringTime="-1"
+    slaProfileEnabled="false" traceVariables="true" uid="finalReport" virtualUsersStates="true">
+    <!--****** POPULATION POLICY ******-->
+    <population-policy name="FinalReport">
+        <duration-policy-entry iterations="1" time="60" timeUnit="0" type="1"/>
+        <volume-policy-entry>
+            <constant-volume-policy iterationNumber="1" userNumber="1"/>
+        </volume-policy-entry>
+        <start-stop-policy-entry start-delay="0"
+            start-population="StandardPop" start-type="2"
+            stop-delay="60000" stop-type="0"/>
+        <runtime-policy continueOnError="true" thinktimePolicy="0"
+            thinktimeValue="5000" vuStartDelay="0" vuStartMode="0"/>
+        <!--****** POPULATION LG HOSTS ******-->
+        <lg-hosts>
+            <lg-host-entry>$zoneID=Default zone;$lgID=localhost:7100</lg-host-entry>
+        </lg-hosts>
+    </population-policy>
+    <!--****** POPULATION POLICY ******-->
+    <population-policy name="StandardPop">
+        <duration-policy-entry iterations="1" time="30" timeUnit="0" type="2"/>
+        <volume-policy-entry>
+            <constant-volume-policy iterationNumber="1" userNumber="1"/>
+        </volume-policy-entry>
+        <start-stop-policy-entry start-delay="0" start-type="0"
+            stop-delay="60000" stop-type="0"/>
+        <runtime-policy continueOnError="true" thinktimePolicy="0"
+            thinktimeValue="5000" vuStartDelay="0" vuStartMode="0"/>
+        <!--****** POPULATION LG HOSTS ******-->
+        <lg-hosts>
+            <lg-host-entry>$zoneID=Default zone;$lgID=localhost:7100</lg-host-entry>
+        </lg-hosts>
+    </population-policy>
+    <dashboards defaultDashboardUid="Graph board"/>
+    <!--****** DASHBOARDS  ******-->
+    <charts-model-description name="Graph board">
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true" title="User Load and Error Rate" typeName="CLASSIC">
+            <monitor-curve-description color="20,106,203"
+                connectionName="NeoLoad" dashed="false"
+                monitorName="UserLoad" monitoredHostName="NeoLoad"
+                scale="1.0" selected="false"/>
+            <action-curve-description
+                actionUid="2ee035d5-0178-378f-8d0a-63218f082d2f"
+                color="200,0,0" dashed="false" populationName=""
+                scale="1.0" selected="false"
+                statisticName="result.errors" zoneName=""/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true" title="Overall Throughput" typeName="CLASSIC">
+            <monitor-curve-description color="42,89,26"
+                connectionName="NeoLoad" dashed="false"
+                monitorName="throughput" monitoredHostName="NeoLoad"
+                scale="1.0" selected="false"/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true" title="Load Generators CPU usage" typeName="CLASSIC">
+            <monitor-curve-description color="0,255,0"
+                connectionName="NeoLoad" dashed="false"
+                monitorName="lgcpu.localhost:7100"
+                monitoredHostName="LG localhost:7100" scale="1.0" selected="false"/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true" title="Controller-Host/Dynatrace" typeName="CLASSIC">
+            <monitor-curve-description color="200,0,0"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="HOST-D2709BE03955E738/builtin:host.cpu.idle"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="244,239,0"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="HOST-D2709BE03955E738/builtin:host.cpu.iowait"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="177,114,16"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="HOST-D2709BE03955E738/builtin:host.cpu.steal"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="26,255,255"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="HOST-D2709BE03955E738/builtin:host.cpu.system"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="11,117,117"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="HOST-D2709BE03955E738/builtin:host.cpu.user"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="192,206,217"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="HOST-D2709BE03955E738/builtin:host.disk.avail"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="252,237,43"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="HOST-D2709BE03955E738/builtin:host.disk.bytesRead"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="191,7,243"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="HOST-D2709BE03955E738/builtin:host.disk.bytesWritten"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="3,146,168"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="HOST-D2709BE03955E738/builtin:host.disk.free"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="97,79,80"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="HOST-D2709BE03955E738/builtin:host.disk.readOps"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="175,237,194"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="HOST-D2709BE03955E738/builtin:host.disk.usedPct"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="201,207,252"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="HOST-D2709BE03955E738/builtin:host.disk.writeOps"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="28,50,106"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="HOST-D2709BE03955E738/builtin:host.mem.used"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="200,0,46"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="HOST-D2709BE03955E738/builtin:host.mem.avail.bytes"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="89,121,99"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="HOST-D2709BE03955E738/builtin:host.mem.avail.pct"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="23,167,194"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="HOST-D2709BE03955E738/builtin:host.mem.avail.pfps"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="147,81,255"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="HOST-D2709BE03955E738/builtin:host.net.nic.bytesRx"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="82,229,120"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="HOST-D2709BE03955E738/builtin:host.net.nic.bytesTx"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="255,251,197"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="HOST-D2709BE03955E738/builtin:host.net.nic.packets.rx"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="69,244,220"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="HOST-D2709BE03955E738/builtin:host.net.nic.packets.tx"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="247,144,184"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="HOST-D2709BE03955E738/builtin:host.osService.availability"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="45,190,79"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="SERVICE-22C04B27DB79B934/builtin:service.errors.client.rate"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="35,15,39"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="SERVICE-3EC0556F26959D9C/builtin:service.errors.client.rate"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="13,73,16"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="SERVICE-22C04B27DB79B934/builtin:service.errors.fivexx.count"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="176,253,121"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="SERVICE-3EC0556F26959D9C/builtin:service.errors.fivexx.count"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="133,186,42"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="SERVICE-22C04B27DB79B934/builtin:service.errors.fourxx.count"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="1,14,122"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="SERVICE-3EC0556F26959D9C/builtin:service.errors.fourxx.count"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="184,253,69"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="SERVICE-22C04B27DB79B934/builtin:service.errors.server.rate"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="71,55,73"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="SERVICE-3EC0556F26959D9C/builtin:service.errors.server.rate"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="93,1,146"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="SERVICE-22C04B27DB79B934/builtin:service.errors.total.rate"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="66,215,122"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="SERVICE-3EC0556F26959D9C/builtin:service.errors.total.rate"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="220,60,104"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="SERVICE-22C04B27DB79B934/builtin:service.response.time"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="86,161,75"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="SERVICE-3EC0556F26959D9C/builtin:service.response.time"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="177,41,179"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="PROCESS_GROUP-94A158C596B54617/builtin:tech.rabbitmq.cluster_channels"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="97,33,156"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="PROCESS_GROUP-94A158C596B54617/builtin:tech.rabbitmq.cluster_connections"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="216,185,96"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="PROCESS_GROUP-94A158C596B54617/builtin:tech.rabbitmq.cluster_consumers"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="107,239,56"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="PROCESS_GROUP-94A158C596B54617/builtin:tech.rabbitmq.cluster_exchanges"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="232,217,19"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="PROCESS_GROUP-94A158C596B54617/builtin:tech.rabbitmq.cluster_messages_ack"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="103,29,221"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="PROCESS_GROUP-94A158C596B54617/builtin:tech.rabbitmq.cluster_messages_deliver_get"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="232,109,84"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="PROCESS_GROUP-94A158C596B54617/builtin:tech.rabbitmq.cluster_messages_publish"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="97,34,7"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="PROCESS_GROUP-94A158C596B54617/builtin:tech.rabbitmq.cluster_messages_ready"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="27,249,66"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="PROCESS_GROUP-94A158C596B54617/builtin:tech.rabbitmq.cluster_messages_redeliver"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="42,18,18"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="PROCESS_GROUP-94A158C596B54617/builtin:tech.rabbitmq.cluster_messages_return_unroutable"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="225,60,90"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="PROCESS_GROUP-94A158C596B54617/builtin:tech.rabbitmq.cluster_messages_unacknowledged"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="123,165,79"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="PROCESS_GROUP-94A158C596B54617/builtin:tech.rabbitmq.cluster_nodes_failed"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="56,57,230"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="PROCESS_GROUP-94A158C596B54617/builtin:tech.rabbitmq.cluster_nodes_ok"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="168,233,233"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="PROCESS_GROUP-94A158C596B54617/builtin:tech.rabbitmq.cluster_queues_crashed"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="83,254,175"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="PROCESS_GROUP-94A158C596B54617/builtin:tech.rabbitmq.cluster_queues_down"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="70,66,25"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="PROCESS_GROUP-94A158C596B54617/builtin:tech.rabbitmq.cluster_queues_flow"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="107,228,230"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="PROCESS_GROUP-94A158C596B54617/builtin:tech.rabbitmq.cluster_queues_idle"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="162,213,113"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="PROCESS_GROUP-94A158C596B54617/builtin:tech.rabbitmq.cluster_queues_running"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="224,59,54"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="PROCESS_GROUP-94A158C596B54617/builtin:tech.rabbitmq.topN_queue_ack"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="231,209,60"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="PROCESS_GROUP-94A158C596B54617/builtin:tech.rabbitmq.topN_queue_consumers"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="82,160,163"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="PROCESS_GROUP-94A158C596B54617/builtin:tech.rabbitmq.topN_queue_deliver_get"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="148,16,25"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="PROCESS_GROUP-94A158C596B54617/builtin:tech.rabbitmq.topN_queue_messages_ready"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="243,44,129"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="PROCESS_GROUP-94A158C596B54617/builtin:tech.rabbitmq.topN_queue_messages_unacknowledged"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+            <monitor-curve-description color="122,48,233"
+                connectionName="Dynatrace" dashed="false"
+                monitorName="PROCESS_GROUP-94A158C596B54617/builtin:tech.rabbitmq.topN_queue_publish"
+                monitoredHostName="Controller-Host" scale="1.0" selected="false"/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true"
+            title="Prometheus on Cluster psb-sut/sock-shop_logical" typeName="CLASSIC">
+            <monitor-curve-description color="20,106,203"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="0:container:carts, endpoint:https-metrics, id:/kubepods/burstable/pod2d27d9a7-f8b8-43bf-bcd3-3306a0b0bb25/9cb1ef22f41e63984ce1405298640e87d731bfba65271944ad9fa619d7c55bb7, image:sha256:c004737361182d3cd7f38e6d9ce4a44f2a349b8dc996834e2cba0defcd0cb522, instance:192.168.118.211:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:9cb1ef22f41e63984ce1405298640e87d731bfba65271944ad9fa619d7c55bb7, namespace:sock-shop, node:fargate-ip-192-168-118-211.us-east-2.compute.internal, pod:carts-5544756c87-ftj88, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="10.0" selected="false"/>
+            <monitor-curve-description color="88,183,55"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="0:container:carts-db, endpoint:https-metrics, id:/kubepods/besteffort/pod266f2eb9-9008-4aee-b29b-07fec5381f25/d0782e8ba7142efd155855cd867c57213a240de97fdcb1b818e01497a0b660c3, image:docker.io/library/mongo@sha256:5eb033a9fa65d1c650b5a8ec3396eee37498fa38d1b91be44492c41cde904735, instance:192.168.161.58:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:d0782e8ba7142efd155855cd867c57213a240de97fdcb1b818e01497a0b660c3, namespace:sock-shop, node:fargate-ip-192-168-161-58.us-east-2.compute.internal, pod:carts-db-748c6ddd69-96p4w, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="10.0" selected="false"/>
+            <monitor-curve-description color="200,0,0"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="0:container:catalogue, endpoint:https-metrics, id:/kubepods/burstable/pod6bdf2d16-4941-45f4-a20a-a93986ca6ff6/6f1056ffb7ceb5548948b9403118b0eef2c474ba64795ba97e2e865556e1c7db, image:docker.io/weaveworksdemos/catalogue:0.3.5, instance:192.168.115.230:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:6f1056ffb7ceb5548948b9403118b0eef2c474ba64795ba97e2e865556e1c7db, namespace:sock-shop, node:fargate-ip-192-168-115-230.us-east-2.compute.internal, pod:catalogue-54c55dcc74-bvp8d, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="100.0" selected="false"/>
+            <monitor-curve-description color="191,0,189"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="0:container:catalogue-db, endpoint:https-metrics, id:/kubepods/besteffort/pod482e5223-f112-4901-8ee6-7571cacd0a9a/ff222d4c87221a0fddce9bded9d2a70d3967790d84eb24cdcf27f44c0d073362, image:docker.io/weaveworksdemos/catalogue-db:0.3.0, instance:192.168.162.3:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:ff222d4c87221a0fddce9bded9d2a70d3967790d84eb24cdcf27f44c0d073362, namespace:sock-shop, node:fargate-ip-192-168-162-3.us-east-2.compute.internal, pod:catalogue-db-6ddf8b86dd-cpl2k, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1000.0" selected="false"/>
+            <monitor-curve-description color="223,143,143"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="0:container:orders, endpoint:https-metrics, id:/kubepods/burstable/podf78c50f5-d151-44ba-a0ff-2f55daa9edf2/6337ccd1e2a1ffe08a1b970b98ae9dbcda6d93cb1068ba13675027c59bd56305, image:sha256:8275c5b9181b2311feccd32f2efe865e9207a52a19e0f69939e5576c6f76dc1c, instance:192.168.182.89:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:6337ccd1e2a1ffe08a1b970b98ae9dbcda6d93cb1068ba13675027c59bd56305, namespace:sock-shop, node:fargate-ip-192-168-182-89.us-east-2.compute.internal, pod:orders-79786ff8d7-svpj6, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1000.0" selected="false"/>
+            <monitor-curve-description color="236,153,22"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="0:container:orders-db, endpoint:https-metrics, id:/kubepods/besteffort/pod83bd0375-5d4d-429a-998f-1e0ae8557719/f08a061c5cb884b46cb50761976aeaab6a8de4ebe5f632a58374007bdea57e64, image:docker.io/library/mongo:latest, instance:192.168.129.206:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:f08a061c5cb884b46cb50761976aeaab6a8de4ebe5f632a58374007bdea57e64, namespace:sock-shop, node:fargate-ip-192-168-129-206.us-east-2.compute.internal, pod:orders-db-77c46b9c85-w2wxk, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="100.0" selected="false"/>
+            <monitor-curve-description color="128,128,128"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="0:container:payment, endpoint:https-metrics, id:/kubepods/burstable/pod7a0f1c78-8f8e-418e-870e-1a7e42b23afb/b2703f37f4d819f1aa89853784da87e0f868ca9d2395e0b78d2876b14ec94e4b, image:docker.io/weaveworksdemos/payment:0.4.3, instance:192.168.96.222:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:b2703f37f4d819f1aa89853784da87e0f868ca9d2395e0b78d2876b14ec94e4b, namespace:sock-shop, node:fargate-ip-192-168-96-222.us-east-2.compute.internal, pod:payment-7b674db4bc-f6r8g, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="244,239,0"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="0:container:queue-master, endpoint:https-metrics, id:/kubepods/burstable/podaab7c2fa-f1dd-4af4-bbe2-6be056fbc9c0/c9a9d0d95ae427644c2076132c53535883da4f65644e239e8db46085987b28ae, image:sha256:76f0de7a12acaa2bdbda36d1b7ddd0ec42204e9c0f4e8c59c329f07336cfa2dc, instance:192.168.113.149:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:c9a9d0d95ae427644c2076132c53535883da4f65644e239e8db46085987b28ae, namespace:sock-shop, node:fargate-ip-192-168-113-149.us-east-2.compute.internal, pod:queue-master-77577988bf-mznkh, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="10.0" selected="false"/>
+            <monitor-curve-description color="15,79,152"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="0:container:rabbitmq, endpoint:https-metrics, id:/kubepods/besteffort/pod0d4ae5ff-0d3c-40d5-8a73-74debccf42cf/4635b56f716fcbacc4b0e02bf977a1d5ef60adcf1d7894685f8303d5365e1499, image:docker.io/library/rabbitmq:3.6.8-management, instance:192.168.189.123:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:4635b56f716fcbacc4b0e02bf977a1d5ef60adcf1d7894685f8303d5365e1499, namespace:sock-shop, node:fargate-ip-192-168-189-123.us-east-2.compute.internal, pod:rabbitmq-7ddc84cb6c-84lph, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="10.0" selected="false"/>
+            <monitor-curve-description color="66,137,41"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="0:container:rabbitmq-exporter, endpoint:https-metrics, id:/kubepods/besteffort/pod0d4ae5ff-0d3c-40d5-8a73-74debccf42cf/386e4b4ccf3654a41fea52a4f2b1b7ffbfc2568d0fac2575ffe267e80a3ff4c3, image:docker.io/kbudde/rabbitmq-exporter:latest, instance:192.168.189.123:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:386e4b4ccf3654a41fea52a4f2b1b7ffbfc2568d0fac2575ffe267e80a3ff4c3, namespace:sock-shop, node:fargate-ip-192-168-189-123.us-east-2.compute.internal, pod:rabbitmq-7ddc84cb6c-84lph, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="183,179,0"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="0:container:session-db, endpoint:https-metrics, id:/kubepods/besteffort/pod44955840-afc7-494c-bb3a-0ab7a683baac/857326e99cc55db7b12d8894142685971b5c8ed6c175397e42144969ef429bfe, image:docker.io/library/redis:alpine, instance:192.168.102.217:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:857326e99cc55db7b12d8894142685971b5c8ed6c175397e42144969ef429bfe, namespace:sock-shop, node:fargate-ip-192-168-102-217.us-east-2.compute.internal, pod:session-db-8f64655d5-jdffv, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="10.0" selected="false"/>
+            <monitor-curve-description color="143,0,141"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="0:container:shipping, endpoint:https-metrics, id:/kubepods/burstable/pod338fae57-1d2f-404e-8421-48ef52c55364/8e8931914d24f9fa8915415048cbff77747f370187fef2f20abbe0f06aa0f9f4, image:docker.io/weaveworksdemos/shipping:0.4.8, instance:192.168.143.187:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:8e8931914d24f9fa8915415048cbff77747f370187fef2f20abbe0f06aa0f9f4, namespace:sock-shop, node:fargate-ip-192-168-143-187.us-east-2.compute.internal, pod:shipping-584f68b645-lwxf2, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="10.0" selected="false"/>
+            <monitor-curve-description color="15,157,157"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="0:container:user, endpoint:https-metrics, id:/kubepods/burstable/pod22a5b7e9-a1e7-40ac-873c-5c0b27b58bb2/93f981da8ffd1a00399f14909892e3fb84a5e3c2e43a82a4b7668f68dc01997d, image:docker.io/weaveworksdemos/user@sha256:2ffccc332963c89e035fea52201012208bf62df43a55fe461ad6598a5c757ab7, instance:192.168.151.173:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:93f981da8ffd1a00399f14909892e3fb84a5e3c2e43a82a4b7668f68dc01997d, namespace:sock-shop, node:fargate-ip-192-168-151-173.us-east-2.compute.internal, pod:user-c95659687-bv7ct, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="100.0" selected="false"/>
+            <monitor-curve-description color="177,114,16"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="0:container:user-db, endpoint:https-metrics, id:/kubepods/besteffort/pod1ded0d83-53d8-4141-8a35-6afe4d73418d/deb7d5d2a8d4a2a3f4f0265dc3b1d5f4f27094005df717a67b3b04bceaaba0a2, image:docker.io/weaveworksdemos/user-db:0.3.0, instance:192.168.189.129:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:deb7d5d2a8d4a2a3f4f0265dc3b1d5f4f27094005df717a67b3b04bceaaba0a2, namespace:sock-shop, node:fargate-ip-192-168-189-129.us-east-2.compute.internal, pod:user-db-79b99f877f-wxpgm, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="100.0" selected="false"/>
+            <monitor-curve-description color="20,210,210"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="1:container:carts, endpoint:https-metrics, id:/kubepods/burstable/pod2d27d9a7-f8b8-43bf-bcd3-3306a0b0bb25/9cb1ef22f41e63984ce1405298640e87d731bfba65271944ad9fa619d7c55bb7, image:sha256:c004737361182d3cd7f38e6d9ce4a44f2a349b8dc996834e2cba0defcd0cb522, instance:192.168.118.211:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:9cb1ef22f41e63984ce1405298640e87d731bfba65271944ad9fa619d7c55bb7, namespace:sock-shop, node:fargate-ip-192-168-118-211.us-east-2.compute.internal, pod:carts-5544756c87-ftj88, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="0.1" selected="false"/>
+            <monitor-curve-description color="64,64,64"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="1:container:carts-db, endpoint:https-metrics, id:/kubepods/besteffort/pod266f2eb9-9008-4aee-b29b-07fec5381f25/d0782e8ba7142efd155855cd867c57213a240de97fdcb1b818e01497a0b660c3, image:docker.io/library/mongo@sha256:5eb033a9fa65d1c650b5a8ec3396eee37498fa38d1b91be44492c41cde904735, instance:192.168.161.58:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:d0782e8ba7142efd155855cd867c57213a240de97fdcb1b818e01497a0b660c3, namespace:sock-shop, node:fargate-ip-192-168-161-58.us-east-2.compute.internal, pod:carts-db-748c6ddd69-96p4w, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="0.1" selected="false"/>
+            <monitor-curve-description color="26,141,255"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="1:container:catalogue, endpoint:https-metrics, id:/kubepods/burstable/pod6bdf2d16-4941-45f4-a20a-a93986ca6ff6/6f1056ffb7ceb5548948b9403118b0eef2c474ba64795ba97e2e865556e1c7db, image:docker.io/weaveworksdemos/catalogue:0.3.5, instance:192.168.115.230:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:6f1056ffb7ceb5548948b9403118b0eef2c474ba64795ba97e2e865556e1c7db, namespace:sock-shop, node:fargate-ip-192-168-115-230.us-east-2.compute.internal, pod:catalogue-54c55dcc74-bvp8d, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="117,244,73"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="1:container:catalogue-db, endpoint:https-metrics, id:/kubepods/besteffort/pod482e5223-f112-4901-8ee6-7571cacd0a9a/ff222d4c87221a0fddce9bded9d2a70d3967790d84eb24cdcf27f44c0d073362, image:docker.io/weaveworksdemos/catalogue-db:0.3.0, instance:192.168.162.3:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:ff222d4c87221a0fddce9bded9d2a70d3967790d84eb24cdcf27f44c0d073362, namespace:sock-shop, node:fargate-ip-192-168-162-3.us-east-2.compute.internal, pod:catalogue-db-6ddf8b86dd-cpl2k, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="0.1" selected="false"/>
+            <monitor-curve-description color="26,255,255"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="1:container:orders, endpoint:https-metrics, id:/kubepods/burstable/podf78c50f5-d151-44ba-a0ff-2f55daa9edf2/6337ccd1e2a1ffe08a1b970b98ae9dbcda6d93cb1068ba13675027c59bd56305, image:sha256:8275c5b9181b2311feccd32f2efe865e9207a52a19e0f69939e5576c6f76dc1c, instance:192.168.182.89:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:6337ccd1e2a1ffe08a1b970b98ae9dbcda6d93cb1068ba13675027c59bd56305, namespace:sock-shop, node:fargate-ip-192-168-182-89.us-east-2.compute.internal, pod:orders-79786ff8d7-svpj6, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="0.1" selected="false"/>
+            <monitor-curve-description color="192,192,192"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="1:container:orders-db, endpoint:https-metrics, id:/kubepods/besteffort/pod83bd0375-5d4d-429a-998f-1e0ae8557719/f08a061c5cb884b46cb50761976aeaab6a8de4ebe5f632a58374007bdea57e64, image:docker.io/library/mongo:latest, instance:192.168.129.206:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:f08a061c5cb884b46cb50761976aeaab6a8de4ebe5f632a58374007bdea57e64, namespace:sock-shop, node:fargate-ip-192-168-129-206.us-east-2.compute.internal, pod:orders-db-77c46b9c85-w2wxk, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="0.1" selected="false"/>
+            <monitor-curve-description color="11,59,114"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="1:container:payment, endpoint:https-metrics, id:/kubepods/burstable/pod7a0f1c78-8f8e-418e-870e-1a7e42b23afb/b2703f37f4d819f1aa89853784da87e0f868ca9d2395e0b78d2876b14ec94e4b, image:docker.io/weaveworksdemos/payment:0.4.3, instance:192.168.96.222:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:b2703f37f4d819f1aa89853784da87e0f868ca9d2395e0b78d2876b14ec94e4b, namespace:sock-shop, node:fargate-ip-192-168-96-222.us-east-2.compute.internal, pod:payment-7b674db4bc-f6r8g, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="49,102,30"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="1:container:queue-master, endpoint:https-metrics, id:/kubepods/burstable/podaab7c2fa-f1dd-4af4-bbe2-6be056fbc9c0/c9a9d0d95ae427644c2076132c53535883da4f65644e239e8db46085987b28ae, image:sha256:76f0de7a12acaa2bdbda36d1b7ddd0ec42204e9c0f4e8c59c329f07336cfa2dc, instance:192.168.113.149:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:c9a9d0d95ae427644c2076132c53535883da4f65644e239e8db46085987b28ae, namespace:sock-shop, node:fargate-ip-192-168-113-149.us-east-2.compute.internal, pod:queue-master-77577988bf-mznkh, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="0.1" selected="false"/>
+            <monitor-curve-description color="137,134,0"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="1:container:rabbitmq, endpoint:https-metrics, id:/kubepods/besteffort/pod0d4ae5ff-0d3c-40d5-8a73-74debccf42cf/4635b56f716fcbacc4b0e02bf977a1d5ef60adcf1d7894685f8303d5365e1499, image:docker.io/library/rabbitmq:3.6.8-management, instance:192.168.189.123:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:4635b56f716fcbacc4b0e02bf977a1d5ef60adcf1d7894685f8303d5365e1499, namespace:sock-shop, node:fargate-ip-192-168-189-123.us-east-2.compute.internal, pod:rabbitmq-7ddc84cb6c-84lph, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="107,0,105"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="1:container:rabbitmq-exporter, endpoint:https-metrics, id:/kubepods/besteffort/pod0d4ae5ff-0d3c-40d5-8a73-74debccf42cf/386e4b4ccf3654a41fea52a4f2b1b7ffbfc2568d0fac2575ffe267e80a3ff4c3, image:docker.io/kbudde/rabbitmq-exporter:latest, instance:192.168.189.123:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:386e4b4ccf3654a41fea52a4f2b1b7ffbfc2568d0fac2575ffe267e80a3ff4c3, namespace:sock-shop, node:fargate-ip-192-168-189-123.us-east-2.compute.internal, pod:rabbitmq-7ddc84cb6c-84lph, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="11,117,117"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="1:container:session-db, endpoint:https-metrics, id:/kubepods/besteffort/pod44955840-afc7-494c-bb3a-0ab7a683baac/857326e99cc55db7b12d8894142685971b5c8ed6c175397e42144969ef429bfe, image:docker.io/library/redis:alpine, instance:192.168.102.217:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:857326e99cc55db7b12d8894142685971b5c8ed6c175397e42144969ef429bfe, namespace:sock-shop, node:fargate-ip-192-168-102-217.us-east-2.compute.internal, pod:session-db-8f64655d5-jdffv, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="132,85,12"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="1:container:shipping, endpoint:https-metrics, id:/kubepods/burstable/pod338fae57-1d2f-404e-8421-48ef52c55364/8e8931914d24f9fa8915415048cbff77747f370187fef2f20abbe0f06aa0f9f4, image:docker.io/weaveworksdemos/shipping:0.4.8, instance:192.168.143.187:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:8e8931914d24f9fa8915415048cbff77747f370187fef2f20abbe0f06aa0f9f4, namespace:sock-shop, node:fargate-ip-192-168-143-187.us-east-2.compute.internal, pod:shipping-584f68b645-lwxf2, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="0.1" selected="false"/>
+            <monitor-curve-description color="34,188,255"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="1:container:user, endpoint:https-metrics, id:/kubepods/burstable/pod22a5b7e9-a1e7-40ac-873c-5c0b27b58bb2/93f981da8ffd1a00399f14909892e3fb84a5e3c2e43a82a4b7668f68dc01997d, image:docker.io/weaveworksdemos/user@sha256:2ffccc332963c89e035fea52201012208bf62df43a55fe461ad6598a5c757ab7, instance:192.168.151.173:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:93f981da8ffd1a00399f14909892e3fb84a5e3c2e43a82a4b7668f68dc01997d, namespace:sock-shop, node:fargate-ip-192-168-151-173.us-east-2.compute.internal, pod:user-c95659687-bv7ct, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="156,255,97"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="1:container:user-db, endpoint:https-metrics, id:/kubepods/besteffort/pod1ded0d83-53d8-4141-8a35-6afe4d73418d/deb7d5d2a8d4a2a3f4f0265dc3b1d5f4f27094005df717a67b3b04bceaaba0a2, image:docker.io/weaveworksdemos/user-db:0.3.0, instance:192.168.189.129:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:deb7d5d2a8d4a2a3f4f0265dc3b1d5f4f27094005df717a67b3b04bceaaba0a2, namespace:sock-shop, node:fargate-ip-192-168-189-129.us-east-2.compute.internal, pod:user-db-79b99f877f-wxpgm, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="0.1" selected="false"/>
+            <monitor-curve-description color="255,0,255"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="2:__name__:kube_pod_container_status_restarts_total, container:carts, endpoint:http, instance:192.168.106.188:8080, job:kube-state-metrics, namespace:sock-shop, pod:carts-5544756c87-ftj88, service:prometheus-kube-state-metrics"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="34,255,255"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="2:__name__:kube_pod_container_status_restarts_total, container:carts-db, endpoint:http, instance:192.168.106.188:8080, job:kube-state-metrics, namespace:sock-shop, pod:carts-db-748c6ddd69-96p4w, service:prometheus-kube-state-metrics"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="239,236,124"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="2:__name__:kube_pod_container_status_restarts_total, container:catalogue, endpoint:http, instance:192.168.106.188:8080, job:kube-state-metrics, namespace:sock-shop, pod:catalogue-54c55dcc74-bvp8d, service:prometheus-kube-state-metrics"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="126,24,59"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="2:__name__:kube_pod_container_status_restarts_total, container:catalogue-db, endpoint:http, instance:192.168.106.188:8080, job:kube-state-metrics, namespace:sock-shop, pod:catalogue-db-6ddf8b86dd-cpl2k, service:prometheus-kube-state-metrics"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="34,129,223"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="2:__name__:kube_pod_container_status_restarts_total, container:orders, endpoint:http, instance:192.168.106.188:8080, job:kube-state-metrics, namespace:sock-shop, pod:orders-79786ff8d7-svpj6, service:prometheus-kube-state-metrics"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="44,135,222"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="2:__name__:kube_pod_container_status_restarts_total, container:orders-db, endpoint:http, instance:192.168.106.188:8080, job:kube-state-metrics, namespace:sock-shop, pod:orders-db-77c46b9c85-w2wxk, service:prometheus-kube-state-metrics"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="18,216,126"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="2:__name__:kube_pod_container_status_restarts_total, container:payment, endpoint:http, instance:192.168.106.188:8080, job:kube-state-metrics, namespace:sock-shop, pod:payment-7b674db4bc-f6r8g, service:prometheus-kube-state-metrics"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="104,214,189"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="2:__name__:kube_pod_container_status_restarts_total, container:queue-master, endpoint:http, instance:192.168.106.188:8080, job:kube-state-metrics, namespace:sock-shop, pod:queue-master-77577988bf-mznkh, service:prometheus-kube-state-metrics"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="146,96,229"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="2:__name__:kube_pod_container_status_restarts_total, container:rabbitmq, endpoint:http, instance:192.168.106.188:8080, job:kube-state-metrics, namespace:sock-shop, pod:rabbitmq-7ddc84cb6c-84lph, service:prometheus-kube-state-metrics"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="45,85,56"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="2:__name__:kube_pod_container_status_restarts_total, container:rabbitmq-exporter, endpoint:http, instance:192.168.106.188:8080, job:kube-state-metrics, namespace:sock-shop, pod:rabbitmq-7ddc84cb6c-84lph, service:prometheus-kube-state-metrics"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="96,202,187"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="2:__name__:kube_pod_container_status_restarts_total, container:session-db, endpoint:http, instance:192.168.106.188:8080, job:kube-state-metrics, namespace:sock-shop, pod:session-db-8f64655d5-jdffv, service:prometheus-kube-state-metrics"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="0,45,225"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="2:__name__:kube_pod_container_status_restarts_total, container:shipping, endpoint:http, instance:192.168.106.188:8080, job:kube-state-metrics, namespace:sock-shop, pod:shipping-584f68b645-lwxf2, service:prometheus-kube-state-metrics"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="104,229,239"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="2:__name__:kube_pod_container_status_restarts_total, container:user, endpoint:http, instance:192.168.106.188:8080, job:kube-state-metrics, namespace:sock-shop, pod:user-c95659687-bv7ct, service:prometheus-kube-state-metrics"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="228,15,208"
+                connectionName="sock-shop_logical" dashed="false"
+                monitorName="2:__name__:kube_pod_container_status_restarts_total, container:user-db, endpoint:http, instance:192.168.106.188:8080, job:kube-state-metrics, namespace:sock-shop, pod:user-db-79b99f877f-wxpgm, service:prometheus-kube-state-metrics"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true"
+            title="Prometheus on Cluster psb-sut/sock-shop_physical" typeName="CLASSIC">
+            <monitor-curve-description color="20,106,203"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="0:container:carts, endpoint:https-metrics, id:/kubepods/burstable/pod2d27d9a7-f8b8-43bf-bcd3-3306a0b0bb25/9cb1ef22f41e63984ce1405298640e87d731bfba65271944ad9fa619d7c55bb7, image:sha256:c004737361182d3cd7f38e6d9ce4a44f2a349b8dc996834e2cba0defcd0cb522, instance:192.168.118.211:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:9cb1ef22f41e63984ce1405298640e87d731bfba65271944ad9fa619d7c55bb7, namespace:sock-shop, node:fargate-ip-192-168-118-211.us-east-2.compute.internal, pod:carts-5544756c87-ftj88, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="10.0" selected="false"/>
+            <monitor-curve-description color="88,183,55"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="0:container:carts-db, endpoint:https-metrics, id:/kubepods/besteffort/pod266f2eb9-9008-4aee-b29b-07fec5381f25/d0782e8ba7142efd155855cd867c57213a240de97fdcb1b818e01497a0b660c3, image:docker.io/library/mongo@sha256:5eb033a9fa65d1c650b5a8ec3396eee37498fa38d1b91be44492c41cde904735, instance:192.168.161.58:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:d0782e8ba7142efd155855cd867c57213a240de97fdcb1b818e01497a0b660c3, namespace:sock-shop, node:fargate-ip-192-168-161-58.us-east-2.compute.internal, pod:carts-db-748c6ddd69-96p4w, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="10.0" selected="false"/>
+            <monitor-curve-description color="200,0,0"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="0:container:catalogue, endpoint:https-metrics, id:/kubepods/burstable/pod6bdf2d16-4941-45f4-a20a-a93986ca6ff6/6f1056ffb7ceb5548948b9403118b0eef2c474ba64795ba97e2e865556e1c7db, image:docker.io/weaveworksdemos/catalogue:0.3.5, instance:192.168.115.230:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:6f1056ffb7ceb5548948b9403118b0eef2c474ba64795ba97e2e865556e1c7db, namespace:sock-shop, node:fargate-ip-192-168-115-230.us-east-2.compute.internal, pod:catalogue-54c55dcc74-bvp8d, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="100.0" selected="false"/>
+            <monitor-curve-description color="191,0,189"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="0:container:catalogue-db, endpoint:https-metrics, id:/kubepods/besteffort/pod482e5223-f112-4901-8ee6-7571cacd0a9a/ff222d4c87221a0fddce9bded9d2a70d3967790d84eb24cdcf27f44c0d073362, image:docker.io/weaveworksdemos/catalogue-db:0.3.0, instance:192.168.162.3:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:ff222d4c87221a0fddce9bded9d2a70d3967790d84eb24cdcf27f44c0d073362, namespace:sock-shop, node:fargate-ip-192-168-162-3.us-east-2.compute.internal, pod:catalogue-db-6ddf8b86dd-cpl2k, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1000.0" selected="false"/>
+            <monitor-curve-description color="223,143,143"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="0:container:orders, endpoint:https-metrics, id:/kubepods/burstable/podf78c50f5-d151-44ba-a0ff-2f55daa9edf2/6337ccd1e2a1ffe08a1b970b98ae9dbcda6d93cb1068ba13675027c59bd56305, image:sha256:8275c5b9181b2311feccd32f2efe865e9207a52a19e0f69939e5576c6f76dc1c, instance:192.168.182.89:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:6337ccd1e2a1ffe08a1b970b98ae9dbcda6d93cb1068ba13675027c59bd56305, namespace:sock-shop, node:fargate-ip-192-168-182-89.us-east-2.compute.internal, pod:orders-79786ff8d7-svpj6, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1000.0" selected="false"/>
+            <monitor-curve-description color="236,153,22"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="0:container:orders-db, endpoint:https-metrics, id:/kubepods/besteffort/pod83bd0375-5d4d-429a-998f-1e0ae8557719/f08a061c5cb884b46cb50761976aeaab6a8de4ebe5f632a58374007bdea57e64, image:docker.io/library/mongo:latest, instance:192.168.129.206:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:f08a061c5cb884b46cb50761976aeaab6a8de4ebe5f632a58374007bdea57e64, namespace:sock-shop, node:fargate-ip-192-168-129-206.us-east-2.compute.internal, pod:orders-db-77c46b9c85-w2wxk, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="100.0" selected="false"/>
+            <monitor-curve-description color="128,128,128"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="0:container:payment, endpoint:https-metrics, id:/kubepods/burstable/pod7a0f1c78-8f8e-418e-870e-1a7e42b23afb/b2703f37f4d819f1aa89853784da87e0f868ca9d2395e0b78d2876b14ec94e4b, image:docker.io/weaveworksdemos/payment:0.4.3, instance:192.168.96.222:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:b2703f37f4d819f1aa89853784da87e0f868ca9d2395e0b78d2876b14ec94e4b, namespace:sock-shop, node:fargate-ip-192-168-96-222.us-east-2.compute.internal, pod:payment-7b674db4bc-f6r8g, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="244,239,0"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="0:container:queue-master, endpoint:https-metrics, id:/kubepods/burstable/podaab7c2fa-f1dd-4af4-bbe2-6be056fbc9c0/c9a9d0d95ae427644c2076132c53535883da4f65644e239e8db46085987b28ae, image:sha256:76f0de7a12acaa2bdbda36d1b7ddd0ec42204e9c0f4e8c59c329f07336cfa2dc, instance:192.168.113.149:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:c9a9d0d95ae427644c2076132c53535883da4f65644e239e8db46085987b28ae, namespace:sock-shop, node:fargate-ip-192-168-113-149.us-east-2.compute.internal, pod:queue-master-77577988bf-mznkh, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="10.0" selected="false"/>
+            <monitor-curve-description color="15,79,152"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="0:container:rabbitmq, endpoint:https-metrics, id:/kubepods/besteffort/pod0d4ae5ff-0d3c-40d5-8a73-74debccf42cf/4635b56f716fcbacc4b0e02bf977a1d5ef60adcf1d7894685f8303d5365e1499, image:docker.io/library/rabbitmq:3.6.8-management, instance:192.168.189.123:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:4635b56f716fcbacc4b0e02bf977a1d5ef60adcf1d7894685f8303d5365e1499, namespace:sock-shop, node:fargate-ip-192-168-189-123.us-east-2.compute.internal, pod:rabbitmq-7ddc84cb6c-84lph, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="10.0" selected="false"/>
+            <monitor-curve-description color="66,137,41"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="0:container:rabbitmq-exporter, endpoint:https-metrics, id:/kubepods/besteffort/pod0d4ae5ff-0d3c-40d5-8a73-74debccf42cf/386e4b4ccf3654a41fea52a4f2b1b7ffbfc2568d0fac2575ffe267e80a3ff4c3, image:docker.io/kbudde/rabbitmq-exporter:latest, instance:192.168.189.123:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:386e4b4ccf3654a41fea52a4f2b1b7ffbfc2568d0fac2575ffe267e80a3ff4c3, namespace:sock-shop, node:fargate-ip-192-168-189-123.us-east-2.compute.internal, pod:rabbitmq-7ddc84cb6c-84lph, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="183,179,0"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="0:container:session-db, endpoint:https-metrics, id:/kubepods/besteffort/pod44955840-afc7-494c-bb3a-0ab7a683baac/857326e99cc55db7b12d8894142685971b5c8ed6c175397e42144969ef429bfe, image:docker.io/library/redis:alpine, instance:192.168.102.217:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:857326e99cc55db7b12d8894142685971b5c8ed6c175397e42144969ef429bfe, namespace:sock-shop, node:fargate-ip-192-168-102-217.us-east-2.compute.internal, pod:session-db-8f64655d5-jdffv, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="10.0" selected="false"/>
+            <monitor-curve-description color="143,0,141"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="0:container:shipping, endpoint:https-metrics, id:/kubepods/burstable/pod338fae57-1d2f-404e-8421-48ef52c55364/8e8931914d24f9fa8915415048cbff77747f370187fef2f20abbe0f06aa0f9f4, image:docker.io/weaveworksdemos/shipping:0.4.8, instance:192.168.143.187:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:8e8931914d24f9fa8915415048cbff77747f370187fef2f20abbe0f06aa0f9f4, namespace:sock-shop, node:fargate-ip-192-168-143-187.us-east-2.compute.internal, pod:shipping-584f68b645-lwxf2, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="10.0" selected="false"/>
+            <monitor-curve-description color="15,157,157"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="0:container:user, endpoint:https-metrics, id:/kubepods/burstable/pod22a5b7e9-a1e7-40ac-873c-5c0b27b58bb2/93f981da8ffd1a00399f14909892e3fb84a5e3c2e43a82a4b7668f68dc01997d, image:docker.io/weaveworksdemos/user@sha256:2ffccc332963c89e035fea52201012208bf62df43a55fe461ad6598a5c757ab7, instance:192.168.151.173:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:93f981da8ffd1a00399f14909892e3fb84a5e3c2e43a82a4b7668f68dc01997d, namespace:sock-shop, node:fargate-ip-192-168-151-173.us-east-2.compute.internal, pod:user-c95659687-bv7ct, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="100.0" selected="false"/>
+            <monitor-curve-description color="177,114,16"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="0:container:user-db, endpoint:https-metrics, id:/kubepods/besteffort/pod1ded0d83-53d8-4141-8a35-6afe4d73418d/deb7d5d2a8d4a2a3f4f0265dc3b1d5f4f27094005df717a67b3b04bceaaba0a2, image:docker.io/weaveworksdemos/user-db:0.3.0, instance:192.168.189.129:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:deb7d5d2a8d4a2a3f4f0265dc3b1d5f4f27094005df717a67b3b04bceaaba0a2, namespace:sock-shop, node:fargate-ip-192-168-189-129.us-east-2.compute.internal, pod:user-db-79b99f877f-wxpgm, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="100.0" selected="false"/>
+            <monitor-curve-description color="20,210,210"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="1:container:carts, endpoint:https-metrics, id:/kubepods/burstable/pod2d27d9a7-f8b8-43bf-bcd3-3306a0b0bb25/9cb1ef22f41e63984ce1405298640e87d731bfba65271944ad9fa619d7c55bb7, image:sha256:c004737361182d3cd7f38e6d9ce4a44f2a349b8dc996834e2cba0defcd0cb522, instance:192.168.118.211:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:9cb1ef22f41e63984ce1405298640e87d731bfba65271944ad9fa619d7c55bb7, namespace:sock-shop, node:fargate-ip-192-168-118-211.us-east-2.compute.internal, pod:carts-5544756c87-ftj88, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="0.1" selected="false"/>
+            <monitor-curve-description color="64,64,64"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="1:container:carts-db, endpoint:https-metrics, id:/kubepods/besteffort/pod266f2eb9-9008-4aee-b29b-07fec5381f25/d0782e8ba7142efd155855cd867c57213a240de97fdcb1b818e01497a0b660c3, image:docker.io/library/mongo@sha256:5eb033a9fa65d1c650b5a8ec3396eee37498fa38d1b91be44492c41cde904735, instance:192.168.161.58:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:d0782e8ba7142efd155855cd867c57213a240de97fdcb1b818e01497a0b660c3, namespace:sock-shop, node:fargate-ip-192-168-161-58.us-east-2.compute.internal, pod:carts-db-748c6ddd69-96p4w, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="0.1" selected="false"/>
+            <monitor-curve-description color="26,141,255"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="1:container:catalogue, endpoint:https-metrics, id:/kubepods/burstable/pod6bdf2d16-4941-45f4-a20a-a93986ca6ff6/6f1056ffb7ceb5548948b9403118b0eef2c474ba64795ba97e2e865556e1c7db, image:docker.io/weaveworksdemos/catalogue:0.3.5, instance:192.168.115.230:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:6f1056ffb7ceb5548948b9403118b0eef2c474ba64795ba97e2e865556e1c7db, namespace:sock-shop, node:fargate-ip-192-168-115-230.us-east-2.compute.internal, pod:catalogue-54c55dcc74-bvp8d, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="117,244,73"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="1:container:catalogue-db, endpoint:https-metrics, id:/kubepods/besteffort/pod482e5223-f112-4901-8ee6-7571cacd0a9a/ff222d4c87221a0fddce9bded9d2a70d3967790d84eb24cdcf27f44c0d073362, image:docker.io/weaveworksdemos/catalogue-db:0.3.0, instance:192.168.162.3:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:ff222d4c87221a0fddce9bded9d2a70d3967790d84eb24cdcf27f44c0d073362, namespace:sock-shop, node:fargate-ip-192-168-162-3.us-east-2.compute.internal, pod:catalogue-db-6ddf8b86dd-cpl2k, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="0.1" selected="false"/>
+            <monitor-curve-description color="26,255,255"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="1:container:orders, endpoint:https-metrics, id:/kubepods/burstable/podf78c50f5-d151-44ba-a0ff-2f55daa9edf2/6337ccd1e2a1ffe08a1b970b98ae9dbcda6d93cb1068ba13675027c59bd56305, image:sha256:8275c5b9181b2311feccd32f2efe865e9207a52a19e0f69939e5576c6f76dc1c, instance:192.168.182.89:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:6337ccd1e2a1ffe08a1b970b98ae9dbcda6d93cb1068ba13675027c59bd56305, namespace:sock-shop, node:fargate-ip-192-168-182-89.us-east-2.compute.internal, pod:orders-79786ff8d7-svpj6, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="0.1" selected="false"/>
+            <monitor-curve-description color="192,192,192"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="1:container:orders-db, endpoint:https-metrics, id:/kubepods/besteffort/pod83bd0375-5d4d-429a-998f-1e0ae8557719/f08a061c5cb884b46cb50761976aeaab6a8de4ebe5f632a58374007bdea57e64, image:docker.io/library/mongo:latest, instance:192.168.129.206:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:f08a061c5cb884b46cb50761976aeaab6a8de4ebe5f632a58374007bdea57e64, namespace:sock-shop, node:fargate-ip-192-168-129-206.us-east-2.compute.internal, pod:orders-db-77c46b9c85-w2wxk, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="0.1" selected="false"/>
+            <monitor-curve-description color="11,59,114"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="1:container:payment, endpoint:https-metrics, id:/kubepods/burstable/pod7a0f1c78-8f8e-418e-870e-1a7e42b23afb/b2703f37f4d819f1aa89853784da87e0f868ca9d2395e0b78d2876b14ec94e4b, image:docker.io/weaveworksdemos/payment:0.4.3, instance:192.168.96.222:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:b2703f37f4d819f1aa89853784da87e0f868ca9d2395e0b78d2876b14ec94e4b, namespace:sock-shop, node:fargate-ip-192-168-96-222.us-east-2.compute.internal, pod:payment-7b674db4bc-f6r8g, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="49,102,30"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="1:container:queue-master, endpoint:https-metrics, id:/kubepods/burstable/podaab7c2fa-f1dd-4af4-bbe2-6be056fbc9c0/c9a9d0d95ae427644c2076132c53535883da4f65644e239e8db46085987b28ae, image:sha256:76f0de7a12acaa2bdbda36d1b7ddd0ec42204e9c0f4e8c59c329f07336cfa2dc, instance:192.168.113.149:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:c9a9d0d95ae427644c2076132c53535883da4f65644e239e8db46085987b28ae, namespace:sock-shop, node:fargate-ip-192-168-113-149.us-east-2.compute.internal, pod:queue-master-77577988bf-mznkh, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="0.1" selected="false"/>
+            <monitor-curve-description color="137,134,0"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="1:container:rabbitmq, endpoint:https-metrics, id:/kubepods/besteffort/pod0d4ae5ff-0d3c-40d5-8a73-74debccf42cf/4635b56f716fcbacc4b0e02bf977a1d5ef60adcf1d7894685f8303d5365e1499, image:docker.io/library/rabbitmq:3.6.8-management, instance:192.168.189.123:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:4635b56f716fcbacc4b0e02bf977a1d5ef60adcf1d7894685f8303d5365e1499, namespace:sock-shop, node:fargate-ip-192-168-189-123.us-east-2.compute.internal, pod:rabbitmq-7ddc84cb6c-84lph, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="107,0,105"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="1:container:rabbitmq-exporter, endpoint:https-metrics, id:/kubepods/besteffort/pod0d4ae5ff-0d3c-40d5-8a73-74debccf42cf/386e4b4ccf3654a41fea52a4f2b1b7ffbfc2568d0fac2575ffe267e80a3ff4c3, image:docker.io/kbudde/rabbitmq-exporter:latest, instance:192.168.189.123:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:386e4b4ccf3654a41fea52a4f2b1b7ffbfc2568d0fac2575ffe267e80a3ff4c3, namespace:sock-shop, node:fargate-ip-192-168-189-123.us-east-2.compute.internal, pod:rabbitmq-7ddc84cb6c-84lph, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="11,117,117"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="1:container:session-db, endpoint:https-metrics, id:/kubepods/besteffort/pod44955840-afc7-494c-bb3a-0ab7a683baac/857326e99cc55db7b12d8894142685971b5c8ed6c175397e42144969ef429bfe, image:docker.io/library/redis:alpine, instance:192.168.102.217:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:857326e99cc55db7b12d8894142685971b5c8ed6c175397e42144969ef429bfe, namespace:sock-shop, node:fargate-ip-192-168-102-217.us-east-2.compute.internal, pod:session-db-8f64655d5-jdffv, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="132,85,12"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="1:container:shipping, endpoint:https-metrics, id:/kubepods/burstable/pod338fae57-1d2f-404e-8421-48ef52c55364/8e8931914d24f9fa8915415048cbff77747f370187fef2f20abbe0f06aa0f9f4, image:docker.io/weaveworksdemos/shipping:0.4.8, instance:192.168.143.187:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:8e8931914d24f9fa8915415048cbff77747f370187fef2f20abbe0f06aa0f9f4, namespace:sock-shop, node:fargate-ip-192-168-143-187.us-east-2.compute.internal, pod:shipping-584f68b645-lwxf2, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="0.1" selected="false"/>
+            <monitor-curve-description color="34,188,255"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="1:container:user, endpoint:https-metrics, id:/kubepods/burstable/pod22a5b7e9-a1e7-40ac-873c-5c0b27b58bb2/93f981da8ffd1a00399f14909892e3fb84a5e3c2e43a82a4b7668f68dc01997d, image:docker.io/weaveworksdemos/user@sha256:2ffccc332963c89e035fea52201012208bf62df43a55fe461ad6598a5c757ab7, instance:192.168.151.173:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:93f981da8ffd1a00399f14909892e3fb84a5e3c2e43a82a4b7668f68dc01997d, namespace:sock-shop, node:fargate-ip-192-168-151-173.us-east-2.compute.internal, pod:user-c95659687-bv7ct, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="156,255,97"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="1:container:user-db, endpoint:https-metrics, id:/kubepods/besteffort/pod1ded0d83-53d8-4141-8a35-6afe4d73418d/deb7d5d2a8d4a2a3f4f0265dc3b1d5f4f27094005df717a67b3b04bceaaba0a2, image:docker.io/weaveworksdemos/user-db:0.3.0, instance:192.168.189.129:10250, job:kubelet, metrics_path:/metrics/cadvisor, name:deb7d5d2a8d4a2a3f4f0265dc3b1d5f4f27094005df717a67b3b04bceaaba0a2, namespace:sock-shop, node:fargate-ip-192-168-189-129.us-east-2.compute.internal, pod:user-db-79b99f877f-wxpgm, service:prometheus-kube-prometheus-kubelet"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="0.1" selected="false"/>
+            <monitor-curve-description color="255,0,255"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="2:__name__:kube_pod_container_status_restarts_total, container:carts, endpoint:http, instance:192.168.106.188:8080, job:kube-state-metrics, namespace:sock-shop, pod:carts-5544756c87-ftj88, service:prometheus-kube-state-metrics"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="34,255,255"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="2:__name__:kube_pod_container_status_restarts_total, container:carts-db, endpoint:http, instance:192.168.106.188:8080, job:kube-state-metrics, namespace:sock-shop, pod:carts-db-748c6ddd69-96p4w, service:prometheus-kube-state-metrics"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="136,155,26"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="2:__name__:kube_pod_container_status_restarts_total, container:catalogue, endpoint:http, instance:192.168.106.188:8080, job:kube-state-metrics, namespace:sock-shop, pod:catalogue-54c55dcc74-bvp8d, service:prometheus-kube-state-metrics"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="239,85,199"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="2:__name__:kube_pod_container_status_restarts_total, container:catalogue-db, endpoint:http, instance:192.168.106.188:8080, job:kube-state-metrics, namespace:sock-shop, pod:catalogue-db-6ddf8b86dd-cpl2k, service:prometheus-kube-state-metrics"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="68,79,50"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="2:__name__:kube_pod_container_status_restarts_total, container:orders, endpoint:http, instance:192.168.106.188:8080, job:kube-state-metrics, namespace:sock-shop, pod:orders-79786ff8d7-svpj6, service:prometheus-kube-state-metrics"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="181,178,132"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="2:__name__:kube_pod_container_status_restarts_total, container:orders-db, endpoint:http, instance:192.168.106.188:8080, job:kube-state-metrics, namespace:sock-shop, pod:orders-db-77c46b9c85-w2wxk, service:prometheus-kube-state-metrics"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="36,134,63"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="2:__name__:kube_pod_container_status_restarts_total, container:payment, endpoint:http, instance:192.168.106.188:8080, job:kube-state-metrics, namespace:sock-shop, pod:payment-7b674db4bc-f6r8g, service:prometheus-kube-state-metrics"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="136,59,172"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="2:__name__:kube_pod_container_status_restarts_total, container:queue-master, endpoint:http, instance:192.168.106.188:8080, job:kube-state-metrics, namespace:sock-shop, pod:queue-master-77577988bf-mznkh, service:prometheus-kube-state-metrics"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="202,61,157"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="2:__name__:kube_pod_container_status_restarts_total, container:rabbitmq, endpoint:http, instance:192.168.106.188:8080, job:kube-state-metrics, namespace:sock-shop, pod:rabbitmq-7ddc84cb6c-84lph, service:prometheus-kube-state-metrics"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="52,82,19"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="2:__name__:kube_pod_container_status_restarts_total, container:rabbitmq-exporter, endpoint:http, instance:192.168.106.188:8080, job:kube-state-metrics, namespace:sock-shop, pod:rabbitmq-7ddc84cb6c-84lph, service:prometheus-kube-state-metrics"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="0,110,255"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="2:__name__:kube_pod_container_status_restarts_total, container:session-db, endpoint:http, instance:192.168.106.188:8080, job:kube-state-metrics, namespace:sock-shop, pod:session-db-8f64655d5-jdffv, service:prometheus-kube-state-metrics"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="143,169,140"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="2:__name__:kube_pod_container_status_restarts_total, container:shipping, endpoint:http, instance:192.168.106.188:8080, job:kube-state-metrics, namespace:sock-shop, pod:shipping-584f68b645-lwxf2, service:prometheus-kube-state-metrics"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="163,157,45"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="2:__name__:kube_pod_container_status_restarts_total, container:user, endpoint:http, instance:192.168.106.188:8080, job:kube-state-metrics, namespace:sock-shop, pod:user-c95659687-bv7ct, service:prometheus-kube-state-metrics"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+            <monitor-curve-description color="19,164,155"
+                connectionName="sock-shop_physical" dashed="false"
+                monitorName="2:__name__:kube_pod_container_status_restarts_total, container:user-db, endpoint:http, instance:192.168.106.188:8080, job:kube-state-metrics, namespace:sock-shop, pod:user-db-79b99f877f-wxpgm, service:prometheus-kube-state-metrics"
+                monitoredHostName="Prometheus on Cluster psb-sut"
+                scale="1.0" selected="false"/>
+        </chart-description>
+    </charts-model-description>
+    <!--****** END DASHBOARDS  ******-->
+    <!--****** START DATA FILTERS  ******-->
+    <!--****** END DATA FILTERS  ******-->
+    <!--****** START RENDEZ-VOUS POLICIES  ******-->
+    <!--****** END RENDEZ-VOUS POLICIES  ******-->
+    <!--****** START DEBUG POLICY ******-->
+    <debug-policy mode="0"/>
+    <!--****** END DEBUG POLICY ******-->
+    <!--****** START VU STATES ******-->
+    <!--****** END VU STATES ******-->
+    <!--****** START EXCLUSION FILTER ******-->
+    <request-path-exclusion-filter isEnabled="false">
+        <regexps>
+            <regexp>.*\.jpg</regexp>
+            <regexp>.*\.jpeg</regexp>
+            <regexp>.*\.gif</regexp>
+            <regexp>.*\.png</regexp>
+            <regexp>.*\.bmp</regexp>
+            <regexp>.*\.css</regexp>
+            <regexp>.*\.js</regexp>
+            <regexp>.*\.swf</regexp>
+            <regexp>.*\.ico</regexp>
+            <regexp>.*\.jar</regexp>
+            <regexp>.*\.class</regexp>
+            <regexp>.*\.properties</regexp>
+        </regexps>
+    </request-path-exclusion-filter>
+    <!--****** END  EXCLUSION FILTER ******-->
+    <!--****** START DYNATRACE MONITORING ******-->
+    <dynatrace-monitoring>
+        <tag>neotys-cpt</tag>
+    </dynatrace-monitoring>
+    <!--****** END  DYNATRACE MONITORING ******-->
+    <!--****** START TRACE VARIABLES ******-->
+    <!--****** END TRACE VARIABLES ******-->
+</scenario>

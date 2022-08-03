@@ -1,0 +1,7 @@
+<http-server hostname="prometheus.tricentis.perfreleng.org" port="80"
+    ssl="false" uid="prometheus" urlrewriting-argument-name=""
+    urlrewriting-enabled="false" urlrewriting-path-extension="false"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";">
+    <authorization password="V2Lr9nbEsioo8bnJZRH9ZA==" realm=""
+        scheme="Basic" userName="neoload_user"/>
+</http-server>
